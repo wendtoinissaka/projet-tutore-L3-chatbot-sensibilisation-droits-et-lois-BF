@@ -1,0 +1,13 @@
+Package    Version
+---------- -------
+pip        24.2
+setuptools 68.2.0
+wheel      0.41.2
+
+Flask-Migrate~=4.0.7
+Flask~=3.0.3
+Flask-Cors~=5.0.0
+Werkzeug~=3.0.4
+spacy~=3.7.6
+alembic~=1.13.2
+SQLAlchemy~=2.0.34

@@ -1,0 +1,6 @@
+sites visites : 
+http://www.justice.gov.bf/
+https://www.fonction-publique.gov.bf/accueil
+https://www.servicepublic.gov.bf/
+https://www.cour-cassation.gov.bf/accueil
+https://www.barreau.bf/
