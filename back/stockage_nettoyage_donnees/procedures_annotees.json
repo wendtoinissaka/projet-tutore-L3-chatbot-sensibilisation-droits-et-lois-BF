@@ -1,0 +1,164 @@
+{
+  "train_data": [
+    {
+      "text": "PORTER PLAINTE EN JUSTICE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'UNE PIÈCE DE JUSTICE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE MODIFICATION DE NOM OU PRÉNOM OU DEMANDE D'AJOUT DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE LA SUCCESSION PAR TESTAMENT",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "LA SUCCESSION SELON LA LOI",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "RENDRE VISITE A UN DÉTENU",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DE VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 27,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 13,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 18,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "CARTE NATIONALE D'IDENTITÉ BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 36,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 61,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 59,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CANDIDATURE AUX EXAMENS DU PERMIS DE CONDUIRE NATIONALE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 66,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DU CERTIFICAT DE NATIONALITÉ BURKINABÈ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 48,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DU CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 30,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE DE DEMANDE DE CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 49,
+          "label": "PROCEDURE"
+        }
+      ]
+    }
+  ]
+}

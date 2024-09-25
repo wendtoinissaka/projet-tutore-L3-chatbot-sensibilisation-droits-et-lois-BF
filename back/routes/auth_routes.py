@@ -1,9 +1,8 @@
 from flask import Blueprint, request, jsonify, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import login_user, logout_user, current_user
-from models import User, db
+from flask_login import login_user, logout_user
+from database.models import User, db
 from dotenv import load_dotenv
-import os
 from flask_dance.contrib.google import make_google_blueprint, google
 from config import Config
 

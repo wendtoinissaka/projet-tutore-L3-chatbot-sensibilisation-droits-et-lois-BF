@@ -1,0 +1,994 @@
+{
+  "train_data": [
+    {
+      "text": "PORTER PLAINTE EN JUSTICE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DÉPOSER UNE PLAINTE EN JUSTICE",
+      "entities": [
+        {
+          "start": 8,
+          "end": 16,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PORTER PLAINTE CONTRE UNE PERSONNE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "INTRODUIRE UNE PLAINTE DEVANT LE TRIBUNAL",
+      "entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ENTAMER UNE PROCÉDURE JUDICIAIRE",
+      "entities": [
+        {
+          "start": 8,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "LANCER UNE ACTION EN JUSTICE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 13,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'UNE PIÈCE DE JUSTICE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SOLLICITER UN DOCUMENT JUDICIAIRE",
+      "entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR UNE PIÈCE DE JUSTICE",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'UN EXTRAIT DE JUGEMENT",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENIR UNE COPIE D'UN DOCUMENT JUDICIAIRE",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "CONSULTATION D'UNE PIÈCE JURIDIQUE",
+      "entities": [
+        {
+          "start": 12,
+          "end": 20,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE MODIFICATION DE NOM OU PRÉNOM OU DEMANDE D'AJOUT DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SOLLICITER UNE MODIFICATION OU UN AJOUT DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 10,
+          "end": 18,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CHANGEMENT OU AJOUT DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE LÉGALE POUR MODIFIER OU AJOUTER UN NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR MODIFICATION OU AJOUT OFFICIEL DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "CHANGEMENT OU AJOUT DE NOM OU PRÉNOM",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE LA SUCCESSION PAR TESTAMENT",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR OUVERTURE DE SUCCESSION PAR TESTAMENT",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'HÉRITAGE PAR TESTAMENT",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'EXÉCUTION TESTAMENTAIRE",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE DE MISE EN PLACE DE SUCCESSION TESTAMENTAIRE",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OUVERTURE DE SUCCESSION PAR TESTAMENT",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "LA SUCCESSION SELON LA LOI",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OUVERTURE DE SUCCESSION CONFORMÉMENT À LA LOI",
+      "entities": [
+        {
+          "start": 11,
+          "end": 19,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "APPLICATION DES RÈGLES LÉGALES DE SUCCESSION",
+      "entities": [
+        {
+          "start": 32,
+          "end": 40,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SUCCESSION RÉGIE PAR LES DISPOSITIONS LÉGALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SUCCESSION SOUS LE CADRE LÉGAL",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "HÉRITAGE SELON LA LÉGISLATION",
+      "entities": [
+        {
+          "start": 9,
+          "end": 17,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "RENDRE VISITE A UN DÉTENU",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "VISITER UN DÉTENU EN PRISON",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FAIRE UNE VISITE À UN DÉTENU",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDER L'AUTORISATION DE VISITER UN DÉTENU",
+      "entities": [
+        {
+          "start": 32,
+          "end": 40,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "EXERCER LE DROIT DE VISITER UN DÉTENU",
+      "entities": [
+        {
+          "start": 20,
+          "end": 28,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ALLER VOIR UN DÉTENU",
+      "entities": [
+        {
+          "start": 8,
+          "end": 14,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DE VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 27,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDER UN VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 25,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FAIRE UNE DEMANDE DE VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENIR UN VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 24,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE POUR OBTENIR UN VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 39,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ACQUÉRIR UN VISA BURKINABÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 24,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 13,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 20,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "ACQUISITION D'ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 24,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE POUR L'ACQUISITION D'ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 41,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDER UNE AUTORISATION D'ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 36,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENIR DES ARMES CIVILES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 24,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 18,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 30,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION D'UN PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE POUR OBTENIR UN PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 42,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FAIRE UNE DEMANDE DE PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 35,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SERVICES D'OBTENTION DE PASSPORT ORDINAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 38,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "CARTE NATIONALE D'IDENTITÉ BURKINABÉ(CNIB)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 36,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CARTE NATIONALE D'IDENTITÉ BURKINABÉ (CNIB)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 45,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DE LA CARTE NATIONALE D'IDENTITÉ BURKINABÉ (CNIB)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 53,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE POUR OBTENIR LA CARTE NATIONALE D'IDENTITÉ BURKINABÉ (CNIB)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 66,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FAIRE UNE DEMANDE DE CNIB (CARTE NATIONALE D'IDENTITÉ BURKINABÉ)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 58,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SERVICES POUR LA CARTE NATIONALE D'IDENTITÉ BURKINABÉ (CNIB)",
+      "entities": [
+        {
+          "start": 0,
+          "end": 54,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 61,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FORMULAIRE DE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 70,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCESSUS DE CRÉATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 62,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "COMMENT FAIRE UNE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 76,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "INSTRUCTIONS POUR LA DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 78,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SERVICES DE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 67,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 59,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FORMULAIRE DE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 66,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCESSUS DE CRÉATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 58,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "COMMENT FAIRE UNE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 77,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "INSTRUCTIONS POUR LA DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 80,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SERVICES DE DEMANDE DE CRÉATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+      "entities": [
+        {
+          "start": 0,
+          "end": 68,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'EXAMEN DU PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 35,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'INSCRIPTION AUX EXAMENS DU PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 43,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "FORMULAIRE POUR L'EXAMEN DU PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 36,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'EXAMEN POUR OBTENIR LE PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 46,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "EXAMEN DU PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 28,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE PASSAGE À L'EXAMEN DU PERMIS DE CONDUIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 48,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DU CERTIFICAT DE NATIONALITÉ BURKINABÈ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 48,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 34,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DU CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE D'UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 36,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "CERTIFICAT DE NATIONALITÉ BURKINABÈ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 35,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SOLLICITATION D'UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 39,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 39,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION DU CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 30,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 25,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SOLLICITATION D'UN CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 31,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDER UN CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 26,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR UN CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 30,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION D'UN CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 30,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "RÉQUISITION DE CASIER JUDICIAIRE",
+      "entities": [
+        {
+          "start": 0,
+          "end": 31,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE DE DEMANDE DE CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 49,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 38,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "SOLLICITATION D'UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 41,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "DEMANDE DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 23,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "OBTENTION D'UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 42,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "REQUÊTE POUR UN CERTIFICAT DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 41,
+          "label": "PROCEDURE"
+        }
+      ]
+    },
+    {
+      "text": "PROCÉDURE D'OBTENTION DE NATIONALITÉ",
+      "entities": [
+        {
+          "start": 0,
+          "end": 37,
+          "label": "PROCEDURE"
+        }
+      ]
+    }
+  ]
+}

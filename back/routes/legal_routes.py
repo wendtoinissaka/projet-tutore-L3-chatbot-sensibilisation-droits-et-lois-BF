@@ -1,17 +1,31 @@
-from flask import Blueprint, jsonify
-from models import LegalInfo
+from flask import Flask, jsonify, request
+from app import app, db
+from database.models import Law, Lawyer, Question
 
-legal_bp = Blueprint('legal', __name__)
 
-@legal_bp.route('/legal-info', methods=['GET'])
-def get_legal_info():
-    legal_info = LegalInfo.query.all()
-    results = [
-        {
-            "id": info.id,
-            "title": info.title,
-            "content": info.content,
-            "category": info.category
-        } for info in legal_info
-    ]
-    return jsonify(results), 200
+# from app.models import Law, Lawyer, Question
+
+@app.route('/laws', methods=['GET'])
+def get_laws():
+    laws = Law.query.all()
+    return jsonify([law.to_dict() for law in laws])
+
+@app.route('/lawyers', methods=['GET'])
+def get_lawyers():
+    lawyers = Lawyer.query.all()
+    return jsonify([lawyer.to_dict() for lawyer in lawyers])
+
+@app.route('/questions', methods=['GET'])
+def get_questions():
+    questions = Question.query.all()
+    return jsonify([question.to_dict() for question in questions])
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    question = request.json['question']
+    # Simulation de réponse basique
+    answer = 'Réponse à votre question : '+ question
+    new_question = Question(question, answer)
+    db.session.add(new_question)
+    db.session.commit()
+    return jsonify({'response': answer})

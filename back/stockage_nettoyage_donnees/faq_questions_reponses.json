@@ -1,0 +1,44 @@
+{
+  "questions_reponses": [
+    {
+      "id": 1,
+      "question": "Qu'est-ce que le Casier Judiciaire ?",
+      "reponse": "Le casier judiciaire est, pour chaque personne, principalement, le relevé des condamnations pénales.",
+      "categorie": "Casier judiciaire",
+      "sous_categorie": "Définition du casier judiciaire",
+      "source": "https://www.ecasier-judiciaire.gov.bf/#/casier-judiciaire/faq"
+    },
+    {
+      "id": 2,
+      "question": "Quelles sont les personnes concernées par le casier judiciaire?",
+      "reponse": "Toute personne, physique ou morale, de nationalité burkinabè est concernée par le casier judiciaire. Les personnes physiques concernées sont les personnes nées au Burkina-Faso ou à l’étranger. S’agissant des personnes de nationalité étrangère résidant au Burkina-Faso ou y ayant séjourné, il leur est délivré en lieu et place du bulletin du casier judiciaire, une attestation de condamnation ou de non-condamnation. Les personnes morales concernées par le casier judiciaire sont celles de droit privé.", 
+      "categorie": "Casier judiciaire",
+      "sous_categorie": "Personnes concernées par le casier judiciaire",
+      "source": "https://www.ecasier-judiciaire.gov.bf/#/casier-judiciaire/faq"
+    },
+    {
+      "id": 3,
+      "question": "Quelles informations peut contenir le casier?",
+      "reponse": "Le casier judiciaire d’une personne contient les informations suivantes : • Les condamnations contradictoires ainsi que les condamnations par défaut, non frappées d’opposition, prononcées pour crime, délit, ainsi que les déclarations de culpabilité assorties d’une dispense de peine ; • Les décisions prononcées par application des dispositions relatives à l’enfant en conflit avec la loi ; • Les décisions disciplinaires prononcées par l’autorité judiciaire ou par une autorité administrative de même que par un organisme professionnel lorsqu’elles entraînent ou édictent des incapacités ; • Les jugements prononçant la faillite personnelle ou toutes autres sanctions personnelles prévues par l’acte uniforme de l’OHADA portant organisation des procédures collectives d’apurement du passif ; • Les jugements prononçant la déchéance de l’autorité parentale ou le retrait de tout ou partie des droits y attachés ; • Les arrêtés d’expulsion pris contre les étrangers ; • Les condamnations prononcées par les juridictions étrangères qui, en application d’une convention ou d’un accord international, ont fait l’objet d’un avis aux autorités Burkinabè ; • Les peines résultant de la composition pénale ; • Les jugements ou arrêts de déclaration d’irresponsabilité pénale pour cause de trouble mental, lorsqu’une hospitalisation d’office a été ordonnée ou lorsqu’une ou plusieurs mesures de sûreté ont été prononcées.",
+      "categorie": "Casier judiciaire",
+      "sous_categorie": "Contenu du casier judiciaire",
+      "source": "https://www.ecasier-judiciaire.gov.bf/#/casier-judiciaire/faq"
+    },
+    {
+      "id": 4,
+      "question": "Comment se présente le casier judiciaire d'une personne?",
+      "reponse": "Le casier judiciaire d’une personne se présente sous la forme d’une base de données de relevés de condamnations et de sanctions administratives la concernant. Trois (03) types de bulletins ou extraits du casier judiciaire sont susceptibles d’être délivrés en fonction de la qualité du demandeur des renseignements sur les antécédents judiciaires de la personne. Le contenu de ces bulletins varie en fonction de la gravité des sanctions : • Le bulletin n°01 recense l’intégralité des informations des différents relevés de condamnations et de sanctions administratives de la base de données relative à la même personne. Il n’est délivré qu’aux autorités judiciaires. • Le bulletin n°02 comporte les condamnations judiciaires et les sanctions administratives de la base de données relative à une même personne à l’exception de celles exclues par la loi. Il est délivré aux administrations publiques, aux collectivités territoriales et à certaines personnes morales de droit privé ; • Le bulletin n°03 est le relevé de condamnations à des peines privatives de liberté pour crime et délit non assortie du sursis. Il est délivré à l’intéressé lui-même à sa demande.",
+      "categorie": "Casier judiciaire",
+      "sous_categorie": "Types de bulletins du casier judiciaire",
+      "source": "https://www.ecasier-judiciaire.gov.bf/#/casier-judiciaire/faq"
+    },
+    {
+      "id": 5,
+      "question": "Comment faire sa demande de casier judiciaire?",
+      "reponse": "Connectez-vous sur la plateforme eCasier Judiciaire à l'adresse www.ecasier-judiciaire.gov.bf et cliquez sur la rubrique \"Faire ma demande\". Renseignez les formulaires qui se présentent à vous et suivez la procédure.",
+      "categorie": "Procédures judiciaires",
+      "sous_categorie": "Demande de casier judiciaire",
+      "source": "https://www.ecasier-judiciaire.gov.bf/#/casier-judiciaire/faq"
+    }
+  ]
+}

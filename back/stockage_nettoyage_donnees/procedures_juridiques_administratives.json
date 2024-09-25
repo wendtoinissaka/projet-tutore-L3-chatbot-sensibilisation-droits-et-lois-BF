@@ -1,0 +1,754 @@
+  {
+    "procedures_juridiques_et_administratives": {
+      "juridiques": {
+        "procedure_1": {
+          "titre": "PORTER PLAINTE EN JUSTICE",
+          "description": {
+            "texte": "La plainte est l’acte par lequel une personne victime d’une infraction informe la justice. Elle peut être déposée contre une personne identifiée ou contre X si l’auteur est inconnu. Le dépôt de plainte est gratuit et peut être fait auprès d'un commissariat, d'une brigade de gendarmerie ou directement auprès du procureur du Faso.",
+            "pieces_a_fournir": [
+              "Aucune pièce n'est nécessaire pour le dépôt d'une plainte simple."
+            ],
+            "cout": "Le dépôt d’une plainte simple est gratuit.",
+            "conditions_acces": [
+              "Toute personne s’estimant victime d’une infraction peut porter plainte.",
+              "La plainte peut également être déposée contre une personne morale."
+            ]
+          },
+          "source": "http://www.justice.gov.bf/index.php/2023/11/02/comment-porter-plainte-en-justice-2/"
+        },
+        "procedure_2": {
+          "titre": "DEMANDE D'UNE PIÈCE DE JUSTICE",
+          "description": {
+            "texte": "La demande d'une pièce de justice est un acte qui traduit la décision d'un tribunal sur un jugement. Pour obtenir cette pièce, il est nécessaire de se rendre au tribunal dans lequel le jugement a été rendu.",
+            "pieces_a_fournir": [
+              "Aucune pièce n'est à fournir pour cette procédure."
+            ],
+            "cout": "500 F CFA par feuille + un timbre de 200 F CFA.",
+            "conditions_acces": [
+              "Se rendre au tribunal où le jugement a été rendu."
+            ]
+          },
+          "source": "https://www.servicepublic.gov.bf/fiches/promotion-de-la-justice-demande-dune-decision-de-justice"
+        },
+        "procedure_3": {
+          "titre": "DEMANDE DE MODIFICATION DE NOM OU PRÉNOM OU DEMANDE D'AJOUT DE NOM OU PRÉNOM",
+          "description": {
+            "texte": "Cette procédure autorise un individu à modifier son nom ou son prénom dans le registre d'état civil. Pour procéder, il est nécessaire d'avoir une ou des erreurs sur son nom ou prénom.",
+            "pieces_a_fournir": [
+              "Aucune pièce n'est à fournir pour cette procédure."
+            ],
+            "cout": "1 000 F CFA pour les corrections administratives ; 500 F CFA par feuille + un timbre de 200 F CFA pour les corrections matérielles.",
+            "conditions_acces": [
+              "Avoir une ou des erreurs sur son nom ou prénom."
+            ]
+          },
+          "source": "https://www.servicepublic.gov.bf/fiches/promotion-des-droits-humains-demande-de-modification-de-nom-ou-prenom-ou-demande-dajout-de-nom-ou-prenom"
+        },
+        "procedure_4": {
+          "titre": "DEMANDE DE LA SUCCESSION PAR TESTAMENT",
+          "description": {
+            "texte": "Le testament est un acte personnel par lequel le testateur transfère gratuitement tout ou une partie de ses biens à des bénéficiaires de son choix. Le transfert est appelé legs, et le bénéficiaire est le légataire.",
+            "pieces_a_fournir": [
+              "Aucune pièce spécifique n'est requise pour établir un testament."
+            ],
+            "cout": "Aucun coût direct pour le testament, mais des frais peuvent être appliqués lors de sa gestion par un notaire.",
+            "conditions_acces": [
+              "Avoir au moins 20 ans et jouir de ses facultés mentales.",
+              "Décider librement, sans être forcé par menace ou violence."
+            ]
+          },
+          "source": "http://www.justice.gov.bf/index.php/2019/07/12/la-succession-par-testament/"
+        },
+        "procedure_5": {
+          "titre": "LA SUCCESSION SELON LA LOI",
+          "description": {
+            "texte": "La succession est la manière de transmettre les biens (par exemple : une maison), les droits (par exemple : une créance) et les dettes d’une personne décédée à ses héritiers. Elle intervient en cas de décès ou de déclaration de mort par le tribunal de grande instance.",
+            "pieces_a_fournir": [
+              "Certificat de décès",
+              "Certificat d'hérédité délivré par le tribunal"
+            ],
+            "cout": "Aucun coût direct pour la succession, mais des frais peuvent être appliqués pour les procédures judiciaires.",
+            "conditions_acces": [
+              "Être vivant au moment de la mort du défunt.",
+              "Ne pas avoir commis de fautes graves envers le défunt."
+            ]
+          },
+          "source": "http://www.justice.gov.bf/index.php/2019/07/05/la-succession-selon-la-loi/"
+        },
+        "procedure_6": {
+          "titre": "RENDRE VISITE A UN DÉTENU",
+          "description": {
+            "texte": "Les détenus dans les établissements pénitentiaires peuvent recevoir la visite de leurs familles, amis et connaissances. Selon l’article 208 de la loi n°010-2017 AN du 10 avril 2017, les détenus ont le droit de recevoir des visites, bien que ce droit puisse être restreint pour des raisons judiciaires ou de sécurité.",
+            "pieces_a_fournir": [
+              "Permis de visite (permanent, ponctuel ou exceptionnel)."
+            ],
+            "cout": "Aucun coût direct pour la visite, mais des frais peuvent s'appliquer pour l'obtention du permis.",
+            "conditions_acces": [
+              "Obtenir un permis de visite au Palais de justice ou auprès de l'Administration pénitentiaire.",
+              "Respecter les horaires établis par chaque établissement."
+            ]
+          },
+          "source": "http://www.justice.gov.bf/index.php/2020/01/24/comment-rendre-visite-a-un-detenu/"
+        }
+      },
+      "administratives": {
+        "procedure_1": {
+          "titre": "OBTENTION DE VISA BURKINABÉ",
+          "description": {
+            "texte": "Le visa est une autorisation expresse accordée par un consulat à l’extérieur du Burkina à une personne étrangère pour lui permettre d’entrer au Burkina afin d’y séjourner légalement. Il peut être de court ou long séjour.",
+            "pieces_a_fournir": [
+              "Un passeport en cours de validité.",
+              "Deux photos d’identité.",
+              "Une demande de visa remplie et signée.",
+              "Vingt mille (20 000) FCFA pour le visa de long séjour."
+            ],
+            "cout": "47 000 FCFA pour les visas de court séjour et 120 000 FCFA pour les visas de long séjour. Le visa de courtoisie est gratuit.",
+            "conditions_acces": [
+              "Demande soumise à l’administration centrale en charge de l’immigration ou à l'ambassade.",
+              "Pour les visas de court séjour, une extension peut être demandée à la Division de la Migration."
+            ]
+          },
+          "source": "https://www.police.gov.bf/index.php/infos-utiles/our-services"
+        },
+        "procedure_2": {
+          "titre": "ARMES CIVILES",
+          "description": {
+            "texte": "Nul ne peut acheter une arme à feu ou bénéficier par échange, don, héritage, ou legs, s’il n’est titulaire d’une licence appelée « Autorisation d’achat d’arme à feu ». Cette autorisation est personnelle et signée par le Ministre chargé de la sécurité.",
+            "pieces_a_fournir": [
+              "Une demande sur un formulaire revêtu d’un timbre fiscal de 15 000 FCFA pour les armes d’épaule, 25 000 FCFA pour les armes de poing de calibre ≤ 7,65 mm, 50 000 FCFA pour les armes de poing de calibre > 7,65 mm.",
+              "Une (01) photocopie légalisée de la carte d’identité ou du passeport en cours de validité.",
+              "Un (01) extrait d’acte de naissance ou jugement supplétif.",
+              "Un (01) certificat de résidence.",
+              "Un (01) extrait de casier judiciaire de moins de trois (03) mois.",
+              "Deux (02) photos d’identité."
+            ],
+            "cout": "Variable selon le type d'arme, avec timbre fiscal allant de 15 000 à 50 000 FCFA.",
+            "conditions_acces": [
+              "Résultat positif de l’enquête de moralité menée par les services de police.",
+              "Mention de tout permis de détention et de port d’arme en cas de possession antérieure."
+            ]
+          },
+          "source": "https://www.police.gov.bf/index.php/infos-utiles/armes-civiles"
+        },
+        "procedure_3": {
+          "titre": "PASSPORT ORDINAIRE",
+          "description": {
+            "texte": "Le passeport ordinaire est délivré par la Direction Générale de la Police Nationale à travers la Division de la Migration à Gounghin. Pour l'obtenir, il faut constituer un dossier composé des pièces suivantes à déposer à la Division de la Migration du lundi au vendredi.",
+            "pieces_a_fournir": [
+              "Pour les majeurs :",
+              "Une copie légalisée de l'acte de naissance.",
+              "Une copie légalisée du certificat de nationalité burkinabè.",
+              "Une copie légalisée de la CNIB.",
+              "Un casier judiciaire en cours de validité.",
+              "Un timbre de 200 FCFA.",
+              "Trois (03) photos d'identité au format passeport.",
+              "Un document justifiant votre profession.",
+              "La somme de cinquante mille (50 000 FCFA) pour les frais d'établissement.",
+              "Pour les femmes mariées souhaitant porter le nom de leur conjoint : une copie légalisée de l'acte de mariage.",
+              "Pour les mineurs :",
+              "L’acte de naissance de l’enfant.",
+              "Le certificat de nationalité de l’enfant.",
+              "Une autorisation parentale.",
+              "Document d’identité des deux parents (si le mineur réside au Burkina Faso), ou titre de séjour des deux parents (dans ce cas, l’autorisation parentale n’est pas nécessaire).",
+              "Un timbre fiscal de 200 FCFA plus la somme de 50 000 FCFA.",
+              "Trois (03) photos au format passeport.",
+              "Pour les militaires et paramilitaires : un certificat de présence au corps précisant l’établissement d’un passeport."
+            ],
+            "cout": "50 000 FCFA + timbre de 200 FCFA.",
+            "conditions_acces": [
+              "Dépôt du dossier à la Division de la Migration."
+            ]
+          },
+          "source": "https://www.police.gov.bf/index.php/infos-utiles/passeport"
+        },
+        "procedure_4": {
+          "titre": "CARTE NATIONALE D'IDENTITÉ BURKINABÉ",
+          "description": {
+            "texte": "La Carte Nationale d'Identité Burkinabè (CNIB) est un document officiel permettant de justifier son identité et sa nationalité burkinabè. Obligatoire à partir de 15 ans, elle a une durée de validité de 10 ans. La CNIB est une carte biométrique sécurisée, intégrant des contrôles de données pour éviter la fraude.",
+            "pieces_a_fournir": [
+              "Pour les Burkinabè nés au Burkina Faso : une copie de l'acte de naissance.",
+              "Pour les Burkinabè nés à l'extérieur : une copie du certificat de nationalité et un formulaire de demande de carte nationale d'identité (remis sur place).",
+              "Pour les femmes souhaitant porter le nom de leur époux : une copie de l'acte de mariage.",
+              "Pour faire figurer la profession de commerçant : une copie du registre du commerce."
+            ],
+            "cout": "Variable selon les localités.",
+            "conditions_acces": [
+              "Se rendre en personne dans un Centre de Collecte des Données (CCD) avec les pièces justificatives."
+            ]
+          },
+          "source": "https://www.police.gov.bf/index.php/infos-utiles/cnib"
+        },
+        "procedure_5": {
+          "titre": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES PHYSIQUES",
+          "description": {
+            "texte": "La création d'une personne physique implique plusieurs formalités, notamment : le Registre du Commerce et du Crédit Mobilier (RCCM), la déclaration d'existence fiscale et le numéro d'Identifiant Financier Unique (IFU), la carte professionnelle de commerçant (CPC) et la notification employeur (CNSS).",
+            "pieces_a_fournir": [
+              "Photocopie légalisée de la pièce d’identité ou du passeport du promoteur.",
+              "Fiche de déclaration sur l’honneur dûment signée par le promoteur (formulaire disponible au CEFORE et sur le site de la MEBF).",
+              "Extrait de casier judiciaire (Bulletin N°3) de moins de 3 mois.",
+              "Copie de l’acte de mariage (s’il y a lieu).",
+              "Certificat de résidence de l’année en cours.",
+              "L’un des documents suivants au nom du créateur : contrat de bail à usage commercial, titre foncier, permis urbain d’habiter, attestation d’attribution de parcelle, facture d’eau ou d’électricité.",
+              "Deux photos d’identité du promoteur.",
+              "Formulaire de demande de la carte professionnelle de commerçant.",
+              "Fiche de localisation visée par le service des impôts.",
+              "Autorisation d'exercer le commerce ou accusé de réception de la demande d'autorisation d'exercer le commerce pour les étrangers."
+            ],
+            "cout": "40 000 FCFA.",
+            "conditions_acces": [
+              "Toute personne juridiquement capable d'exercer le commerce."
+            ]
+          },
+          "source": "https://servicepublic.gov.bf/fiches/creation-dentreprise-demande-de-creation-dentreprises-pour-les-personnes-physiques"
+        },
+        "procedure_6": {
+          "titre": "DEMANDE DE CREATION D'ENTREPRISE POUR LES PERSONNES MORALES",
+          "description": {
+            "texte": "La création d'une personne morale implique plusieurs formalités, notamment : le Registre du Commerce et du Crédit Mobilier (RCCM), la déclaration d'existence fiscale et le numéro d'Identifiant Financier Unique (IFU), ainsi que la notification employeur (CNSS).",
+            "pieces_a_fournir": [
+              "Photocopie de la pièce d’identité ou du passeport du ou des gérants et d’un des associés.",
+              "Fiche de déclaration sur l’honneur dûment signée par le ou les gérants (formulaire disponible au CEFORE et sur le site de la MEBF).",
+              "Extrait de casier judiciaire (Bulletin N°3) de moins de 3 mois du ou des gérants.",
+              "Exemplaire des statuts de la société.",
+              "Exemplaire du procès-verbal de l’assemblée générale constitutive.",
+              "Exemplaire de la déclaration de souscription et de versement du capital (DSV) et/ou de la déclaration de régularité et de conformité (DRC).",
+              "L’un des documents suivants au nom de la société : contrat de bail à usage commercial enregistré aux impôts, titre foncier, permis urbain d’habiter, attestation d’attribution de parcelle, facture d’eau ou d’électricité.",
+              "Quatre exemplaires du formulaire M0.",
+              "Deux actes de dépôt au moins.",
+              "Fiche de localisation visée par le service des impôts.",
+              "Autorisation d'exercer le commerce ou accusé de réception de la demande d'autorisation d'exercer le commerce pour les étrangers."
+            ],
+            "cout": "47 500 FCFA.",
+            "conditions_acces": [
+              "Toute personne juridiquement capable d'exercer le commerce."
+            ]
+          },
+          "source": "https://www.servicepublic.gov.bf/fiches/creation-dentreprise-demande-de-creation-dentreprises-pour-les-personnes-morales"
+        },
+        "procedure_7": {
+          "titre": "DEMANDE DE CANDIDATURE AUX EXAMENS DU PERMIS DE CONDUIRE NATIONALE",
+          "description": {
+            "texte": "Cette procédure permet à tout usager de composer un dossier de candidature aux examens du permis de conduire dans le but de l'obtenir.",
+            "pieces_a_fournir": [
+              "Aucune pièce n'est à fournir pour cette procédure."
+            ],
+            "cout": "5 000 FCFA (dossier de demande de candidature : 4 800 FCFA, timbre de 200 FCFA).",
+            "conditions_acces": [
+              "Inscription dans une auto-école."
+            ],
+            "informations_complementaires": [
+              "La visite technique à l'OST concerne les catégories C, D et E."
+            ]
+          },
+          "source": "https://www.servicepublic.gov.bf/fiches/transport-demande-de-candidature-aux-examens-du-permis-de-conduire-nationale"
+        },
+        "procedure_8": {
+          "titre": "OBTENTION DU CERTIFICAT DE NATIONALITÉ BURKINABÈ",
+          "description": {
+            "texte": "Les modes d'obtention de la nationalité burkinabè sont les suivants :",
+            "pieces_a_fournir": [
+              "Acte de naissance du demandeur.",
+              "Certificat de nationalité burkinabè de l'un des parents (pour les demandeurs par filiation).",
+              "Acte de mariage et certificat de nationalité burkinabè du conjoint (pour les étrangers mariés à un Burkinabè).",
+              "Certificat de résidence et certificat de nationalité étrangère des parents (pour les majeurs étrangers nés au Burkina Faso).",
+              "Déclaration souscrite devant le Président du Tribunal de Grande Instance pour les mineurs."
+            ],
+            "cout": "Variable selon les modalités, frais de traitement à prévoir.",
+            "conditions_acces": [
+              "Être né(e) au Burkina Faso ou avoir des parents burkinabè.",
+              "Avoir résidé au Burkina Faso pendant une certaine durée selon les cas.",
+              "Remplir les conditions spécifiques selon le mode d'obtention."
+            ]
+          },
+          "source": "https://ecertificat-nationalite.gov.bf/"
+        },
+        "procedure_9": {
+          "titre": "OBTENTION DU CASIER JUDICIAIRE",
+          "description": {
+            "texte": "La demande en ligne de votre extrait de casier judiciaire se déroule en plusieurs étapes :",
+            "pieces_a_fournir": [
+              "Extrait de naissance ou jugement supplétif.",
+              "Copie de la carte nationale d’identité ou du passeport (pour les personnes de plus de seize ans)."
+            ],
+            "cout": "Frais de traitement à payer après validation de la demande.",
+            "conditions_acces": [
+              "Fournir des informations personnelles.",
+              "Fournir des informations sur les parents.",
+              "Confirmer la validité des informations fournies pour générer un récépissé."
+            ]
+          },
+          "source": "https://www.ecasier-judiciaire.gov.bf/"
+        },
+        "procedure10": {
+          "titre": "PROCÉDURE DE DEMANDE DE CERTIFICAT DE NATIONALITÉ",
+          "description": {
+            "texte": "Le certificat de nationalité est une attestation délivrée par le président ou un juge du Tribunal de grande instance (TGI), au vu des pièces justificatives, selon laquelle une personne est de nationalité burkinabè. Il peut être demandé dans les cas suivants : établissement d’une carte nationale d’identité burkinabè ou d’un passeport, candidature à un emploi dans la fonction publique, etc.",
+            "pieces_a_fournir": [
+              "Extrait d’acte de naissance pour les burkinabè nés au Burkina Faso, et celui de l’un des parents.",
+              "Extrait d’acte de naissance et le certificat de nationalité burkinabè de l’un des deux parents pour les burkinabè nés à l’étranger.",
+              "Extrait d’acte de naissance, acte de mariage et le certificat de nationalité burkinabè du conjoint pour les étrangers ayant acquis la nationalité par mariage.",
+              "Extrait d’acte de naissance et certificat de résidence pour les apatrides.",
+              "Extrait d’acte de naissance, décret de naturalisation pour les naturalisés, ainsi que le certificat de nationalité du parent naturalisé."
+            ],
+            "cout": "200 FCFA pour le timbre fiscal, 500 FCFA pour l’original et 100 FCFA pour chaque copie.",
+            "conditions_acces": "Se rendre dans un tribunal de grande instance, où le délai moyen de traitement est d’une semaine."
+          },
+          "source": "http://www.justice.gov.bf/index.php/2019/08/02/procedure-de-demande-de-certificat-de-nationalite/"
+        },
+        "procedure_11": {
+          "titre": "CÉLÉBRATION DE MARIAGE À L’ÉTAT CIVIL",
+          "description": {
+            "texte": "La célébration de mariage à l'état civil permet d'établir la situation matrimoniale des époux. Ce processus formalise le mariage et assure la protection des droits des conjoints.",
+            "pieces_a_fournir": [
+              "Extrait d’acte de naissance de chacun des futurs époux ou un jugement supplétif en tenant lieu.",
+              "CNIB des futurs époux.",
+              "CNIB des témoins.",
+              "Certificat de résidence de chacun des futurs époux.",
+              "Certificat de visite prénuptiale délivré par un médecin ou à défaut un agent de santé.",
+              "Certificat de non grossesse pour la femme, veuve ou divorcée.",
+              "Certificat de capacité en mariage (pour les non nationaux).",
+              "Extrait d’acte de mariage ou des mariages (s’il y a lieu).",
+              "Extrait du jugement de divorce (s’il y a lieu).",
+              "Autorisation administrative des supérieurs hiérarchiques (s’il y a lieu).",
+              "Consentements des père et mère pour les mineurs, du conseil de famille pour les majeurs en tutelle et du curateur pour les majeurs sous curatelle.",
+              "Choix du régime matrimonial adopté par les futurs époux et, si un contrat de mariage a été fait, produire ledit contrat."
+            ],
+            "cout": "6 timbres communaux à 300 F + 1 timbre communal à 300 F + Frais pour la location de la salle de mariage (15 000 FCFA minimum) + Publication des bans (30 jours consécutifs).",
+            "conditions_acces": [
+              "Les futurs époux doivent être d'accord pour se marier.",
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_13": {
+          "titre": "AVIS DE MENTION DE MARIAGE",
+          "description": {
+            "texte": "L'avis de mention de mariage permet de prouver sur l’acte de naissance que l’intéressé(e) est marié(e).",
+            "pieces_a_fournir": [
+              "Acte de mariage.",
+              "Acte de naissance des intéressés."
+            ],
+            "cout": "Gratuit.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_15": {
+          "titre": "LIVRET DE FAMILLE",
+          "description": {
+            "texte": "Le livret de famille permet d'établir les liens familiaux et la filiation entre les parents et leur(s) enfant(s).",
+            "pieces_a_fournir": [
+              "Certificat de résidence.",
+              "Extrait d’acte de mariage ou d’acte de naissance du conjoint.",
+              "Acte de naissance de tous les membres de la famille."
+            ],
+            "cout": "2000 F à Ouagadougou ; variable selon les autres communes.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_16": {
+          "titre": "EXTRAIT D’ACTE DE MARIAGE",
+          "description": {
+            "texte": "L'extrait d'acte de mariage établit la preuve du mariage entre les époux. C’est un acte qui permet la publicité de l’acte du mariage.",
+            "pieces_a_fournir": [
+              "Copie intégrale de déclaration de mariage.",
+              "Extrait ou copie légalisée de l’acte de mariage. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte)."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_17": {
+          "titre": "EXTRAIT D’ACTE DE NAISSANCE",
+          "description": {
+            "texte": "L'extrait d'acte de naissance prouve l’identité juridique de la personne et permet de faire la publicité de l’acte de naissance.",
+            "pieces_a_fournir": [
+              "Copie intégrale de déclaration de naissance.",
+              "Extrait ou copie légalisée de l’acte de naissance. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte)."
+            ],
+            "cout": "Gratuit.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_18": {
+          "titre": "CERTIFICAT DE RECONNAISSANCE D’ENFANT À NAÎTRE",
+          "description": {
+            "texte": "Le certificat de reconnaissance d’enfant à naître établit la preuve de la paternité d’un enfant à naître.",
+            "pieces_a_fournir": [
+              "CNIB ou passeport du père.",
+              "CNIB ou passeport de la mère.",
+              "Certificat de grossesse.",
+              "Preuve de la notification si l’homme est marié."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_19": {
+          "titre": "DÉCLARATION DE NAISSANCE OU COPIE INTÉGRALE D’ACTE DE NAISSANCE",
+          "description": {
+            "texte": "La déclaration de naissance ou la copie intégrale d’acte de naissance authentifie et établit la preuve juridique de la naissance d’une personne.",
+            "pieces_a_fournir": [
+              "L’attestation d’accouchement (au sein d’une formation sanitaire) ou l’attestation de naissance (hors formation sanitaire); ces documents sont facultatifs pour la déclaration de naissance."
+            ],
+            "cout": "Gratuit.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_20": {
+          "titre": "CERTIFICAT DE NON-SÉPARATION DE CORPS",
+          "description": {
+            "texte": "Le certificat de non-séparation de corps établit le statut de non-séparation de corps d’un conjoint.",
+            "pieces_a_fournir": [
+              "Acte de mariage (lieu de célébration du mariage) ou acte de naissance (du lieu de naissance du conjoint).",
+              "CNI des témoins.",
+              "CNIB ou passeport du demandeur."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_21": {
+          "titre": "CERTIFICAT DE VIE ET D’ENTRETIEN",
+          "description": {
+            "texte": "Le certificat de vie et d’entretien établit l’existence des ayant droits et autres enfants à charge.",
+            "pieces_a_fournir": [
+              "Extrait d’acte de naissance des enfants.",
+              "CNIB du tuteur/tutrice.",
+              "Certificat de tutelle."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_22": {
+          "titre": "CERTIFICAT DE VIE - ADULTES",
+          "description": {
+            "texte": "Le certificat de vie établit la preuve d’existence ou de vie d’une personne.",
+            "pieces_a_fournir": [
+              "CNIB ou passeport de l’intéressé."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_23": {
+          "titre": "DÉCLARATION DE DÉCÈS OU COPIE INTÉGRALE D’ACTE DE DÉCÈS",
+          "description": {
+            "texte": "La déclaration de décès ou la copie intégrale d’acte de décès établit la preuve juridique du décès d’une personne.",
+            "pieces_a_fournir": [
+              "Constat du décès délivré par un médecin.",
+              "Acte de naissance des intéressés (demandeur et défunt)."
+            ],
+            "cout": "Gratuit.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_24": {
+          "titre": "AUTORISATION D’INHUMER À DOMICILE",
+          "description": {
+            "texte": "L'autorisation d'inhumer à domicile permet d'autoriser l'inhumation d'un défunt à son domicile.",
+            "pieces_a_fournir": [
+              "Demande manuscrite timbrée à 300 F.",
+              "Copie légalisée de la CNIB du demandeur.",
+              "Copie légalisée de la CNIB du défunt.",
+              "Copie du permis urbain d’habiter.",
+              "Constat de décès délivré par un agent de santé."
+            ],
+            "cout": "Les frais varient entre 50 000 et 200 000 F pour l’inhumation à domicile, selon la catégorie de la commune.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_25": {
+          "titre": "CERTIFICAT DE NON INSCRIPTION",
+          "description": {
+            "texte": "Le certificat de non inscription fournit la preuve du non enregistrement de la naissance, du mariage et du décès dans les registres de l’état.",
+            "pieces_a_fournir": [
+              "CNIB ou extrait d’acte de naissance des parents.",
+              "Attestation de naissance de l’enfant non enregistré ou tout autre document que l’intéressé possède."
+            ],
+            "cout": "Gratuit.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_26": {
+          "titre": "CERTIFICAT DE VIE ET DE PROCURATION",
+          "description": {
+            "texte": "Le certificat de vie et de procuration autorise une personne à effectuer des actes en son nom.",
+            "pieces_a_fournir": [
+              "CNIB du mandant et du mandataire.",
+              "Procuration légalisée par une autorité administrative."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_27": {
+          "titre": "LÉGALISATION OU CERTIFICATION DE DOCUMENT",
+          "description": {
+            "texte": "La légalisation ou certification de document établit la légalité ou authentifie un document.",
+            "pieces_a_fournir": [
+              "Original du document et sa photocopie."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "Tous les documents requis doivent être fournis."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_28": {
+          "titre": "AUTORISATION D’OUVERTURE DE DÉBIT DE BOISSONS",
+          "description": {
+            "texte": "L'autorisation d'ouverture de débit de boissons permet à une personne de s’installer sur le domaine public pour une activité de vente de boissons.",
+            "pieces_a_fournir": [
+              "Demande manuscrite timbrée à 300 F, précisant le lieu, le type d’installation et le type de boissons à vendre.",
+              "Plan indicatif du lieu d’installation.",
+              "Copie légalisée de la CNIB ou du passeport du requérant.",
+              "Certificat de résidence.",
+              "Casier judiciaire.",
+              "Certificat de visite et de contre-visite médicale du personnel servant."
+            ],
+            "cout": "Enquête policière + 300 F.",
+            "conditions_acces": [
+              "L’établissement ne doit pas être dans une zone d’habitation.",
+              "L'établissement doit être situé à plus de 400 mètres des centres d’enseignement scolaires ou de formation professionnelle.",
+              "Autorisation donnée en tenant compte de la catégorie de l’établissement (catégorie 1 : vente de boissons non alcoolisées, catégorie 2 : vente de boissons alcoolisées, catégorie 3 : vente des spiritueux)."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_29": {
+          "titre": "DEMANDE D’OCCUPATION DES SALLES DE CLASSE (POUR DES COURS DU SOIR OU DES COURS D’APPUI)",
+          "description": {
+            "texte": "La demande d'occupation des salles de classe permet d'être autorisé à utiliser une salle de classe en dehors des heures de cours.",
+            "pieces_a_fournir": [
+              "Demande timbrée.",
+              "Copie légalisée de la CNIB du demandeur responsable."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "La demande doit être faite pour des activités spécifiques en dehors des heures de classe."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_30": {
+          "titre": "DEMANDE DE PRISE EN CHARGE PSYCHOLOGIQUE",
+          "description": {
+            "texte": "La demande de prise en charge psychologique permet d'obtenir un soutien psychologique pour les personnes dans le besoin.",
+            "pieces_a_fournir": [
+              "Demande timbrée."
+            ],
+            "cout": "300 F.",
+            "conditions_acces": [
+              "La prise en charge est accordée jusqu’à guérison supposée du malade."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_31": {
+          "titre": "CERTIFICAT DE RÉSIDENCE",
+          "description": {
+            "texte": "Le certificat de résidence atteste du lieu de résidence d’une personne auprès des autorités compétentes.",
+            "pieces_a_fournir": [
+              "Document d’identité (CNIB ou passeport).",
+              "Quittance de la taxe de résidence ou certificat de non-imposition."
+            ],
+            "cout": "300 F à Ouagadougou ; variable selon les autres communes.",
+            "conditions_acces": [
+              "La demande doit être faite par la personne concernée."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_32": {
+          "titre": "DOSSIER DE DEMANDE DE TERRAIN À USAGE AUTRE QUE D’HABITATION",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l'autorisation d'exploiter un espace public pour des activités commerciales, industrielles, artisanales, scolaires, de santé, d'agriculture, etc.",
+            "pieces_a_fournir": [
+              "Demande imprimée en quatre exemplaires à retirer au Guichet Unique du Foncier (le premier exemplaire doit être timbré à 1 000 F).",
+              "Deux photocopies légalisées de la CNIB ou du passeport, ou récépissé de reconnaissance, ou de registre du commerce.",
+              "Reçus du paiement de la taxe de résidence des trois dernières années (si applicable).",
+              "Acte de cession amiable du droit foncier.",
+              "Autorisation préalable pour les activités soumises à autorisation.",
+              "Extrait du plan cadastral orienté au Nord en quatre exemplaires.",
+              "Croquis d’implantation en quatre exemplaires.",
+              "Devis descriptif des investissements à réaliser sur le terrain en quatre exemplaires.",
+              "Devis estimatif des investissements à réaliser sur le terrain en quatre exemplaires.",
+              "Plan des infrastructures à réaliser sur le terrain en quatre exemplaires."
+            ],
+            "cout": "1 000 F.",
+            "conditions_acces": [
+              "Le demandeur doit s’acquitter des obligations liées à sa demande."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_33": {
+          "titre": "ARRÊTÉ MUNICIPAL PORTANT AUTORISATION PROVISOIRE D’OCCUPATION DU DOMAINE PUBLIC",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l'autorisation d'occuper temporairement le domaine public pour une activité donnée.",
+            "pieces_a_fournir": [
+              "Demande adressée au maire, précisant le lieu, le type d’installation et l’activité exercée.",
+              "Copie légalisée de la CNIB ou du passeport.",
+              "Certificat de résidence.",
+              "Plan d’indication de la mairie au lieu souhaité."
+            ],
+            "cout": "Timbre de 300 F pour la demande + Paiement d’une taxe à raison de 3 600 F/m² + Timbre communal à 1 000 F.",
+            "conditions_acces": [
+              "Le demandeur doit s’acquitter des obligations liées à sa demande."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_34": {
+          "titre": "DOSSIER DE DEMANDE DE TERRAIN DESTINÉ AU CULTE",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l'autorisation de construire un lieu de culte sur un domaine public.",
+            "pieces_a_fournir": [
+              "Demande imprimée en quatre exemplaires timbrée à 1 000 F (timbre fiscal), à retirer au guichet unique du foncier.",
+              "Récépissé de reconnaissance, ou statuts, ou autres documents pertinents.",
+              "Extrait du plan cadastral orienté au Nord en quatre exemplaires.",
+              "Croquis d’implantation en quatre exemplaires.",
+              "Devis descriptif des investissements à réaliser sur le terrain en quatre exemplaires.",
+              "Devis estimatif des investissements à réaliser sur le terrain en quatre exemplaires.",
+              "Plan des fosses septiques en quatre exemplaires.",
+              "Plan des infrastructures à réaliser sur le terrain en quatre exemplaires."
+            ],
+            "cout": "1 000 F.",
+            "conditions_acces": [
+              "Le délai de délivrance de l’autorisation dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_35": {
+          "titre": "AUTORISATION D’OCCUPATION D’UN ESPACE VERT",
+          "description": {
+            "texte": "Cette procédure permet de participer à l’embellissement et à l’amélioration des espaces.",
+            "pieces_a_fournir": [
+              "Demande manuscrite timbrée à 1 000 F (timbre communal), adressée au maire.",
+              "Copie légalisée de la CNIB, ou du passeport, ou du récépissé de l’association (si applicable).",
+              "Certificat de résidence.",
+              "Casier judiciaire.",
+              "Extrait du plan cadastral orienté au Nord, visé par les services techniques compétents ou un géomètre agréé, en quatre exemplaires.",
+              "Croquis d’implantation en quatre exemplaires.",
+              "Plan d’aménagement en quatre exemplaires.",
+              "Plan de construction en quatre exemplaires.",
+              "Plan descriptif en quatre exemplaires.",
+              "Plan estimatif en quatre exemplaires.",
+              "Plan des fosses septiques en quatre exemplaires."
+            ],
+            "cout": "1 000 F.",
+            "conditions_acces": [
+              "Le délai de délivrance de l’autorisation dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_36": {
+          "titre": "AGRÉMENT DE PARKING",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l’autorisation d’ouvrir un parking.",
+            "pieces_a_fournir": [
+              "Demande manuscrite timbrée à 300 F.",
+              "Copie légalisée de la CNIB ou du passeport du requérant.",
+              "Certificat de résidence.",
+              "Casier judiciaire.",
+              "Plan indicatif du lieu souhaité."
+            ],
+            "cout": [
+              "Enquête policière.",
+              "Timbre communal à 300 F.",
+              "Timbre communal à 1 000 F.",
+              "Timbre communal à 5 000 F."
+            ],
+            "conditions_acces": [
+              "Le délai de délivrance de l’autorisation dépend de la capacité du requérant à s’acquitter des différents frais et de la durée de l’enquête policière."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_37": {
+          "titre": "AUTORISATION DE MANIFESTER SUR LA VOIE PUBLIQUE",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l'autorisation d'organiser une manifestation publique.",
+            "pieces_a_fournir": [
+              "Demande manuscrite à 300 F.",
+              "Copie légalisée de la CNIB ou du passeport du demandeur."
+            ],
+            "cout": [
+              "2 timbres communaux de 300 F.",
+              "1 timbre communal de 5 000 F."
+            ],
+            "conditions_acces": [
+              "Le délai de délivrance est de 3 jours.",
+              "Validité selon le temps prévu pour la manifestation (en tout cas, pas au-delà de 24 heures)."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        },
+        "procedure_38": {
+          "titre": "AUTORISATION D’INSTALLATION DE PANNEAUX PUBLICITAIRES",
+          "description": {
+            "texte": "Cette procédure permet d'obtenir l'autorisation de poser un panneau publicitaire dans un espace public.",
+            "pieces_a_fournir": [
+              "Demande adressée au maire.",
+              "Copie légalisée de la CNIB ou du passeport du demandeur, ou récépissé de l’association (si applicable).",
+              "Plan de masse des lieux.",
+              "Schéma du ou des panneaux, précisant leur dimension et les enseignes à y mettre."
+            ],
+            "cout": [
+              "Timbre communal de 300 F.",
+              "Timbre communal à 1 000 F."
+            ],
+            "conditions_acces": [
+              "Le délai de délivrance dépend du temps mis par l’Agence du développement économique urbain pour l’instruction du dossier.",
+              "Validité : La durée dépend du paiement annuel de la taxe sur la publicité."
+            ]
+          },
+          "source": "https://www.pagof.fr/wp-content/uploads/2021/12/guide_actesdeservices-bat.pdf"
+        }
+      }
+    }
+  }

@@ -1,0 +1,62 @@
+{
+  "personnes_physiques": {
+    "avocats_inscrits": [
+      {
+        "Noms et Prénom(s)": "Nom 1",
+        "Adresse": "Adresse 1",
+        "Téléphone": "Téléphone 1",
+        "Email": "email1@example.com"
+      },
+      {
+        "Noms et Prénom(s)": "Nom 2",
+        "Adresse": "Adresse 2",
+        "Téléphone": "Téléphone 2",
+        "Email": "email2@example.com"
+      }
+    ],
+    "avocats_honoraires": [
+      {
+        "Noms et Prénom(s)": "Nom 3",
+        "Adresse": "Adresse 3",
+        "Téléphone": "Téléphone 3",
+        "Email": "email3@example.com"
+      },
+      {
+        "Noms et Prénom(s)": "Nom 4",
+        "Adresse": "Adresse 4",
+        "Téléphone": "Téléphone 4",
+        "Email": "email4@example.com"
+      }
+    ]
+  },
+  "personnes_morales": {
+    "societes_civiles": [
+      {
+        "Dénomination": "Société 1",
+        "Adresse": "Adresse 5",
+        "Téléphone": "Téléphone 5",
+        "E-mail": "email5@example.com"
+      },
+      {
+        "Dénomination": "Société 2",
+        "Adresse": "Adresse 6",
+        "Téléphone": "Téléphone 6",
+        "E-mail": "email6@example.com"
+      }
+    ],
+    "liste_de_stage": [
+      {
+        "Dénomination": "Stage 1",
+        "Adresse": "Adresse 7",
+        "Téléphone": "Téléphone 7",
+        "E-mail": "email7@example.com"
+      },
+      {
+        "Dénomination": "Stage 2",
+        "Adresse": "Adresse 8",
+        "Téléphone": "Téléphone 8",
+        "E-mail": "email8@example.com"
+      }
+    ]
+  }
+}

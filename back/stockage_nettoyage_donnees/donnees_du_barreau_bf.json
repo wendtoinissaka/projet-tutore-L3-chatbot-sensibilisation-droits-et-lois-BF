@@ -1,0 +1,97 @@
+{
+    "Avocats Inscrits": [
+        {
+            "N°": "2",
+            "Date de Création": "14/08/2000",
+            "Dénomination": "25 38",
+            "Adresse": "37",
+            "Téléphone": "25",
+            "E-mail": null
+        }
+    ],
+    "Avocats Honoraires": [],
+    "Sociétés": [
+        {
+            "N°": "2",
+            "Date de Création": "14/08/2000",
+            "Dénomination": "25 38",
+            "Adresse": "37",
+            "Téléphone": "25",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "4",
+            "Date de Création": "13/05/2002",
+            "Dénomination": "25 31",
+            "Adresse": "09",
+            "Téléphone": "68",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "-",
+            "Date de Création": "Me",
+            "Dénomination": "OUEDRAOGO Geneviève",
+            "Adresse": "Ouaga",
+            "Téléphone": "10",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "-",
+            "Date de Création": "Me",
+            "Dénomination": "ILBOUDO S.",
+            "Adresse": "Yolande",
+            "Téléphone": "Ginette",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "Le",
+            "Date de Création": "Bâtonnier",
+            "Dénomination": "La Secrétaire",
+            "Adresse": "de",
+            "Téléphone": "l’Ordre",
+            "Fax et E-mail": null
+        }
+    ],
+    "Stages": [
+        {
+            "N°": "Ouagadougou",
+            "Date": "10",
+            "Dénomination": "68 71",
+            "Adresse": "66",
+            "Téléphone": "82",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "7",
+            "Date": "22/08/2022",
+            "Dénomination": "IDO Blaise",
+            "Adresse": "Abdoulaye",
+            "Téléphone": "idoblaise80@gmail.com",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "Ouagadougou",
+            "Date": "11",
+            "Dénomination": "70 29",
+            "Adresse": "07",
+            "Téléphone": "87",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "8",
+            "Date": "22/08/2022",
+            "Dénomination": "GANGO Sibiri",
+            "Adresse": "Hermann",
+            "Téléphone": "gangherm60@gmail.com",
+            "Fax et E-mail": null
+        },
+        {
+            "N°": "Ouagadougou",
+            "Date": "01",
+            "Dénomination": "70 59",
+            "Adresse": "76",
+            "Téléphone": "19",
+            "Fax et E-mail": null
+        }
+    ]
+}

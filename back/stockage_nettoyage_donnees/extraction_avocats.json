@@ -1,0 +1,367 @@
+{
+    "Avocats Inscrits": [
+        {
+            "N°": "1",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KABORE Jean-Paul",
+            "Adresse": "01 BP 1015\nOuagadougou 01",
+            "Téléphone": "25 34 28 30\n70 24 56 22\n76 21 00 19",
+            "E-mail": "jpkabore12@gmail.com"
+        },
+        {
+            "N°": "2",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SOGLOHOUN Gouyaga",
+            "Adresse": "18 BP 226 Ouaga 18",
+            "Téléphone": "60 71 98 98\n56 78 69 03",
+            "E-mail": "gouyagasoglohoun@yahoo.com"
+        },
+        {
+            "N°": "3",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "LOMPO Diamoadi",
+            "Adresse": "10 BP 353\nOuagadougou 10",
+            "Téléphone": "25 30 17 47\n68 71 66 82",
+            "E-mail": "diamlom78@gmail.com"
+        },
+        {
+            "N°": "4",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "POODA Sansan Christophe\nBienvenu",
+            "Adresse": "10 BP 13849 Ouaga 10",
+            "Téléphone": "70 87 20 50",
+            "E-mail": "poodachrist@gmail.com"
+        },
+        {
+            "N°": "5",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "ZONGO Wenadolebsom Basile",
+            "Adresse": "01 BP 5513\nOuagadougou 01",
+            "Téléphone": "25 33 12 12\n62 68 86 54\n07 02 95 88",
+            "E-mail": "basilezongo@hotmail.fr"
+        },
+        {
+            "N°": "6",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SAWADOGO Idrissa",
+            "Adresse": "01 BP 727\nOuagadougou 01",
+            "Téléphone": "25 40 88 44\n53 01 78 90\n64 29 01 21",
+            "E-mail": "sawad.idri@gmail.com"
+        },
+        {
+            "N°": "7",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "IDO Blaise Abdoulaye",
+            "Adresse": "11 BP CMS 644\nOuagadougou 11",
+            "Téléphone": "25 46 35 30\n70 29 07 87",
+            "E-mail": "idoblaise80@gmail.com"
+        },
+        {
+            "N°": "8",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "GANGO Sibiri Hermann",
+            "Adresse": "01 BP 2697\nOuagadougou 01",
+            "Téléphone": "25 36 32 86\n70 59 76 19",
+            "E-mail": "gangherm60@gmail.com"
+        },
+        {
+            "N°": "9",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "BAKYONO Zimwalzoum Basile",
+            "Adresse": "07 BP 5200 Ouaga 07",
+            "Téléphone": "70 38 54 81\n78 30 43 71",
+            "E-mail": "bakyono.basile@yahoo.fr"
+        },
+        {
+            "N°": "10",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "WILLY Cyrille",
+            "Adresse": "01 BP 6617\nOuagadougou 01",
+            "Téléphone": "25 37 41 54\n60 73 60 29\n69 59 47 07",
+            "E-mail": "willycyrille2004@yahoo.fr"
+        },
+        {
+            "N°": "11",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DABIRE Jean Baptiste",
+            "Adresse": "01 BP 6529 Ouaga 01",
+            "Téléphone": "66 73 21 63",
+            "E-mail": "dabire.jb24@gmail.com"
+        },
+        {
+            "N°": "12",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DEMBELE Vye",
+            "Adresse": "01 BP 6617\nOuagadougou 01",
+            "Téléphone": "25 37 41 54\n70 52 68 59",
+            "E-mail": "dembeleavocat12@gmail.com"
+        },
+        {
+            "N°": "13",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DIKOUDOGO Rosalie",
+            "Adresse": "15 BP 73\nOuagadougou 15",
+            "Téléphone": "25 37 69 29\n72 99 52 51",
+            "E-mail": "rosadikoudogo@yahoo.fr"
+        },
+        {
+            "N°": "14",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "OUEDRAOGO Hamidou",
+            "Adresse": "09 BP 1342\nOuaga 09 11",
+            "Téléphone": "55 77 54 84",
+            "E-mail": "hamoued14@gmail.com"
+        },
+        {
+            "N°": "15",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KONATE Adama",
+            "Adresse": "11 BP CMS 644\nOuagadougou 11",
+            "Téléphone": "25 46 35 30\n72 73 43 43",
+            "E-mail": "adamskonat@gmail.com"
+        },
+        {
+            "N°": "16",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DA Koungoro",
+            "Adresse": "11BP 721 CM\nOuagadougou 11",
+            "Téléphone": "56 92 26 18",
+            "E-mail": "ddakoungoro@gmail.com"
+        },
+        {
+            "N°": "17",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SAWADOGO Soulemane",
+            "Adresse": "01 BP 6042\nOuagadougou 01",
+            "Téléphone": "25 37 51 81\n72 11 30 32\n74 42 59 85",
+            "E-mail": "sawadogosoule20@gmail.com"
+        },
+        {
+            "N°": "18",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SOUBEIGA Tilado Romain",
+            "Adresse": "11 BP 838\nOuagadougou CMS 11",
+            "Téléphone": "25 37 26 30\n74 91 66 03\n73 01 73 11",
+            "E-mail": "romain.soubeiga@gmail.com"
+        },
+        {
+            "N°": "19",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DABIRE Poutièrouwè Sosthène\nEdgar",
+            "Adresse": "01 BP 2173\nOuagadougou 01",
+            "Téléphone": "25 36 69 67\n76 29 40 28",
+            "E-mail": "sostheneedgar@gmail.com"
+        },
+        {
+            "N°": "20",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "HIEN Mwinzaomè",
+            "Adresse": "01 BP 3988\nOuagadougou 01",
+            "Téléphone": "25 31 09 68\n62 92 97 15\n79 64 25 15",
+            "E-mail": "hienboss86@gmail.com"
+        },
+        {
+            "N°": "21",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "OUANGRE Pierre Wendwaoga",
+            "Adresse": "01 BP 4093\nOuagadougou 01",
+            "Téléphone": "25 36 26 55\n70 04 20 97",
+            "E-mail": "avocatouangre@gmail.com"
+        },
+        {
+            "N°": "22",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "CISSE Oumarou",
+            "Adresse": "01 BP 1889 Ouaga 01",
+            "Téléphone": "25 40 92 76\n66 19 87 86\n61 10 61 11",
+            "E-mail": "oumarou.cisse@yb-lawyers.com"
+        },
+        {
+            "N°": "23",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DIALLO Fousseiny",
+            "Adresse": "01 BP 3470 Bobo 01",
+            "Téléphone": "76 81 84 91",
+            "E-mail": "fousseiny7681@gmail.com"
+        },
+        {
+            "N°": "24",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SANKARA Hermann",
+            "Adresse": "01 BP 4093\nOuagadougou 01",
+            "Téléphone": "25 36 26 55\n72 85 62 20",
+            "E-mail": "sankarahermann@gmail.com"
+        },
+        {
+            "N°": "25",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "OUEDRAOGO Ibrahim",
+            "Adresse": "09 BP 750\nOuagadougou 09",
+            "Téléphone": "25 36 81 83\n76 88 93 37",
+            "E-mail": "ouedraogoib90@gmail.com"
+        },
+        {
+            "N°": "26",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "OULE Emmanuel-Dominique",
+            "Adresse": "10 BP 13009\nOuagadougou 10",
+            "Téléphone": "25 37 58 76\n71 68 64 92",
+            "E-mail": "dominikoule@gmail.com"
+        },
+        {
+            "N°": "27",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KINDO Issouf",
+            "Adresse": "09 BP 892\nOuagadougou 09",
+            "Téléphone": "25 36 78 36\n72 49 74 77",
+            "E-mail": "issoufkindo04@gmail.com"
+        },
+        {
+            "N°": "28",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "BADO Pierre Désiré",
+            "Adresse": "01 BP 6617\nOuagadougou 01",
+            "Téléphone": "25 37 41 54\n54 34 19 97",
+            "E-mail": "desirebado560@gmail.com"
+        },
+        {
+            "N°": "29",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "AWEDAMA Kwabina",
+            "Adresse": "18 BP 226 Ouaga 18",
+            "Téléphone": "25 39 27 54\n74 26 50 08\n73 24 81 07",
+            "E-mail": "k.awedama@yahoo.com"
+        },
+        {
+            "N°": "30",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KERE Abdoul Fatahou",
+            "Adresse": "10 BP 13009\nOuagadougou 10",
+            "Téléphone": "25 37 58 76\n71 97 80 32",
+            "E-mail": "abdoulkere0@gmail.com"
+        },
+        {
+            "N°": "31",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KOANDA Charles",
+            "Adresse": "18 BP 226\nOuagadougou 18",
+            "Téléphone": "25 39 27 54\n75 26 52 57",
+            "E-mail": "charleskda91@gmail.com"
+        },
+        {
+            "N°": "32",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SOME Hirepaor",
+            "Adresse": "11 BP CMS 644\nOuagadougou 11",
+            "Téléphone": "25 46 35 30\n76 75 71 88",
+            "E-mail": "vincentsome59@gmail.com"
+        },
+        {
+            "N°": "33",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "ZONGO Wénéyéelé Eric",
+            "Adresse": "01 BP 4693\nOuagadougou 01",
+            "Téléphone": "25 37 66 07\n60 83 15 35\n74 68 07 55",
+            "E-mail": "zongoweric@yahoo.fr"
+        },
+        {
+            "N°": "34",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "KONCOBO Wend-Pagnagdé\nBienvenu",
+            "Adresse": "15 BP 73 Ouaga 15",
+            "Téléphone": "25 37 69 29\n64 25 43 64",
+            "E-mail": "azlykoncobo@gmail.com"
+        },
+        {
+            "N°": "35",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SOMDA Ifabeinan Xavier Gérarld",
+            "Adresse": "01 BP 1015\nOuagadougou 01",
+            "Téléphone": "25 34 28 30\n72 86 75 11\n56 23 45 61",
+            "E-mail": "somdxavi@gmail.com"
+        },
+        {
+            "N°": "36",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "COULIBALY Innocent",
+            "Adresse": "06 BP 9731\nOuagadougou 06",
+            "Téléphone": "25 36 72 75\n73 65 08 53\n64 82 10 96",
+            "E-mail": "cinocent4@gmail.com"
+        },
+        {
+            "N°": "37",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SAVADOGO Yacouba",
+            "Adresse": "06 BP 10302\nOuagadougou 06",
+            "Téléphone": "25 37 78 78\n65 34 31 80\n71 81 54 97",
+            "E-mail": "yacoubasavadogo109@yahoo.co\nm"
+        },
+        {
+            "N°": "38",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "BARRY Nasihatou",
+            "Adresse": "04 BP 602\nOuagadougou 04",
+            "Téléphone": "25 34 10 86\n75 92 38 77\n60 38 40 07",
+            "E-mail": "nasihatou87@gmail.com"
+        },
+        {
+            "N°": "39",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "BAGHYAN Hakim Ben Hamid",
+            "Adresse": "01 BP 2697\nOuagadougou 01",
+            "Téléphone": "25 36 32 86\n61 81 37 39",
+            "E-mail": "baghyanhakim@yahoo.fr"
+        },
+        {
+            "N°": "40",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SOMDA Yib-Bèlaonnè Yves",
+            "Adresse": "15 BP 73 Ouaga 15",
+            "Téléphone": "61 43 10 60\n75 17 57 17",
+            "E-mail": "somdayves94@gmail.com"
+        },
+        {
+            "N°": "41",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "SITA Mohamed Abdoul Aziz",
+            "Adresse": "11 BP 1631 Ouaga\nCMS 11",
+            "Téléphone": "25 37 58\n4172 99 62\n05\n66 59 65 71",
+            "E-mail": "mohasita95@gmail.com"
+        },
+        {
+            "N°": "42",
+            "Prestation de\nserment": "22/08/2022",
+            "Nom et Prénom(s)": "DRABO Yadolo Faddyl",
+            "Adresse": "01 BP 827\nOuagadougou 01",
+            "Téléphone": "25 30 69 75\n72 74 14 86",
+            "E-mail": "drabo.faddyl@gmail.com"
+        },
+        {
+            "N°": "43",
+            "Prestation de\nserment": "06/03/2023",
+            "Nom et Prénom(s)": "ABOUA Malibida",
+            "Adresse": "01 BP 4093 Ouaga 01",
+            "Téléphone": "25 36 26 55",
+            "E-mail": "cabinet.maitresankara@yahoo.fr"
+        },
+        {
+            "N°": "44",
+            "Prestation de\nserment": "06/03/2023",
+            "Nom et Prénom(s)": "BAKOH Zoubeyrou",
+            "Adresse": "01 BP 3329 Bobo 01",
+            "Téléphone": "20 98 00 41",
+            "E-mail": "sankouesse@yahoo.fr"
+        },
+        {
+            "N°": "45",
+            "Prestation de\nserment": "06/03/2023",
+            "Nom et Prénom(s)": "SAMBIANI Pouguinimpo",
+            "Adresse": "01 BP 6042 Ouaga 01",
+            "Téléphone": "25 37 51 81",
+            "E-mail": "cabinet.savadogo@yahoo.fr"
+        }
+    ],
+    "Avocats Honoraires": [],
+    "Sociétés": [],
+    "Stages": []
+}
