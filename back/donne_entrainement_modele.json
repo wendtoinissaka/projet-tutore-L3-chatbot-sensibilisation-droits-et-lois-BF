@@ -1,146 +1,111 @@
 {
   "train_data": [
-    [
-      {
-        "text": "Comment puis-je porter plainte en justice ?",
-        "entities": [
-          {
-            "start": 13,
-            "end": 36,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelles sont les étapes pour porter plainte en justice ?",
-        "entities": [
-          {
-            "start": 29,
-            "end": 52,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelle est la procédure pour déposer une plainte ?",
-        "entities": [
-          {
-            "start": 13,
-            "end": 45,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Comment porter plainte contre une personne ?",
-        "entities": [
-          {
-            "start": 8,
-            "end": 31,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelles démarches dois-je suivre pour porter plainte ?",
-        "entities": [
-          {
-            "start": 40,
-            "end": 63,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Où dois-je aller pour porter plainte en justice ?",
-        "entities": [
-          {
-            "start": 20,
-            "end": 43,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Comment obtenir un visa burkinabé ?",
-        "entities": [
-          {
-            "start": 8,
-            "end": 34,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelles sont les démarches pour obtenir un visa burkinabé ?",
-        "entities": [
-          {
-            "start": 29,
-            "end": 59,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelle est la procédure pour changer de nom ou prénom ?",
-        "entities": [
-          {
-            "start": 13,
-            "end": 53,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Comment faire une demande de modification de nom ou prénom ?",
-        "entities": [
-          {
-            "start": 13,
-            "end": 62,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelles sont les étapes pour demander un extrait de casier judiciaire ?",
-        "entities": [
-          {
-            "start": 29,
-            "end": 66,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Comment obtenir un casier judiciaire au Burkina Faso ?",
-        "entities": [
-          {
-            "start": 8,
-            "end": 39,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Quelles sont les étapes pour créer une entreprise en tant que personne physique ?",
-        "entities": [
-          {
-            "start": 29,
-            "end": 77,
-            "label": "PROCEDURE"
-          }
-        ]
-      },
-      {
-        "text": "Comment puis-je démarrer une entreprise pour une personne physique ?",
-        "entities": [
-          {
-            "start": 13,
-            "end": 63,
-            "label": "PROCEDURE"
-          }
-        ]
-      }
-    ]
+    {
+      "text": "Quels sont les articles de la loi sur la protection des données ?",
+      "entities": [
+        {"start": 24, "end": 55, "label": "LOI"}
+      ]
+    },
+    {
+      "text": "Quel est le chapitre 2 du titre 1 de la loi sur les sociétés commerciales ?",
+      "entities": [
+        {"start": 12, "end": 20, "label": "CHAPITRE"},
+        {"start": 27, "end": 32, "label": "TITRE"},
+        {"start": 38, "end": 68, "label": "LOI"}
+      ]
+    },
+    {
+      "text": "Que dit l'article 3 de la section 1 du chapitre 4 de la loi sur le travail ?",
+      "entities": [
+        {"start": 8, "end": 16, "label": "ARTICLE"},
+        {"start": 21, "end": 28, "label": "SECTION"},
+        {"start": 34, "end": 42, "label": "CHAPITRE"},
+        {"start": 48, "end": 65, "label": "LOI"}
+      ]
+    },
+    {
+      "text": "Comment puis-je porter plainte en justice ?",
+      "entities": [
+        {"start": 13, "end": 36, "label": "PROCEDURE"}
+      ]q
+    },
+    {
+      "text": "Quelles sont les étapes pour porter plainte en justice ?",
+      "entities": [
+        {"start": 29, "end": 52, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelle est la procédure pour déposer une plainte ?",
+      "entities": [
+        {"start": 13, "end": 45, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Comment porter plainte contre une personne ?",
+      "entities": [
+        {"start": 8, "end": 31, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelles démarches dois-je suivre pour porter plainte ?",
+      "entities": [
+        {"start": 40, "end": 63, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Où dois-je aller pour porter plainte en justice ?",
+      "entities": [
+        {"start": 20, "end": 43, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Comment obtenir un visa burkinabé ?",
+      "entities": [
+        {"start": 8, "end": 34, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelles sont les démarches pour obtenir un visa burkinabé ?",
+      "entities": [
+        {"start": 29, "end": 59, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelle est la procédure pour changer de nom ou prénom ?",
+      "entities": [
+        {"start": 13, "end": 53, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Comment faire une demande de modification de nom ou prénom ?",
+      "entities": [
+        {"start": 13, "end": 62, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelles sont les étapes pour demander un extrait de casier judiciaire ?",
+      "entities": [
+        {"start": 29, "end": 66, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Comment obtenir un casier judiciaire au Burkina Faso ?",
+      "entities": [
+        {"start": 8, "end": 39, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Quelles sont les étapes pour créer une entreprise en tant que personne physique ?",
+      "entities": [
+        {"start": 29, "end": 77, "label": "PROCEDURE"}
+      ]
+    },
+    {
+      "text": "Comment puis-je démarrer une entreprise pour une personne physique ?",
+      "entities": [
+        {"start": 13, "end": 63, "label": "PROCEDURE"}
+      ]
+    }
   ]
 }

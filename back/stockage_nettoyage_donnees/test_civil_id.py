@@ -50,7 +50,7 @@ def parse_text_to_structure(text):
                         "Articles": [
                             {
                                 "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                "Article": article_number.strip(),
+                                "Article": article_number.split('.')[1].strip(),
                                 "Texte": article_text.strip()
                             }
                             for article_number, _, article_text in articles
@@ -79,7 +79,7 @@ def parse_text_to_structure(text):
                             "Articles": [
                                 {
                                     "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                    "Article": article_number.strip(),
+                                    "Article": article_number.split('.')[1].strip(),
                                     "Texte": article_text.strip()
                                 }
                                 for article_number, _, article_text in articles
@@ -102,7 +102,7 @@ def parse_text_to_structure(text):
                         for article_number, _, article_text in articles:
                             section_entry["Articles"].append({
                                 "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                "Article": article_number.strip(),
+                                "Article": article_number.split('.')[1].strip(),
                                 "Texte": article_text.strip()
                             })
 
@@ -124,7 +124,7 @@ def main():
     # Path to your PDF file
     pdf_path = "code_civil_1.pdf"
     # Path to save the JSON file
-    json_path = "test_code_civil_apres_traitement.json"
+    json_path = "test_code_civil_apres_traitement1.json"
 
     # Extract text from PDF
     text = extract_text_from_pdf(pdf_path)

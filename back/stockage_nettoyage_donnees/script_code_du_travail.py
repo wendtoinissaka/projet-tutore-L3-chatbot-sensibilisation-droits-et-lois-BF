@@ -48,7 +48,8 @@ def parse_text_to_structure(text):
                     "Sections": [{
                         "Titre": "Articles",
                         "Articles": [
-                            {"Article": article_number.strip(), "Texte": article_text.strip()}
+                            # {"Article": article_number.strip(), "Texte": article_text.strip()}
+                            {"Article": article_number.split('.')[1].strip(), "Texte": article_text.strip()}
                             for article_number, article_text in articles
                         ]
                     }]
@@ -73,7 +74,7 @@ def parse_text_to_structure(text):
                         chapter_entry["Sections"].append({
                             "Titre": "Articles uniquement",
                             "Articles": [
-                                {"Article": article_number.strip(), "Texte": article_text.strip()}
+                                {"Article": article_number.split('.')[1].strip(), "Texte": article_text.strip()}
                                 for article_number, article_text in articles
                             ]
                         })
@@ -93,7 +94,8 @@ def parse_text_to_structure(text):
                         articles = article_pattern.findall(section_text)
                         for article_number, article_text in articles:
                             section_entry["Articles"].append({
-                                "Article": article_number.strip(),
+                                "Article": article_number.split('.')[1].strip(),
+                                # "Article": article_number.strip(),
                                 "Texte": article_text.strip()
                             })
 
@@ -112,8 +114,8 @@ def save_structure_to_json(structure, json_path):
 
 
 def main():
-    pdf_path = 'stockage_nettoyage_donnees/code_du_travail.pdf'  # Path to your PDF file
-    json_path = 'stockage_nettoyage_donnees/code_du_travail_apres_traitement.json'  # Path to save the JSON file
+    pdf_path = 'code_du_travail.pdf'  # Path to your PDF file
+    json_path = 'test_code_du_travail_apres_traitement.json'  # Path to save the JSON file
 
     # Extract text from PDF
     text = extract_text_from_pdf(pdf_path)

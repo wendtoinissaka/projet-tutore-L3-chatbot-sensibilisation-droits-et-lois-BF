@@ -1,6 +1,23 @@
 sites visites : 
 http://www.justice.gov.bf/
+https://academiedepolice.bf/
 https://www.fonction-publique.gov.bf/accueil
 https://www.servicepublic.gov.bf/
 https://www.cour-cassation.gov.bf/accueil
 https://www.barreau.bf/
+https://services-etatcivil.gov.bf/
+https://mairie-ouaga.bf/accueil
+https://www.mae.gov.bf/accueil
+https://www.police.gov.bf/
+https://dgttm.bf/
+https://www.mdenp.gov.bf/accueil
+https://businessprocedures.bf/
+http://maretraite.gov.bf/
+https://www.ecasier-judiciaire.gov.bf/
+https://www.pagof.fr/
+https://mjp.univ-perp.fr/mjp.htm
+Sites recherches :
+
+https://cobusgreyling.medium.com/using-spacy-in-your-chatbot-for-natural-language-processing-8fa14c26bb51
+
+https://www.digitalocean.com/community/tutorials/how-to-create-an-intelligent-chatbot-in-python-using-the-spacy-nlp-library?utm_medium=affiliates&utm_source=impact&utm_campaign=123201&utm_content=231384&irgwc=1&irclickid=X0O1%3AdyswxyKT%3AwQynQ-IWN1UkCymNVZvVp7xM0
