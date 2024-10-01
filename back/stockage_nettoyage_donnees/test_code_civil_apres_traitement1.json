@@ -12,6 +12,30 @@
                                 "Titre": "Articles uniquement",
                                 "Articles": [
                                     {
+                                        "ID": "1",
+                                        "Article": "1",
+                                        "Texte": "Les lois sont exécutoires dans tout le territoire [burkinabè] en vertu de la promulgation qui en est faite par [le Président du Faso]. Elles seront exécutées dans chaque partie du [Faso] du moment où la promulgation en pourra être connue."
+                                    },{
+                                        "ID": "2",
+                                        "Article": "2",
+                                        "Texte": "La loi ne dispose que pour l'avenir, elle n'a point d'effet rétroactif"
+                                    },{
+                                        "ID": "3",
+                                        "Article": "3",
+                                        "Texte": "Les lois de police et de sûreté obligent tous ceux qui habitent le territoire.Les immeubles, même ceux possédés par des étrangers, sont régis par la loi [burkinabè]."
+                                    },{
+                                        "ID": "4",
+                                        "Article": "4",
+                                        "Texte": "Le juge qui refusera de juger, sous prétexte du silence, de l'obscurité ou de l'insuffisance de la loi, pourra être poursuivi comme coupable de déni de justice."
+                                    },{
+                                        "ID": "5",
+                                        "Article": "5",
+                                        "Texte": "Il est défendu aux juges de se prononcer par voie de disposition générale et réglementaire sur les causes qui leur sont soumises."
+                                    },{
+                                        "ID": "6",
+                                        "Article": "6",
+                                        "Texte": "On ne peut déroger, par des conventions particulières, aux lois qui intéressent l'ordre public et les bonnes mœurs."
+                                    },{
                                         "ID": "527",
                                         "Article": "527",
                                         "Texte": "Les biens sont meubles par leur nature, ou par la détermination de la loi."
@@ -962,8 +986,8 @@
                                         "Texte": "[Loi du 18 février 193819 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "- les interdits,\n. Les incapables de contracter sont : \n- les mineurs, \n20\n                                                           \n19 Rendue applicable par le décret du 8 mai 1938 promulgué par l’arr. 1828 A.P. du 2 juin 1938 (J.O.AOF. du 11 juin 1938, \np. 731). \n20 Le régime de l’interdiction a été abrogé par le c. pers. fam. \n \n- et généralement tous ceux à qui la loi a interdit certains contrats]."
                                     },
                                     {
@@ -972,8 +996,8 @@
                                         "Texte": "[Loi du 18 février 1938 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Le mineur et l'interdit21\nLes personnes capables de s'engager ne peuvent opposer l'incapacité du mineur, de l'interdit \nou de la femme mariée\n ne peuvent attaquer, \npour cause d'incapacité, leurs engagements, que dans les cas prévus par la loi. \n22"
                                     },
                                     {
@@ -1757,8 +1781,8 @@
                                         "Texte": "[Loi du 18 février 1938 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Le temps ne court, à l'égard des actes faits par les interdits\n. Dans tous les cas où l'action en nullité ou en \nrescision d'une convention n'est pas limitée à un moindre temps par une loi particulière, cette \naction dure dix ans. \nCe temps ne court, dans le cas de violence, que du jour où elle a cessé ; dans le cas d'erreur \nou de dol, du jour où ils ont été découverts. \n29"
                                     },
                                     {
@@ -1849,11 +1873,11 @@
                                     {
                                         "ID": "1341",
                                         "Article": "1341",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Il doit être passé acte devant notaires ou sous \nsignatures privées, de toutes choses excédant la somme ou valeur de cinq cents francs, même \npour dépôts volontaires, et il n'est reçu aucune preuve par témoins contre et outre le contenu \naux actes, ni sur ce qui serait allégué avoir été dit avant, lors ou depuis les actes, encore qu'il \ns'agisse d'une somme ou valeur moindre de cinq cents francs.34\nLe tout sans préjudice de ce qui est prescrit dans les lois relatives au commerce.]\n \n35"
                                     },
                                     {
@@ -1862,8 +1886,8 @@
                                         "Texte": "[Loi du 1\n \n \ner avril 1928 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "La règle ci-dessus s'applique au cas où l'action \ncontient, outre la demande du capital, une demande d'intérêts qui, réunis au capital, excèdent \nla somme de 500 francs.]36"
                                     },
                                     {
@@ -1872,19 +1896,19 @@
                                         "Texte": "[Loi du 1\n \n \ner avril 1928 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Celui qui a formé une demande excédant 500 \nfrancs37 ne peut plus être admis à la preuve testimoniale, même en restreignant sa demande \nprimitive.]"
                                     },
                                     {
                                         "ID": "1344",
                                         "Article": "1344",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
-                                        "Texte": "34 Cette somme ou valeur de cinq cents (500) francs est ce qui figure dans le texte de loi de 1928. Aujourd’hui, selon un \njugement du tribunal de grande instance de Ouagadougou, elle serait de vingt cinq mille (25.000) francs. V. dans ce sens \nTGI Ouagadougou, jugement n° 301 du 21 mars 2001, inédit. \n35 Loi rendue applicable en AOF. par décret du 4 décembre 1930 promulgué par arr. 3043 A.P. du 30 décembre 1930 (J.O. \nAOF. 1931, p. 2). La loi du 1er avril 1928 modifie les"
+                                        "ID": "1",
+                                        "Article": "1",
+                                        "Texte": "34 Cette somme ou valeur de cinq cents (500) francs est ce qui figure dans le texte de loi de 1928. Aujourd’hui, selon un \njugement du tribunal de grande instance de Ouagadougou, elle serait de vingt cinq mille (25.000) francs. V. dans ce sens \nTGI Ouagadougou, jugement n° 301 du 21 mars 2001, inédit. \n35 Loi rendue applicable en AOF. par décret du 4 décembre 1930 promulgué par arr. 3043 A.P. du 30 décembre 1930 (J.O. \nAOF. 1931, p. 2). La loi du 1 avril 1928 modifie les"
                                     },
                                     {
                                         "ID": "1341",
@@ -1894,11 +1918,11 @@
                                     {
                                         "ID": "1345",
                                         "Article": "1345",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Si dans la même instance une partie fait plusieurs \ndemandes, dont il n'y ait point de titre par écrit, et que, jointes ensemble, elles excèdent la \nsomme de 500 francs,38\n                                                           \n38 V. la note se rapportant à l’art. 1341 ci-dessus. \n la preuve par témoins n'en peut être admise, encore que la partie \nallègue que ces créances proviennent de différentes causes, et qu'elles se soient formées en \ndifférents temps, si ce n'était que ces droits procédassent, par succession, donation ou \nautrement, de personnes différentes.]"
                                     },
                                     {
@@ -2127,9 +2151,9 @@
                                         "Texte": "Les pères et mères sont responsables du \ndommage causé par leurs enfants mineurs habitant avec eux.] \n43\nLes instituteurs et les artisans, du dommage causé par leurs élèves et apprentis pendant le \ntemps qu'ils sont sous leur surveillance.\n \n44 \n[Loi du 5 avril 1937 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
-                                        "Texte": "En ce qui concerne les instituteurs, les fautes, imprudences ou négligences invoquées contre \neux ayant causé le fait dommageable devront être prouvées, conformément au droit commun, \npar le demandeur de l'instance.]\n. La responsabilité ci-dessus a lieu, à moins que les père et \nmère et les artisans ne prouvent qu'ils n'ont pu empêcher le fait qui donne lieu à cette \nresponsabilité. \n45\n                                                           \n40 « La jurisprudence, de façon générale, admet que dès lors qu’est établie l’intervention de la chose dans la réalisation du \ndommage, elle est présumée en être la cause génératrice, sauf au gardien d’en apporter la preuve contraire ; or l’art. 1384 \nal. 1er du code civil ne distingue pas suivant que la chose soit inerte ou en mouvement ; il suffit, pour  que la responsabilité \ndu gardien soit reconnue, qu’il soit établi que la chose est, en quelque sorte, la cause du dommage qui sans elle ne se serait \npas produit. » C. Appel Ouagadougou, 21 février 1992, R.B.D. n° 27 - Janvier 1995, p. 99. \n41 Sur le fondement de la mise en œuvre de la procédure d’indemnisation des victimes, v. également C. Appel Ouagadougou, \nCh. correctionnelle, 25 juillet 1997, note K. NIKIEMA, R.B.D. n° 35 - 1er semestre, pp. 107 et ss. \n42 Rendue applicable en AOF. par décret du 22 octobre 1926 promulgué par arr. du 17 décembre 1926 (J.O.AOF. du 25 \ndécembre 1926, p. 1111). \n43 « Il n’y a aucune contrariété à retenir la faute intentionnelle ou d’imprudence de la BIB du fait de son préposé dont elle \nrépond de ses actes. »  C. Appel Ouagadougou, 21 mai 1999, R.B.D. n° 36 - 2ème semestre, pp. 269 et ss. \n44 V. également le décret du 3 juillet 1938 étendant aux colonies la loi du 5 avril 1937 sur la responsabilité civile des \nmembres de l’enseignement public. \n45 La loi du 5 avril 1937 sur la responsabilité civile des membres de l’enseignement public a été rendue applicable aux \ncolonies par le décret du 3 juillet 1938 promulgué en AOF. par arr. 2471 du 27 juillet 1938 (J.O.AOF. du 6 août 1938, p. \n963). \nSur la responsabilité de l’instituteur ainsi que de la substitution de l’Etat à l’instituteur, v. également C. Appel \nOuagadougou, 9 septembre 1988, note H. DELEZENNE-NUYTINCK, R.B.D. n° 16 - Juillet 1989, pp. 271et ss."
+                                        "ID": "1",
+                                        "Article": "1",
+                                        "Texte": "En ce qui concerne les instituteurs, les fautes, imprudences ou négligences invoquées contre \neux ayant causé le fait dommageable devront être prouvées, conformément au droit commun, \npar le demandeur de l'instance.]\n. La responsabilité ci-dessus a lieu, à moins que les père et \nmère et les artisans ne prouvent qu'ils n'ont pu empêcher le fait qui donne lieu à cette \nresponsabilité. \n45\n                                                           \n40 « La jurisprudence, de façon générale, admet que dès lors qu’est établie l’intervention de la chose dans la réalisation du \ndommage, elle est présumée en être la cause génératrice, sauf au gardien d’en apporter la preuve contraire ; or l’art. 1384 \nal. 1 du code civil ne distingue pas suivant que la chose soit inerte ou en mouvement ; il suffit, pour  que la responsabilité \ndu gardien soit reconnue, qu’il soit établi que la chose est, en quelque sorte, la cause du dommage qui sans elle ne se serait \npas produit. » C. Appel Ouagadougou, 21 février 1992, R.B.D. n° 27 - Janvier 1995, p. 99. \n41 Sur le fondement de la mise en œuvre de la procédure d’indemnisation des victimes, v. également C. Appel Ouagadougou, \nCh. correctionnelle, 25 juillet 1997, note K. NIKIEMA, R.B.D. n° 35 - 1 semestre, pp. 107 et ss. \n42 Rendue applicable en AOF. par décret du 22 octobre 1926 promulgué par arr. du 17 décembre 1926 (J.O.AOF. du 25 \ndécembre 1926, p. 1111). \n43 « Il n’y a aucune contrariété à retenir la faute intentionnelle ou d’imprudence de la BIB du fait de son préposé dont elle \nrépond de ses actes. »  C. Appel Ouagadougou, 21 mai 1999, R.B.D. n° 36 - 2ème semestre, pp. 269 et ss. \n44 V. également le décret du 3 juillet 1938 étendant aux colonies la loi du 5 avril 1937 sur la responsabilité civile des \nmembres de l’enseignement public. \n45 La loi du 5 avril 1937 sur la responsabilité civile des membres de l’enseignement public a été rendue applicable aux \ncolonies par le décret du 3 juillet 1938 promulgué en AOF. par arr. 2471 du 27 juillet 1938 (J.O.AOF. du 6 août 1938, p. \n963). \nSur la responsabilité de l’instituteur ainsi que de la substitution de l’Etat à l’instituteur, v. également C. Appel \nOuagadougou, 9 septembre 1988, note H. DELEZENNE-NUYTINCK, R.B.D. n° 16 - Juillet 1989, pp. 271et ss."
                                     },
                                     {
                                         "ID": "1385",
@@ -2224,7 +2248,7 @@
                                     {
                                         "ID": "244",
                                         "Article": "244",
-                                        "Texte": "du \nc. pers. fam. \n49 V. C. Appel Ouagadougou, 17 mars 1995, R.B.D. n° 29 - 1er semestre 1996, p. 79."
+                                        "Texte": "du \nc. pers. fam. \n49 V. C. Appel Ouagadougou, 17 mars 1995, R.B.D. n° 29 - 1 semestre 1996, p. 79."
                                     },
                                     {
                                         "ID": "1600",
@@ -3362,8 +3386,8 @@
                                         "Texte": "[Loi du 21 décembre 1930 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
+                                        "ID": "1",
+                                        "Article": "1",
                                         "Texte": "Toutes sociétés doivent être rédigées par \nécrit, lorsque leur objet est d'une valeur de plus de cinq cents francs.]55\n                                                           \n55 Rendue applicable en AOF. par décret du 17 mars 1931 promulgué par arr. 816 A.P du 10 avril 1931 (J.O.AOF. 1931, p. \n334). \n \nLa preuve testimoniale n'est point admise contre et outre le contenu en l'acte de société, ni \nsur ce qui serait allégué avoir été dit avant, lors et depuis cet acte, encore qu'il s'agisse d'une \nsomme ou valeur moindre de cent cinquante francs."
                                     }
                                 ]
@@ -3819,7 +3843,7 @@
                                     {
                                         "ID": "1923",
                                         "Article": "1923",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
                                         "ID": "2",
@@ -3829,7 +3853,7 @@
                                     {
                                         "ID": "1341",
                                         "Article": "1341",
-                                        "Texte": "Art. 1924. [Loi du 1er\n \n avril 1928 -"
+                                        "Texte": "Art. 1924. [Loi du 1\n \n avril 1928 -"
                                     },
                                     {
                                         "ID": "2",
@@ -3979,7 +4003,7 @@
                                     {
                                         "ID": "1950",
                                         "Article": "1950",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
                                         "ID": "3",
@@ -4504,7 +4528,7 @@
                                     {
                                         "ID": "2074",
                                         "Article": "2074",
-                                        "Texte": "[Loi du 1er avril 1928 -"
+                                        "Texte": "[Loi du 1 avril 1928 -"
                                     },
                                     {
                                         "ID": "4",
@@ -4539,7 +4563,7 @@
                                     {
                                         "ID": "2080",
                                         "Article": "2080",
-                                        "Texte": "Le créancier répond, selon les règles \nétablies au titre “Des contrats ou des obligations \nconventionnelles en général ”, de la perte ou \ndétérioration du gage qui serait survenue par sa \nnégligence. \nDe son côté, le débiteur doit tenir compte au \ncréancier des dépenses utiles et nécessaires que \ncelui-ci a faites pour la conservation du gage. \n \n                                                           \n73 Cet alinéa est en fait abrogé et remplacé par l’al. 1er de l’art. 49. \n74 V. également les"
+                                        "Texte": "Le créancier répond, selon les règles \nétablies au titre “Des contrats ou des obligations \nconventionnelles en général ”, de la perte ou \ndétérioration du gage qui serait survenue par sa \nnégligence. \nDe son côté, le débiteur doit tenir compte au \ncréancier des dépenses utiles et nécessaires que \ncelui-ci a faites pour la conservation du gage. \n \n                                                           \n73 Cet alinéa est en fait abrogé et remplacé par l’al. 1 de l’art. 49. \n74 V. également les"
                                     },
                                     {
                                         "ID": "1341",
@@ -4754,7 +4778,7 @@
                                     {
                                         "ID": "117,",
                                         "Article": "117,",
-                                        "Texte": "122 et 148 A.U.Sûretés. \n87 V. la note qui se rapporte à l’art. 2104 (ci-dessus). \n88 Promulguée en AOF. par arr. du 1er avril 1918 (J.O.AOF. du 13 avril 1918, p. 193). \n89 V. la première note se rapportant à l’art. 2103. \n90 L’art. 878 a été abrogé par la zatu an VII 13 du 16 novembre 1989 portant institution et application d'un code des personnes \net de la famille au Burkina Faso. V. les"
+                                        "Texte": "122 et 148 A.U.Sûretés. \n87 V. la note qui se rapporte à l’art. 2104 (ci-dessus). \n88 Promulguée en AOF. par arr. du 1 avril 1918 (J.O.AOF. du 13 avril 1918, p. 193). \n89 V. la première note se rapportant à l’art. 2103. \n90 L’art. 878 a été abrogé par la zatu an VII 13 du 16 novembre 1989 portant institution et application d'un code des personnes \net de la famille au Burkina Faso. V. les"
                                     },
                                     {
                                         "ID": "773",
@@ -5039,7 +5063,7 @@
                                     {
                                         "ID": "2139",
                                         "Article": "2139",
-                                        "Texte": "Pourront les parents, soit du mari, soit de la femme, et les parents du mineur, ou, \nà défaut de parents, ses amis requérir lesdites inscriptions ; elles pourront aussi être requises \npar la femme et par les mineurs. \n \n106\n                                                           \n105 Décret étendant aux T.OM les modifications apportées à l’art. 2135 par le décret-loi du 14 juin 1938 et la loi du 12 mars \n1953 (J.O.AOF. du 8 mai 1954, p. 844). \n106 V. la note se rapportant à l’al. 1er de l’art. 2135 ci-dessus. \n de la femme et pour ses reprises et conventions matrimoniales. Il ne pourra pas être \nconvenu qu'il ne sera pris aucune inscription."
+                                        "Texte": "Pourront les parents, soit du mari, soit de la femme, et les parents du mineur, ou, \nà défaut de parents, ses amis requérir lesdites inscriptions ; elles pourront aussi être requises \npar la femme et par les mineurs. \n \n106\n                                                           \n105 Décret étendant aux T.OM les modifications apportées à l’art. 2135 par le décret-loi du 14 juin 1938 et la loi du 12 mars \n1953 (J.O.AOF. du 8 mai 1954, p. 844). \n106 V. la note se rapportant à l’al. 1 de l’art. 2135 ci-dessus. \n de la femme et pour ses reprises et conventions matrimoniales. Il ne pourra pas être \nconvenu qu'il ne sera pris aucune inscription."
                                     },
                                     {
                                         "ID": "2141",
@@ -5094,12 +5118,12 @@
                                     {
                                         "ID": "2148",
                                         "Article": "2148",
-                                        "Texte": "[Loi du 1er mars 1918 -"
+                                        "Texte": "[Loi du 1 mars 1918 -"
                                     },
                                     {
-                                        "ID": "1er",
-                                        "Article": "1er",
-                                        "Texte": "107 V. la note se rapportant à l’al. 1er de l’art. 2135 ci-dessus. \n108 Loi rendue applicable en AOF. par décret du 16 mars 1943 promulgué en AOF. par arr. 305 A.P. du 21 janvier 1948 \n(J.O.AOF. du 31 janvier 1948, p. 84). \n109 Le code de procédure civile applicable en AOF a été abrogé implicitement et remplacé par la loi 22-99 AN du 18 mai \n1999 portant code de procédure civile. \nLes dispositions des"
+                                        "ID": "1",
+                                        "Article": "1",
+                                        "Texte": "107 V. la note se rapportant à l’al. 1 de l’art. 2135 ci-dessus. \n108 Loi rendue applicable en AOF. par décret du 16 mars 1943 promulgué en AOF. par arr. 305 A.P. du 21 janvier 1948 \n(J.O.AOF. du 31 janvier 1948, p. 84). \n109 Le code de procédure civile applicable en AOF a été abrogé implicitement et remplacé par la loi 22-99 AN du 18 mai \n1999 portant code de procédure civile. \nLes dispositions des"
                                     },
                                     {
                                         "ID": "861",
@@ -5129,7 +5153,7 @@
                                     {
                                         "ID": "2150",
                                         "Article": "2150",
-                                        "Texte": "[Loi du 1er\nLa date de l'inscription est déterminée par la mention portée sur le registre des dépôts. \n mars 1918 -"
+                                        "Texte": "[Loi du 1\nLa date de l'inscription est déterminée par la mention portée sur le registre des dépôts. \n mars 1918 -"
                                     },
                                     {
                                         "ID": "2",
@@ -5144,7 +5168,7 @@
                                     {
                                         "ID": "2152",
                                         "Article": "2152",
-                                        "Texte": "[Loi du 1er\n \n mars 1918 -"
+                                        "Texte": "[Loi du 1\n \n mars 1918 -"
                                     },
                                     {
                                         "ID": "3",
@@ -5154,7 +5178,7 @@
                                     {
                                         "ID": "2153",
                                         "Article": "2153",
-                                        "Texte": "[Loi du 1er\nChacun des bordereaux contient exclusivement : \n mars 1918 -"
+                                        "Texte": "[Loi du 1\nChacun des bordereaux contient exclusivement : \n mars 1918 -"
                                     },
                                     {
                                         "ID": "4",
@@ -5934,7 +5958,7 @@
                                     {
                                         "ID": "2101",
                                         "Article": "2101",
-                                        "Texte": "127 Loi promulguée en AOF. par arr. du 30 mars 1911 (J.O.AOF. du 1er avril 1911, p. 197). \n L'action des marchands pour les marchandises qu'ils vendent aux \nparticuliers non marchands se prescrit par deux ans."
+                                        "Texte": "127 Loi promulguée en AOF. par arr. du 30 mars 1911 (J.O.AOF. du 1 avril 1911, p. 197). \n L'action des marchands pour les marchandises qu'ils vendent aux \nparticuliers non marchands se prescrit par deux ans."
                                     },
                                     {
                                         "ID": "2273",

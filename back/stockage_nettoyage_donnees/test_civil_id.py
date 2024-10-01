@@ -2,7 +2,6 @@ import fitz  # PyMuPDF
 import json
 import re
 
-
 def extract_text_from_pdf(pdf_path):
     doc = fitz.open(pdf_path)
     text = ""
@@ -10,133 +9,116 @@ def extract_text_from_pdf(pdf_path):
         text += page.get_text()
     return text
 
+def parse_text_to_articles(text):
+    # Structure pour contenir les articles
+    articles = []
 
-def parse_text_to_structure(text):
-    structure = {
-        "Loi": {
-            "Nom": "CODE CIVIL DE 1804 du Burkina Faso",
-            "Titres": []
-        }
-    }
+    # Expression régulière pour capturer les articles et leur texte
+    article_pattern = re.compile(
+        r'(Art\.\s*(\d+)[^\s]*\s*[\.\s]*)\s*(.*?)(?=(?:\s*Art\.\s*\d+|\Z))',
+        re.DOTALL | re.IGNORECASE
+    )
 
-    # Define patterns for titles, chapters, sections, and articles
-    title_pattern = re.compile(r'(TITRE\s+[IVXLCDM]+\s*[-]?\s*[A-Z\s,\'’]+)(?=\s+TITRE\s+[IVXLCDM]|\s+CHAPITRE|\s+Section|\s+Art\.|\Z)', re.IGNORECASE)
-    chapter_pattern = re.compile(r'(CHAPITRE\s+[IVXLCDM]+\s*[-]?\s*[A-Z\s,\'’]+)(?=\s+CHAPITRE|\s+Section|\s+Art\.|\Z)', re.IGNORECASE)
-    section_pattern = re.compile(r'(Section\s+\d+\s*[-]?\s*[A-Z\s,\'’]+)(?=\s+Section|\s+Art\.|\Z)', re.IGNORECASE)
-    article_pattern = re.compile(r'(Art\.\s*(\d+)[^\s]*\s*[\.\s]*)\s*(.*?)(?=(?:\s+Art\.|\Z))', re.DOTALL | re.IGNORECASE)
+    # Extraction des articles
+    matches = article_pattern.findall(text)
 
-    # Find titles
-    titles = title_pattern.findall(text)
-    for title in titles:
-        title_start = text.find(title)
-        title_end = text.find(titles[titles.index(title) + 1]) if (titles.index(title) + 1) < len(titles) else len(text)
+    for match in matches:
+        article_num = match[1]  # Numéro de l'article
+        article_text = match[2]  # Texte de l'article
 
-        title_text = text[title_start:title_end].strip()
+        articles.append({
+            "Article": int(article_num),  # Conversion du numéro en entier
+            "Texte": article_text.strip()  # Suppression des espaces superflus
+        })
 
-        title_entry = {
-            "Titre": title.strip(),
-            "Chapitres": []
-        }
+    return articles
 
-        # Find chapters within the title
-        chapters = chapter_pattern.findall(title_text)
-        if not chapters:  # Handle cases where there are no chapters
-            articles = article_pattern.findall(title_text)
-            if articles:
-                title_entry["Chapitres"].append({
-                    "Titre": "Articles uniquement",
-                    "Sections": [{
-                        "Titre": "Articles",
-                        "Articles": [
-                            {
-                                "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                "Article": article_number.split('.')[1].strip(),
-                                "Texte": article_text.strip()
-                            }
-                            for article_number, _, article_text in articles
-                        ]
-                    }]
-                })
-        else:
-            for chapter in chapters:
-                chapter_start = title_text.find(chapter)
-                chapter_end = title_text.find(chapters[chapters.index(chapter) + 1]) if (chapters.index(chapter) + 1) < len(chapters) else len(title_text)
-
-                chapter_text = title_text[chapter_start:chapter_end].strip()
-
-                chapter_entry = {
-                    "Titre": chapter.strip(),
-                    "Sections": []
-                }
-
-                # Find sections within the chapter
-                sections = section_pattern.findall(chapter_text)
-                if not sections:  # Handle cases where there are no sections
-                    articles = article_pattern.findall(chapter_text)
-                    if articles:
-                        chapter_entry["Sections"].append({
-                            "Titre": "Articles uniquement",
-                            "Articles": [
-                                {
-                                    "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                    "Article": article_number.split('.')[1].strip(),
-                                    "Texte": article_text.strip()
-                                }
-                                for article_number, _, article_text in articles
-                            ]
-                        })
-                else:
-                    for section in sections:
-                        section_start = chapter_text.find(section)
-                        section_end = chapter_text.find(sections[sections.index(section) + 1]) if (sections.index(section) + 1) < len(sections) else len(chapter_text)
-
-                        section_text = chapter_text[section_start:section_end].strip()
-
-                        section_entry = {
-                            "Titre": section.strip(),
-                            "Articles": []
-                        }
-
-                        # Find articles in this section
-                        articles = article_pattern.findall(section_text)
-                        for article_number, _, article_text in articles:
-                            section_entry["Articles"].append({
-                                "ID": article_number.split('.')[1].strip(),  # Extraire uniquement le numéro comme ID
-                                "Article": article_number.split('.')[1].strip(),
-                                "Texte": article_text.strip()
-                            })
-
-                        chapter_entry["Sections"].append(section_entry)
-
-                title_entry["Chapitres"].append(chapter_entry)
-
-        structure["Loi"]["Titres"].append(title_entry)
-
-    return structure
-
-
-def save_structure_to_json(structure, json_path):
+def save_articles_to_json(articles, json_path):
+    # Sauvegarde des articles sous format JSON
     with open(json_path, 'w', encoding='utf-8') as json_file:
-        json.dump(structure, json_file, ensure_ascii=False, indent=4)
-
+        json.dump(articles, json_file, ensure_ascii=False, indent=4)
 
 def main():
-    # Path to your PDF file
+    # Chemin vers le fichier PDF
     pdf_path = "code_civil_1.pdf"
-    # Path to save the JSON file
-    json_path = "test_code_civil_apres_traitement1.json"
+    
+    # Chemin pour sauvegarder le fichier JSON
+    json_path = "extracted_articles.json"
 
-    # Extract text from PDF
+    # Extraire le texte du PDF
     text = extract_text_from_pdf(pdf_path)
 
-    # Parse text into structured data
-    structured_data = parse_text_to_structure(text)
+    # Extraire les articles et leurs textes
+    articles = parse_text_to_articles(text)
 
-    # Save structured data to JSON file
-    save_structure_to_json(structured_data, json_path)
+    # Sauvegarder les articles dans un fichier JSON
+    save_articles_to_json(articles, json_path)
 
-    print(f"Data has been extracted and saved to {json_path}")
-
+    print(f"Extraction terminée et sauvegardée dans {json_path}")
 
 if __name__ == "__main__":
     main()
+
+
+# import fitz  # PyMuPDF
+# import json
+# import re
+
+
+# def extract_text_from_pdf(pdf_path):
+#     doc = fitz.open(pdf_path)
+#     text = ""
+#     for page in doc:
+#         text += page.get_text()
+#     return text
+
+
+# def parse_text_to_structure(text):
+#     structure = {
+#         "Loi": {
+#             "Nom": "CODE CIVIL DE 1804 du Burkina Faso",
+#             "Articles": []
+#         }
+#     }
+
+#     # Define pattern for articles (extracting numeric article numbers only)
+#     article_pattern = re.compile(r'(Art\.\s*(\d+)[^\s]*\s*[\.\s]*)\s*(.*?)(?=(?:\s+Art\.|\Z))', re.DOTALL | re.IGNORECASE)
+
+#     # Find all articles
+#     articles = article_pattern.findall(text)
+
+#     # Process each article and add it to the structure
+#     for _, article_number, article_text in articles:
+#         structure["Loi"]["Articles"].append({
+#             "Article": int(article_number),  # Store the article number as an integer
+#             "Texte": article_text.strip()
+#         })
+
+#     return structure
+
+
+# def save_structure_to_json(structure, json_path):
+#     with open(json_path, 'w', encoding='utf-8') as json_file:
+#         json.dump(structure, json_file, ensure_ascii=False, indent=4)
+
+
+# def main():
+#     # Path to your PDF file
+#     pdf_path = "code_civil_1.pdf"
+#     # Path to save the JSON file
+#     json_path = "extracted_articles_numeric.json"
+
+#     # Extract text from PDF
+#     text = extract_text_from_pdf(pdf_path)
+
+#     # Parse text into structured data (only articles)
+#     structured_data = parse_text_to_structure(text)
+
+#     # Save structured data to JSON file
+#     save_structure_to_json(structured_data, json_path)
+
+#     print(f"Articles have been extracted and saved to {json_path}")
+
+
+# if __name__ == "__main__":
+#     main()

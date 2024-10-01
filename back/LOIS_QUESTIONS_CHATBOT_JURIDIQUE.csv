@@ -1,0 +1,855 @@
+Question,Réponse,Tag,
+Quelle est la procédure pour porter plainte ?,"La plainte est l’acte par lequel une personne victime d’une infraction informe la justice. Elle peut être déposée contre une personne identifiée ou contre X si l’auteur est inconnu. Le dépôt de plainte est gratuit et peut être fait auprès d'un commissariat, d'une brigade de gendarmerie ou directement auprès du procureur du Faso. 
+
+Conditions d'accès : Toute personne s’estimant victime d’une infraction peut porter plainte, y compris contre une personne morale. 
+
+Pièces à fournir : Aucune pièce n'est nécessaire pour le dépôt d'une plainte simple. 
+
+Coût : Le dépôt d’une plainte simple est gratuit.",procedure_plainte,
+Où puis-je déposer une plainte ?,"Vous pouvez déposer une plainte auprès d'un commissariat, d'une brigade de gendarmerie ou directement auprès du procureur du Faso.",procedure_plainte,
+Quel est le coût pour déposer une plainte ?,Le dépôt d’une plainte simple est gratuit.,procedure_plainte,
+Quelles pièces dois-je fournir pour déposer une plainte ?,Aucune pièce n'est nécessaire pour le dépôt d'une plainte simple.,procedure_plainte,
+Quelles sont les conditions pour porter plainte ?,"Toute personne s’estimant victime d’une infraction peut porter plainte, y compris contre une personne morale.",procedure_plainte,
+Est-ce que je peux porter plainte contre quelqu'un que je ne connais pas ?,"Oui, vous pouvez porter plainte contre X si l’auteur de l’infraction est inconnu.",procedure_plainte,
+Quel type d'infractions peut-on signaler ?,"Vous pouvez signaler toute infraction, qu'elle soit pénale, civile ou administrative.",procedure_plainte,
+Que se passe-t-il après le dépôt de plainte ?,"Après le dépôt de plainte, la justice peut ouvrir une enquête pour établir les faits et poursuivre l'auteur de l'infraction.",procedure_plainte,
+Combien de temps ai-je pour porter plainte ?,"Il est recommandé de porter plainte dès que possible après l'infraction, mais le délai peut varier selon la nature de l'infraction.",procedure_plainte,
+Puis-je porter plainte anonymement ?,"La plainte peut être déposée sans révéler votre identité, mais cela peut limiter les actions judiciaires.",procedure_plainte,
+Quelle est la procédure pour demander une pièce de justice ?,"La demande d'une pièce de justice est un acte qui traduit la décision d'un tribunal sur un jugement. Pour obtenir cette pièce, il est nécessaire de se rendre au tribunal dans lequel le jugement a été rendu. 
+
+Coût : 500 F CFA par feuille + un timbre de 200 F CFA. 
+
+Conditions d'accès : Se rendre au tribunal où le jugement a été rendu.",procedure_piece_justice,
+Où dois-je me rendre pour demander une pièce de justice ?,Vous devez vous rendre au tribunal où le jugement a été rendu.,procedure_piece_justice,
+Quel est le coût pour obtenir une pièce de justice ?,"Le coût est de 500 F CFA par feuille, plus un timbre de 200 F CFA.",procedure_piece_justice,
+Quelles pièces dois-je fournir pour cette demande ?,Aucune pièce n'est à fournir pour cette procédure.,procedure_piece_justice,
+Quelles sont les conditions pour demander une pièce de justice ?,Vous devez vous rendre au tribunal où le jugement a été rendu.,procedure_piece_justice,
+Quelle est la procédure pour demander une modification de nom ou prénom ?,"Cette procédure autorise un individu à modifier son nom ou son prénom dans le registre d'état civil. Pour procéder, il est nécessaire d'avoir une ou des erreurs sur son nom ou prénom. 
+
+Coût : 1 000 F CFA pour les corrections administratives ; 500 F CFA par feuille + un timbre de 200 F CFA pour les corrections matérielles. 
+
+Conditions d'accès : Avoir une ou des erreurs sur son nom ou prénom.",procedure_modification_nom,
+Quelles pièces dois-je fournir pour cette demande ?,Aucune pièce n'est à fournir pour cette procédure.,procedure_modification_nom,
+Quel est le coût pour modifier un nom ou prénom ?,"Le coût est de 1 000 F CFA pour les corrections administratives ; pour les corrections matérielles, c'est 500 F CFA par feuille + un timbre de 200 F CFA.",procedure_modification_nom,
+Quelles sont les conditions pour demander une modification de nom ou prénom ?,Vous devez avoir une ou des erreurs sur votre nom ou prénom.,procedure_modification_nom,
+Où dois-je me rendre pour effectuer cette demande ?,Vous devez vous rendre au bureau de l'état civil compétent. (Ajoute des détails spécifiques si disponibles).,procedure_modification_nom,
+Quelle est la procédure pour demander la succession par testament ?,"Le testament est un acte personnel par lequel le testateur transfère gratuitement tout ou une partie de ses biens à des bénéficiaires de son choix. Pour établir un testament, vous n'avez besoin d'aucune pièce spécifique. 
+
+Conditions d'accès : Avoir au moins 20 ans et jouir de ses facultés mentales. Décider librement, sans être forcé par menace ou violence.",procedure_succession_testament,
+Quelles pièces dois-je fournir pour établir un testament ?,Aucune pièce spécifique n'est requise pour établir un testament.,procedure_succession_testament,
+Quel est le coût pour établir un testament ?,"Aucun coût direct pour le testament, mais des frais peuvent être appliqués lors de sa gestion par un notaire.",procedure_succession_testament,
+Quelles sont les conditions pour établir un testament ?,"Vous devez avoir au moins 20 ans et jouir de vos facultés mentales. Vous devez également décider librement, sans être forcé par menace ou violence.",procedure_succession_testament,
+Qui peut être bénéficiaire d'un testament ?,Tout individu ou entité désigné par le testateur peut être bénéficiaire d'un testament.,procedure_succession_testament,
+Peut-on modifier un testament une fois établi ?,"Oui, un testament peut être modifié ou révoqué par le testateur à tout moment tant qu'il est en pleine possession de ses facultés mentales.",procedure_succession_testament,
+Que se passe-t-il si le testament est contesté ?,"En cas de contestation, le tribunal peut examiner la validité du testament en fonction des lois en vigueur et des circonstances entourant son établissement.",procedure_succession_testament,
+Quel est le rôle d'un notaire dans la succession ?,Un notaire peut aider à la gestion du testament et à la distribution des biens après le décès du testateur. Il peut également assurer que le testament respecte les formalités légales requises.,procedure_succession_testament,
+Comment se déroule le transfert des biens ?,"Le transfert des biens se fait selon les dispositions du testament, et les bénéficiaires doivent suivre les étapes légales pour faire valoir leurs droits sur les biens hérités.",procedure_succession_testament,
+Quelle est la procédure pour la succession selon la loi ?,"La succession est la manière de transmettre les biens, les droits et les dettes d’une personne décédée à ses héritiers. Elle intervient en cas de décès ou de déclaration de mort par le tribunal de grande instance. 
+
+Pièces à fournir : Certificat de décès et certificat d'hérédité délivré par le tribunal. 
+
+Coût : Aucun coût direct, mais des frais peuvent être appliqués pour les procédures judiciaires. 
+
+Conditions d'accès : Être vivant au moment de la mort du défunt et ne pas avoir commis de fautes graves envers lui.",procedure_succession_loi,
+Quelles pièces dois-je fournir pour la succession ?,Vous devez fournir un certificat de décès et un certificat d'hérédité délivré par le tribunal.,procedure_succession_loi,
+Quel est le coût pour la succession selon la loi ?,"Il n'y a aucun coût direct pour la succession, mais des frais peuvent être appliqués pour les procédures judiciaires.",procedure_succession_loi,
+Quelles sont les conditions pour bénéficier de la succession ?,Vous devez être vivant au moment de la mort du défunt et ne pas avoir commis de fautes graves envers lui.,procedure_succession_loi,
+Que se passe-t-il si je ne suis pas mentionné dans le testament ?,"En l'absence de testament, la succession se fera selon les règles de la loi, qui déterminent l'ordre des héritiers.",procedure_succession_loi,
+Quel rôle joue le tribunal dans la succession ?,Le tribunal délivre le certificat d'hérédité et peut intervenir en cas de litige concernant la succession ou pour s'assurer que les procédures légales sont respectées.,procedure_succession_loi,
+Est-ce que tous les héritiers doivent être d'accord ?,"Oui, en général, tous les héritiers doivent être d'accord sur la répartition des biens, surtout si cela n'est pas spécifié dans un testament.",procedure_succession_loi,
+Que faire en cas de conflit entre héritiers ?,"En cas de conflit, il est conseillé de consulter un notaire ou d'introduire une action en justice pour résoudre le litige.",procedure_succession_loi,
+Comment se déroule la transmission des biens ?,"La transmission des biens se fait conformément aux règles de la loi ou aux dispositions du testament, et doit suivre les formalités légales requises.",procedure_succession_loi,
+Quelle est la procédure pour rendre visite à un détenu ?,"Les détenus dans les établissements pénitentiaires peuvent recevoir des visites de leurs familles, amis et connaissances. Pour rendre visite, vous devez obtenir un permis de visite au Palais de justice ou auprès de l'Administration pénitentiaire. 
+
+Conditions d'accès : Respecter les horaires établis par chaque établissement.",procedure_visite_detenu,
+Quelles pièces dois-je fournir pour visiter un détenu ?,"Vous devez fournir un permis de visite (permanent, ponctuel ou exceptionnel).",procedure_visite_detenu,
+Quel est le coût pour rendre visite à un détenu ?,"Il n'y a aucun coût direct pour la visite, mais des frais peuvent s'appliquer pour l'obtention du permis.",procedure_visite_detenu,
+Quelles sont les conditions pour rendre visite à un détenu ?,Vous devez obtenir un permis de visite au Palais de justice ou auprès de l'Administration pénitentiaire et respecter les horaires établis par chaque établissement.,procedure_visite_detenu,
+Les visites peuvent-elles être restreintes ?,"Oui, le droit de recevoir des visites peut être restreint pour des raisons judiciaires ou de sécurité, conformément à la loi.",procedure_visite_detenu,
+Peut-on rendre visite à un détenu sans permis ?,"Non, un permis de visite est obligatoire pour rendre visite à un détenu.",procedure_visite_detenu,
+Comment obtenir un permis de visite ?,"Vous pouvez obtenir un permis de visite au Palais de justice ou auprès de l'Administration pénitentiaire, en remplissant les formalités nécessaires.",procedure_visite_detenu,
+Y a-t-il des horaires spécifiques pour les visites ?,"Oui, chaque établissement pénitentiaire a des horaires spécifiques pour les visites, que vous devez respecter.",procedure_visite_detenu,
+Quelle est la procédure pour obtenir un visa burkinabé ?,"Le visa est une autorisation expresse accordée par un consulat à l’extérieur du Burkina à une personne étrangère pour lui permettre d’entrer au Burkina afin d’y séjourner légalement. Il peut être de court ou long séjour. 
+
+Pièces à fournir : 
+Un passeport en cours de validité. 
+Deux photos d’identité. 
+Une demande de visa remplie et signée. 
+Vingt mille (20 000) FCFA pour le visa de long séjour. 
+
+Coût : 
+47 000 FCFA pour les visas de court séjour et 120 000 FCFA pour les visas de long séjour. Le visa de courtoisie est gratuit. 
+
+Conditions d'accès : 
+Demande soumise à l’administration centrale en charge de l’immigration ou à l'ambassade. 
+Pour les visas de court séjour, une extension peut être demandée à la Division de la Migration.",procedure_visa_burkina,
+Quelles pièces dois-je fournir pour obtenir un visa ?,"Vous devez fournir : 
+Un passeport en cours de validité. 
+Deux photos d’identité. 
+Une demande de visa remplie et signée. 
+Vingt mille (20 000) FCFA pour le visa de long séjour.",procedure_visa_burkina,
+Quel est le coût pour un visa burkinabé ?,"Le coût est de : 
+47 000 FCFA pour les visas de court séjour. 
+120 000 FCFA pour les visas de long séjour. 
+Le visa de courtoisie est gratuit.",procedure_visa_burkina,
+Quelles sont les conditions pour demander un visa ?,"Vous devez soumettre votre demande à : 
+L’administration centrale en charge de l’immigration ou à l'ambassade. 
+Pour les visas de court séjour, une extension peut être demandée à la Division de la Migration.",procedure_visa_burkina,
+Comment se déroule la demande de visa ?,"Vous devez : 
+Remplir une demande de visa. 
+Soumettre les pièces requises et le paiement des frais auprès du consulat ou de l'administration concernée.",procedure_visa_burkina,
+Les visas de court séjour peuvent-ils être prolongés ?,"Oui, pour les visas de court séjour, une extension peut être demandée à la Division de la Migration.",procedure_visa_burkina,
+Quel type de visa est gratuit ?,Le visa de courtoisie est gratuit.,procedure_visa_burkina,
+Quelle est la procédure pour obtenir une arme civile ?,"Nul ne peut acheter une arme à feu ou bénéficier par échange, don, héritage, ou legs, s’il n’est titulaire d’une licence appelée « Autorisation d’achat d’arme à feu ». Cette autorisation est personnelle et signée par le Ministre chargé de la sécurité. 
+
+Pièces à fournir : 
+Une demande sur un formulaire revêtu d’un timbre fiscal de 15 000 FCFA pour les armes d’épaule, 25 000 FCFA pour les armes de poing de calibre ≤ 7,65 mm, 50 000 FCFA pour les armes de poing de calibre > 7,65 mm. 
+Une (01) photocopie légalisée de la carte d’identité ou du passeport en cours de validité. 
+Un (01) extrait d’acte de naissance ou jugement supplétif. 
+Un (01) certificat de résidence. 
+Un (01) extrait de casier judiciaire de moins de trois (03) mois. 
+Deux (02) photos d’identité. 
+
+Coût : 
+Variable selon le type d'arme, avec timbre fiscal allant de 15 000 à 50 000 FCFA. 
+
+Conditions d'accès : 
+Résultat positif de l’enquête de moralité menée par les services de police. 
+Mention de tout permis de détention et de port d’arme en cas de possession antérieure.",procedure_arme_civile,
+Quelles pièces dois-je fournir pour obtenir une arme ?,"Vous devez fournir : 
+Une demande sur un formulaire avec un timbre fiscal approprié. 
+Une photocopie légalisée de la carte d’identité ou du passeport. 
+Un extrait d’acte de naissance. 
+Un certificat de résidence. 
+Un extrait de casier judiciaire de moins de trois mois. 
+Deux photos d’identité.",procedure_arme_civile,
+Quel est le coût pour l'obtention d'une arme ?,"Le coût est variable selon le type d'arme, avec un timbre fiscal allant de 15 000 à 50 000 FCFA.",procedure_arme_civile,
+Quelles sont les conditions d'accès pour acheter une arme ?,Vous devez avoir un résultat positif de l’enquête de moralité menée par les services de police et mentionner tout permis de détention et de port d’arme en cas de possession antérieure.,procedure_arme_civile,
+Comment se déroule la demande d'autorisation d'achat d'arme ?,Vous devez remplir une demande sur un formulaire et fournir les pièces requises ainsi que le paiement des timbres fiscaux appropriés.,procedure_arme_civile,
+Qui signe l'autorisation d'achat d'arme ?,L'autorisation d'achat d'arme est signée par le Ministre chargé de la sécurité.,procedure_arme_civile,
+Quelle est la procédure pour obtenir un passeport ordinaire ?,"Le passeport ordinaire est délivré par la Direction Générale de la Police Nationale à travers la Division de la Migration à Gounghin. Pour l'obtenir, il faut constituer un dossier avec les pièces suivantes à déposer à la Division de la Migration du lundi au vendredi. 
+
+Pièces à fournir pour les majeurs : 
+Une copie légalisée de l'acte de naissance. 
+Une copie légalisée du certificat de nationalité burkinabè. 
+Une copie légalisée de la CNIB. 
+Un casier judiciaire en cours de validité. 
+Un timbre de 200 FCFA. 
+Trois (03) photos d'identité au format passeport. 
+Un document justifiant votre profession. 
+La somme de cinquante mille (50 000 FCFA) pour les frais d'établissement. 
+Pour les femmes mariées souhaitant porter le nom de leur conjoint : une copie légalisée de l'acte de mariage. 
+
+Pour les mineurs : 
+L’acte de naissance de l’enfant. 
+Le certificat de nationalité de l’enfant. 
+Une autorisation parentale. 
+Document d’identité des deux parents (si le mineur réside au Burkina Faso), ou titre de séjour des deux parents (dans ce cas, l’autorisation parentale n’est pas nécessaire). 
+Un timbre fiscal de 200 FCFA plus la somme de 50 000 FCFA. 
+Trois (03) photos au format passeport. 
+Pour les militaires et paramilitaires : un certificat de présence au corps précisant l’établissement d’un passeport.",procedure_passeport_ordinaire,
+Quelles pièces dois-je fournir pour obtenir un passeport ?,"Pour les majeurs : 
+- Une copie légalisée de l'acte de naissance. 
+- Une copie légalisée du certificat de nationalité burkinabè. 
+- Une copie légalisée de la CNIB. 
+- Un casier judiciaire en cours de validité. 
+- Un timbre de 200 FCFA. 
+- Trois (03) photos d'identité au format passeport. 
+- Un document justifiant votre profession. 
+- 50 000 FCFA pour les frais d'établissement. 
+
+Pour les mineurs : 
+- L’acte de naissance de l’enfant. 
+- Le certificat de nationalité de l’enfant. 
+- Une autorisation parentale. 
+- Document d’identité des deux parents ou titre de séjour. 
+- Un timbre fiscal de 200 FCFA plus 50 000 FCFA. 
+- Trois (03) photos au format passeport.",procedure_passeport_ordinaire,
+Quel est le coût pour l'obtention d'un passeport ?,Le coût est de 50 000 FCFA + un timbre de 200 FCFA.,procedure_passeport_ordinaire,
+Quelles sont les conditions d'accès pour obtenir un passeport ?,Vous devez déposer le dossier à la Division de la Migration.,procedure_passeport_ordinaire,
+Où puis-je faire ma demande de passeport ordinaire ?,"La demande doit être faite à la Division de la Migration à Gounghin, du lundi au vendredi.",procedure_passeport_ordinaire,
+Que faire si je suis mineur et souhaite obtenir un passeport ?,"Pour les mineurs, il faut fournir l’acte de naissance, le certificat de nationalité, une autorisation parentale, et les documents d’identité des parents, en plus des frais et des photos.",procedure_passeport_ordinaire,
+Quelle est la procédure pour obtenir une Carte Nationale d'Identité Burkinabè (CNIB) ?,"La Carte Nationale d'Identité Burkinabè (CNIB) est un document officiel permettant de justifier son identité et sa nationalité burkinabè. Elle est obligatoire à partir de 15 ans et a une durée de validité de 10 ans. Pour l'obtenir, il faut se rendre en personne dans un Centre de Collecte des Données (CCD) avec les pièces justificatives.",procedure_cnib,
+Quelles pièces dois-je fournir pour obtenir la CNIB ?,"Pour les Burkinabè nés au Burkina Faso : une copie de l'acte de naissance. 
+Pour les Burkinabè nés à l'extérieur : une copie du certificat de nationalité et un formulaire de demande de carte nationale d'identité (remis sur place). 
+Pour les femmes souhaitant porter le nom de leur époux : une copie de l'acte de mariage. 
+Pour faire figurer la profession de commerçant : une copie du registre du commerce.",procedure_cnib,
+Quel est le coût pour obtenir une CNIB ?,Le coût est variable selon les localités.,procedure_cnib,
+Quelles sont les conditions d'accès pour obtenir la CNIB ?,Vous devez vous rendre en personne dans un Centre de Collecte des Données (CCD) avec les pièces justificatives.,procedure_cnib,
+À partir de quel âge doit-on avoir une CNIB ?,La CNIB est obligatoire à partir de 15 ans.,procedure_cnib,
+Quelle est la durée de validité de la CNIB ?,La CNIB a une durée de validité de 10 ans.,procedure_cnib,
+Où puis-je faire ma demande de CNIB ?,Vous devez vous rendre dans un Centre de Collecte des Données (CCD) avec vos pièces justificatives.,procedure_cnib,
+Quelle est la procédure pour créer une entreprise en tant que personne physique ?,"La création d'une personne physique implique plusieurs formalités, notamment : le Registre du Commerce et du Crédit Mobilier (RCCM), la déclaration d'existence fiscale et le numéro d'Identifiant Financier Unique (IFU), la carte professionnelle de commerçant (CPC) et la notification employeur (CNSS). 
+
+Pièces à fournir : 
+- Photocopie légalisée de la pièce d’identité ou du passeport du promoteur. 
+- Fiche de déclaration sur l’honneur dûment signée par le promoteur (formulaire disponible au CEFORE et sur le site de la MEBF). 
+- Extrait de casier judiciaire (Bulletin N°3) de moins de 3 mois. 
+- Copie de l’acte de mariage (s’il y a lieu). 
+- Certificat de résidence de l’année en cours. 
+- L’un des documents suivants au nom du créateur : contrat de bail à usage commercial, titre foncier, permis urbain d’habiter, attestation d’attribution de parcelle, facture d’eau ou d’électricité. 
+- Deux photos d’identité du promoteur. 
+- Formulaire de demande de la carte professionnelle de commerçant. 
+- Fiche de localisation visée par le service des impôts. 
+- Autorisation d'exercer le commerce ou accusé de réception de la demande d'autorisation d'exercer le commerce pour les étrangers. 
+
+Coût : 40 000 FCFA. 
+
+Conditions d'accès : Toute personne juridiquement capable d'exercer le commerce peut créer une entreprise.",procedure_entreprise_physique,
+Quelles pièces dois-je fournir pour créer une entreprise ?,"- Photocopie légalisée de la pièce d’identité ou du passeport du promoteur. 
+- Fiche de déclaration sur l’honneur dûment signée par le promoteur (formulaire disponible au CEFORE et sur le site de la MEBF). 
+- Extrait de casier judiciaire (Bulletin N°3) de moins de 3 mois. 
+- Copie de l’acte de mariage (s’il y a lieu). 
+- Certificat de résidence de l’année en cours. 
+- L’un des documents suivants au nom du créateur : contrat de bail à usage commercial, titre foncier, permis urbain d’habiter, attestation d’attribution de parcelle, facture d’eau ou d’électricité. 
+- Deux photos d’identité du promoteur. 
+- Formulaire de demande de la carte professionnelle de commerçant. 
+- Fiche de localisation visée par le service des impôts. 
+- Autorisation d'exercer le commerce ou accusé de réception de la demande d'autorisation d'exercer le commerce pour les étrangers.",procedure_entreprise_physique,
+Quel est le coût pour créer une entreprise ?,Le coût pour créer une entreprise est de 40 000 FCFA.,procedure_entreprise_physique,
+Quelles sont les conditions d'accès pour créer une entreprise ?,Toute personne juridiquement capable d'exercer le commerce peut créer une entreprise.,procedure_entreprise_physique,
+Quelles formalités sont nécessaires pour la création d'entreprise ?,"Les formalités nécessaires incluent le Registre du Commerce et du Crédit Mobilier (RCCM), la déclaration d'existence fiscale et le numéro d'Identifiant Financier Unique (IFU), la carte professionnelle de commerçant (CPC) et la notification employeur (CNSS).",procedure_entreprise_physique,
+,,,
+Quelles sont les étapes pour créer une entreprise pour les personnes morales au Burkina Faso ?,"La création d'une personne morale implique plusieurs formalités, notamment : le Registre du Commerce et du Crédit Mobilier (RCCM), la déclaration d'existence fiscale et le numéro d'Identifiant Financier Unique (IFU), ainsi que la notification employeur (CNSS).",procedure_entreprise_morale,
+Quels documents sont nécessaires pour faire une demande de création d'entreprise pour les personnes morales ?,"Photocopie de la pièce d’identité ou du passeport du ou des gérants et d’un des associés, fiche de déclaration sur l’honneur, extrait de casier judiciaire, exemplaire des statuts de la société, et d'autres documents spécifiques.",procedure_entreprise_morale,
+Quel est le coût associé à la création d'une entreprise pour les personnes morales ?,Le coût est de 47 500 FCFA.,procedure_entreprise_morale,
+Quelles sont les conditions d'accès pour créer une entreprise pour les personnes morales ?,Toute personne juridiquement capable d'exercer le commerce.,procedure_entreprise_morale,
+Comment obtenir le Registre du Commerce et du Crédit Mobilier (RCCM) pour une entreprise ?,Il faut suivre les formalités d'enregistrement auprès des autorités compétentes.,procedure_entreprise_morale,
+Quelle est la procédure pour obtenir le numéro d'Identifiant Financier Unique (IFU) ?,La demande se fait auprès des services fiscaux après avoir enregistré l'entreprise.,procedure_entreprise_morale,
+Quelles formalités doivent être remplies pour la déclaration d'existence fiscale ?,Il faut fournir des documents spécifiques à l'administration fiscale lors de l'enregistrement de l'entreprise.,procedure_entreprise_morale,
+Quels sont les documents requis pour la notification employeur (CNSS) ?,Des documents concernant les employés et l'entreprise doivent être soumis à la CNSS.,procedure_entreprise_morale,
+Comment se déroule la fiche de déclaration sur l’honneur pour les gérants ?,Elle doit être dûment signée et remise lors de la création de l'entreprise.,procedure_entreprise_morale,
+Quels types de documents peuvent servir de preuve d’adresse pour l'entreprise ?,"Contrat de bail, titre foncier, ou facture d'eau ou d'électricité.",procedure_entreprise_morale,
+Comment remplir le formulaire M0 pour la création d'une entreprise ?,Le formulaire est disponible auprès des autorités compétentes et doit être complété avec précision.,procedure_entreprise_morale,
+Quelles sont les exigences pour l'extrait de casier judiciaire des gérants ?,"Il doit être récent, de moins de 3 mois, et en cours de validité.",procedure_entreprise_morale,
+Comment obtenir une autorisation d'exercer le commerce pour les étrangers ?,Les étrangers doivent faire une demande auprès des autorités compétentes avec les documents requis.,procedure_entreprise_morale,
+Quelle est la procédure pour demander une candidature aux examens du permis de conduire ?,"Cette procédure permet à tout usager de composer un dossier de candidature aux examens du permis de conduire dans le but de l'obtenir. Aucune pièce n'est à fournir pour cette procédure. Coût : 5 000 FCFA (dossier de demande de candidature : 4 800 FCFA, timbre de 200 FCFA). Conditions : Inscription dans une auto-école. Informations complémentaires : La visite technique à l'OST concerne les catégories C, D et E.",procedure_examen_permis,
+Quels documents sont nécessaires pour la candidature aux examens du permis de conduire ?,Aucune pièce n'est à fournir pour cette procédure.,procedure_examen_permis,
+Quel est le coût associé à la demande de candidature aux examens du permis de conduire ?,"5 000 FCFA (dossier de demande de candidature : 4 800 FCFA, timbre de 200 FCFA).",procedure_examen_permis,
+Quelles sont les conditions d'accès pour s'inscrire aux examens du permis de conduire ?,Inscription dans une auto-école.,procedure_examen_permis,
+Y a-t-il des informations complémentaires concernant les examens ?,"La visite technique à l'OST concerne les catégories C, D et E.",procedure_examen_permis,
+Quelle est la procédure pour obtenir le certificat de nationalité burkinabè ?,"Les modes d'obtention de la nationalité burkinabè sont les suivants : 
+- Acte de naissance du demandeur. 
+- Certificat de nationalité burkinabè de l'un des parents (pour les demandeurs par filiation). 
+- Acte de mariage et certificat de nationalité burkinabè du conjoint (pour les étrangers mariés à un Burkinabè). 
+- Certificat de résidence et certificat de nationalité étrangère des parents (pour les majeurs étrangers nés au Burkina Faso). 
+- Déclaration souscrite devant le Président du Tribunal de Grande Instance pour les mineurs. 
+Coût : Variable selon les modalités, frais de traitement à prévoir. 
+Conditions : Être né(e) au Burkina Faso ou avoir des parents burkinabè, avoir résidé au Burkina Faso pendant une certaine durée selon les cas, remplir les conditions spécifiques selon le mode d'obtention.",procedure_cnib,
+Quels documents sont nécessaires pour obtenir le certificat de nationalité burkinabè ?,"Acte de naissance du demandeur, certificat de nationalité burkinabè de l'un des parents (pour les demandeurs par filiation), acte de mariage et certificat de nationalité burkinabè du conjoint (pour les étrangers mariés à un Burkinabè), certificat de résidence et certificat de nationalité étrangère des parents (pour les majeurs étrangers nés au Burkina Faso), déclaration souscrite devant le Président du Tribunal de Grande Instance pour les mineurs.",procedure_cnib,
+Quel est le coût associé à la demande de certificat de nationalité burkinabè ?,"Variable selon les modalités, frais de traitement à prévoir.",procedure_cnib,
+Quelles sont les conditions d'accès pour obtenir le certificat de nationalité burkinabè ?,"Être né(e) au Burkina Faso ou avoir des parents burkinabè, avoir résidé au Burkina Faso pendant une certaine durée selon les cas, remplir les conditions spécifiques selon le mode d'obtention.",procedure_cnib,
+Quelle est la procédure pour obtenir un extrait de casier judiciaire ?,"La demande en ligne de votre extrait de casier judiciaire se déroule en plusieurs étapes : 
+- Extrait de naissance ou jugement supplétif. 
+- Copie de la carte nationale d’identité ou du passeport (pour les personnes de plus de seize ans). 
+Coût : Frais de traitement à payer après validation de la demande. 
+Conditions : Fournir des informations personnelles, fournir des informations sur les parents, confirmer la validité des informations fournies pour générer un récépissé.",procedure_casier_judiciaire,
+Quels documents sont nécessaires pour obtenir un extrait de casier judiciaire ?,"Extrait de naissance ou jugement supplétif, copie de la carte nationale d’identité ou du passeport (pour les personnes de plus de seize ans).",procedure_casier_judiciaire,
+Quel est le coût associé à la demande d'extrait de casier judiciaire ?,Frais de traitement à payer après validation de la demande.,procedure_casier_judiciaire,
+Quelles sont les conditions d'accès pour obtenir un extrait de casier judiciaire ?,"Fournir des informations personnelles, fournir des informations sur les parents, confirmer la validité des informations fournies pour générer un récépissé.",procedure_casier_judiciaire,
+Où peut-on faire une demande d'extrait de casier judiciaire ?,La demande peut être faite en ligne via le site officiel : e-casierjudiciaire.,procedure_casier_judiciaire,
+Quel est le délai pour recevoir l'extrait de casier judiciaire après la demande ?,Le délai dépend du traitement de la demande , il est conseillé de consulter le site pour des informations spécifiques.,procedure_casier_judiciaire
+Que faire si des informations sont incorrectes dans le casier judiciaire ?,Il est possible de contester les informations en suivant la procédure indiquée sur le site officiel ou en contactant les autorités compétentes.,procedure_casier_judiciaire,
+Quelle est la procédure pour obtenir un certificat de nationalité burkinabè ?,"Le certificat de nationalité est une attestation délivrée par le président ou un juge du Tribunal de grande instance (TGI), au vu des pièces justificatives. 
+Il peut être demandé pour établir une carte nationale d’identité, un passeport, ou pour une candidature à un emploi dans la fonction publique.",procedure_certificat_nationalite,
+Quels documents sont nécessaires pour obtenir un certificat de nationalité ?,"- Extrait d’acte de naissance pour les burkinabè nés au Burkina Faso, et celui de l’un des parents. 
+- Extrait d’acte de naissance et le certificat de nationalité burkinabè de l’un des deux parents pour les burkinabè nés à l’étranger. 
+- Extrait d’acte de naissance, acte de mariage et certificat de nationalité burkinabè du conjoint pour les étrangers mariés. 
+- Extrait d’acte de naissance et certificat de résidence pour les apatrides. 
+- Extrait d’acte de naissance, décret de naturalisation pour les naturalisés, et certificat de nationalité du parent naturalisé.",procedure_certificat_nationalite,
+Quel est le coût associé à la demande de certificat de nationalité ?,"200 FCFA pour le timbre fiscal, 500 FCFA pour l’original et 100 FCFA pour chaque copie.",procedure_certificat_nationalite,
+Où faut-il se rendre pour demander un certificat de nationalité ?,Se rendre dans un tribunal de grande instance.,procedure_certificat_nationalite,
+Quel est le délai de traitement pour obtenir le certificat de nationalité ?,Le délai moyen de traitement est d’une semaine.,procedure_certificat_nationalite,
+Dans quels cas peut-on demander un certificat de nationalité ?,"Pour établir une carte nationale d’identité burkinabè, un passeport, ou pour une candidature à un emploi dans la fonction publique.",procedure_certificat_nationalite,
+Que faire si on n’a pas tous les documents requis pour la demande ?,Il est conseillé de contacter le tribunal de grande instance pour connaître les alternatives possibles ou les documents supplémentaires nécessaires.,procedure_certificat_nationalite,
+Quelle est la procédure pour célébrer un mariage à l'état civil ?,La célébration de mariage à l'état civil permet d'établir la situation matrimoniale des époux. Ce processus formalise le mariage et assure la protection des droits des conjoints.,procedure_mariage_civil,
+Quels documents sont nécessaires pour la célébration d'un mariage civil ?,"- Extrait d’acte de naissance de chacun des futurs époux ou jugement supplétif. 
+- CNIB des futurs époux. 
+- CNIB des témoins. 
+- Certificat de résidence de chacun des futurs époux. 
+- Certificat de visite prénuptiale. 
+- Certificat de non grossesse pour la femme, veuve ou divorcée. 
+- Certificat de capacité en mariage (pour les non nationaux). 
+- Extrait d’acte de mariage ou des mariages (s’il y a lieu). 
+- Extrait du jugement de divorce (s’il y a lieu). 
+- Autorisation administrative des supérieurs hiérarchiques (s’il y a lieu). 
+- Consentements des père et mère pour les mineurs. 
+- Choix du régime matrimonial adopté.",procedure_mariage_civil,
+Quel est le coût associé à la célébration d'un mariage civil ?,6 timbres communaux à 300 F + 1 timbre communal à 300 F + Frais pour la location de la salle de mariage (15 000 FCFA minimum) + Publication des bans (30 jours consécutifs).,procedure_mariage_civil,
+Quelles sont les conditions d'accès pour célébrer un mariage à l'état civil ?,Les futurs époux doivent être d'accord pour se marier et tous les documents requis doivent être fournis.,procedure_mariage_civil,
+Quels types de certificats médicaux sont requis pour le mariage civil ?,"Un certificat de visite prénuptiale délivré par un médecin ou, à défaut, un agent de santé, et un certificat de non grossesse pour la femme, veuve ou divorcée.",procedure_mariage_civil,
+Que se passe-t-il si un des futurs époux est mineur ?,"Le consentement des père et mère est requis, ainsi que du conseil de famille pour les majeurs en tutelle et du curateur pour les majeurs sous curatelle.",procedure_mariage_civil,
+Y a-t-il une période de publication des bans avant le mariage ?,"Oui, il y a une publication des bans qui dure 30 jours consécutifs.",procedure_mariage_civil,
+Quelle autorisation est nécessaire pour les non nationaux souhaitant se marier ?,Un certificat de capacité en mariage est requis pour les non nationaux.,procedure_mariage_civil,
+Quelle est la procédure pour obtenir un avis de mention de mariage ?,"L'avis de mention de mariage permet de prouver sur l’acte de naissance que l’intéressé(e) est marié(e). 
+Documents nécessaires : 
+- Acte de mariage. 
+- Acte de naissance des intéressés. 
+Coût : Gratuit. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_mention_mariage,
+Quels documents sont nécessaires pour l'avis de mention de mariage ?,"- Acte de mariage. 
+- Acte de naissance des intéressés.",procedure_mention_mariage,
+Quel est le coût pour obtenir un avis de mention de mariage ?,Gratuit.,procedure_mention_mariage,
+Quelles sont les conditions d'accès pour obtenir un avis de mention de mariage ?,Tous les documents requis doivent être fournis.,procedure_mention_mariage,
+À quoi sert l'avis de mention de mariage ?,Il prouve sur l’acte de naissance que l’intéressé(e) est marié(e).,procedure_mention_mariage,
+Où faut-il faire la demande d'avis de mention de mariage ?,La demande doit être faite auprès de l'état civil où l'acte de mariage a été enregistré.,procedure_mention_mariage,
+Quel est le délai de traitement pour l'avis de mention de mariage ?,"Le délai peut varier selon l'administration, mais il est généralement rapide.",procedure_mention_mariage,
+Quelle est la procédure pour obtenir un livret de famille ?,"Le livret de famille permet d'établir les liens familiaux et la filiation entre les parents et leur(s) enfant(s). 
+Documents nécessaires : 
+- Certificat de résidence. 
+- Extrait d’acte de mariage ou d’acte de naissance du conjoint. 
+- Acte de naissance de tous les membres de la famille. 
+Coût : 2000 F à Ouagadougou ; variable selon les autres communes. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_livret_famille,
+Quels documents sont nécessaires pour obtenir un livret de famille ?,"- Certificat de résidence. 
+- Extrait d’acte de mariage ou d’acte de naissance du conjoint. 
+- Acte de naissance de tous les membres de la famille.",procedure_livret_famille,
+Quel est le coût pour obtenir un livret de famille ?,2000 F à Ouagadougou , variable selon les autres communes.,procedure_livret_famille
+Quelles sont les conditions d'accès pour obtenir un livret de famille ?,Tous les documents requis doivent être fournis.,procedure_livret_famille,
+À quoi sert le livret de famille ?,Il permet d'établir les liens familiaux et la filiation entre les parents et leur(s) enfant(s).,procedure_livret_famille,
+Où faut-il faire la demande de livret de famille ?,La demande doit être faite auprès de l'état civil de la commune de résidence.,procedure_livret_famille,
+Quel est le délai de traitement pour le livret de famille ?,"Le délai peut varier, mais il est généralement rapide.",procedure_livret_famille,
+Quelle est la procédure pour obtenir un extrait d’acte de mariage ?,"L'extrait d'acte de mariage établit la preuve du mariage entre les époux. C’est un acte qui permet la publicité de l’acte du mariage. 
+Documents nécessaires : 
+- Copie intégrale de déclaration de mariage. 
+- Extrait ou copie légalisée de l’acte de mariage. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte). 
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_extrait_acte_mariage,
+Quels documents sont nécessaires pour obtenir un extrait d’acte de mariage ?,"- Copie intégrale de déclaration de mariage. 
+- Extrait ou copie légalisée de l’acte de mariage. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte).",procedure_extrait_acte_mariage,
+Quel est le coût pour obtenir un extrait d’acte de mariage ?,300 F.,procedure_extrait_acte_mariage,
+Quelles sont les conditions d'accès pour obtenir un extrait d’acte de mariage ?,Tous les documents requis doivent être fournis.,procedure_extrait_acte_mariage,
+À quoi sert l'extrait d’acte de mariage ?,Il établit la preuve du mariage entre les époux et permet la publicité de l’acte du mariage.,procedure_extrait_acte_mariage,
+Où faut-il faire la demande d'extrait d’acte de mariage ?,La demande doit être faite auprès de l'état civil de la commune où le mariage a été célébré.,procedure_extrait_acte_mariage,
+Quel est le délai de traitement pour l'extrait d’acte de mariage ?,"Le délai peut varier, mais il est généralement rapide.",procedure_extrait_acte_mariage,
+Quelle est la procédure pour obtenir un extrait d’acte de naissance ?,"L'extrait d'acte de naissance prouve l’identité juridique de la personne et permet de faire la publicité de l’acte de naissance. 
+Documents nécessaires : 
+- Copie intégrale de déclaration de naissance. 
+- Extrait ou copie légalisée de l’acte de naissance. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte). 
+Coût : Gratuit. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_extrait_acte_naissance,
+Quels documents sont nécessaires pour obtenir un extrait d’acte de naissance ?,"- Copie intégrale de déclaration de naissance. 
+- Extrait ou copie légalisée de l’acte de naissance. À défaut, fournir les références de l’acte (numéro et année d’établissement de l’acte).",procedure_extrait_acte_naissance,
+Quel est le coût pour obtenir un extrait d’acte de naissance ?,Gratuit.,procedure_extrait_acte_naissance,
+Quelles sont les conditions d'accès pour obtenir un extrait d’acte de naissance ?,Tous les documents requis doivent être fournis.,procedure_extrait_acte_naissance,
+À quoi sert l'extrait d’acte de naissance ?,Il prouve l’identité juridique de la personne et permet de faire la publicité de l’acte de naissance.,procedure_extrait_acte_naissance,
+Où faut-il faire la demande d'extrait d’acte de naissance ?,La demande doit être faite auprès de l'état civil de la commune où la naissance a été enregistrée.,procedure_extrait_acte_naissance,
+Quel est le délai de traitement pour l'extrait d’acte de naissance ?,"Le délai peut varier, mais il est généralement rapide.",procedure_extrait_acte_naissance,
+Quelle est la procédure pour obtenir un certificat de reconnaissance d’enfant à naître ?,"Le certificat de reconnaissance d’enfant à naître établit la preuve de la paternité d’un enfant à naître. 
+Documents nécessaires : 
+- CNIB ou passeport du père. 
+- CNIB ou passeport de la mère. 
+- Certificat de grossesse. 
+- Preuve de la notification si l’homme est marié. 
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_reconnaissance_enfant_naître,
+Quels documents sont nécessaires pour obtenir le certificat de reconnaissance d’enfant à naître ?,"- CNIB ou passeport du père. 
+- CNIB ou passeport de la mère. 
+- Certificat de grossesse. 
+- Preuve de la notification si l’homme est marié.",procedure_certificat_reconnaissance_enfant_naître,
+Quel est le coût pour obtenir le certificat de reconnaissance d’enfant à naître ?,300 F.,procedure_certificat_reconnaissance_enfant_naître,
+Quelles sont les conditions d'accès pour obtenir le certificat de reconnaissance d’enfant à naître ?,Tous les documents requis doivent être fournis.,procedure_certificat_reconnaissance_enfant_naître,
+À quoi sert le certificat de reconnaissance d’enfant à naître ?,Il établit la preuve de la paternité d’un enfant à naître.,procedure_certificat_reconnaissance_enfant_naître,
+Où faut-il faire la demande de certificat de reconnaissance d’enfant à naître ?,La demande doit être faite auprès de l'état civil ou du service concerné selon les procédures locales.,procedure_certificat_reconnaissance_enfant_naître,
+Quel est le délai de traitement pour le certificat de reconnaissance d’enfant à naître ?,"Le délai peut varier, mais il est généralement rapide.",procedure_certificat_reconnaissance_enfant_naître,
+Quelle est la procédure pour la déclaration de naissance ou la copie intégrale d’acte de naissance ?,"La déclaration de naissance ou la copie intégrale d’acte de naissance authentifie et établit la preuve juridique de la naissance d’une personne. 
+
+Pièces à fournir : 
+- L’attestation d’accouchement (au sein d’une formation sanitaire) ou l’attestation de naissance (hors formation sanitaire); ces documents sont facultatifs pour la déclaration de naissance. 
+
+Coût : Gratuit. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_declaration_naissance,
+Quelles pièces doivent être fournies pour la déclaration de naissance ?,- L’attestation d’accouchement (au sein d’une formation sanitaire) ou l’attestation de naissance (hors formation sanitaire), ces documents sont facultatifs pour la déclaration de naissance.,procedure_declaration_naissance
+Quel est le coût associé à la déclaration de naissance ?,La déclaration de naissance est gratuite.,procedure_declaration_naissance,
+Quelles sont les conditions d'accès pour faire une déclaration de naissance ?,Tous les documents requis doivent être fournis.,procedure_declaration_naissance,
+Quelle est la procédure pour obtenir un certificat de non-séparation de corps ?,"Le certificat de non-séparation de corps établit le statut de non-séparation de corps d’un conjoint. 
+
+Pièces à fournir : 
+- Acte de mariage ou acte de naissance. 
+- CNI des témoins. 
+- CNIB ou passeport du demandeur. 
+
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_non_separation,
+Quelles pièces doivent être fournies pour obtenir le certificat de non-séparation de corps ?,"- Acte de mariage ou acte de naissance. 
+- CNI des témoins. 
+- CNIB ou passeport du demandeur.",procedure_certificat_non_separation,
+Quel est le coût associé au certificat de non-séparation de corps ?,Le coût est de 300 F.,procedure_certificat_non_separation,
+Quelles sont les conditions d'accès pour obtenir le  certificat de non-séparation de corps ?,Tous les documents requis doivent être fournis.,procedure_certificat_non_separation,
+Qui peut demander un certificat de non-séparation de corps ?,Tout conjoint souhaitant prouver son statut de non-séparation de corps.,procedure_certificat_non_separation,
+Quelle est la durée de validité du  certificat de non-séparation de corps ?,"Ce certificat n'a pas de durée de validité spécifiée, mais il est conseillé de le demander au moment où il est nécessaire pour une formalité.",procedure_certificat_non_separation,
+Quelle est la procédure pour obtenir un certificat de vie et d’entretien ?,"Le certificat de vie et d’entretien établit l’existence des ayant droits et autres enfants à charge. 
+
+Pièces à fournir : 
+- Extrait d’acte de naissance des enfants. 
+- CNIB du tuteur/tutrice. 
+- Certificat de tutelle. 
+
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_vie_entretien,
+Qu'est-ce qu'un certificat de vie et d’entretien ?,C'est un document officiel qui atteste de l'existence des enfants à charge et des ayant droits d'une personne.,procedure_certificat_vie_entretien,
+Quelles pièces doivent être fournies pour obtenir le certificat de vie et d’entretien ?,"- Extrait d’acte de naissance des enfants. 
+- CNIB du tuteur/tutrice. 
+- Certificat de tutelle.",procedure_certificat_vie_entretien,
+Quel est le coût associé au certificat de vie et d’entretien ?,Le coût est de 300 F.,procedure_certificat_vie_entretien,
+Quelles sont les conditions d'accès pour obtenir ce certificat de vie et d’entretien ?,Tous les documents requis doivent être fournis.,procedure_certificat_vie_entretien,
+Qui peut demander un certificat de vie et d’entretien ?,Tout tuteur ou tutrice ayant des enfants à charge et souhaitant prouver leur existence.,procedure_certificat_vie_entretien,
+Quelle est l'importance du certificat de vie et d’entretien ?,Il est souvent requis pour des formalités administratives telles que l'accès à des prestations sociales ou des droits de tutelle.,procedure_certificat_vie_entretien,
+Comment le certificat de vie et d’entretien est-il délivré ?,Il est délivré par les autorités compétentes après vérification des documents fournis.,procedure_certificat_vie_entretien,
+Quelle est la durée de validité de ce certificat de vie et d’entretien ?,"Ce certificat n'a pas de durée de validité spécifiée, mais il est conseillé de le demander au moment où il est nécessaire pour une formalité.",procedure_certificat_vie_entretien,
+"En cas de changement de situation familiale, que doit-on faire concernant le certificat de vie et d’entretien ?","Il est conseillé de mettre à jour le certificat pour refléter les changements de situation, comme un changement de tuteur ou des ajouts d’enfants à charge.",procedure_certificat_vie_entretien,
+Quelle est la procédure pour obtenir un certificat de vie - adultes ?,"Le certificat de vie établit la preuve d’existence ou de vie d’une personne. 
+
+Pièces à fournir : 
+- CNIB ou passeport de l’intéressé. 
+
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_vie_adultes,
+Qu'est-ce qu'un certificat de vie - adultes ?,C'est un document officiel qui atteste de l'existence ou de la vie d'une personne.,procedure_certificat_vie_adultes,
+Quelles pièces doivent être fournies pour obtenir le certificat de vie - adultes ?,- CNIB ou passeport de l’intéressé.,procedure_certificat_vie_adultes,
+Quel est le coût associé au certificat de vie - adultes ?,Le coût est de 300 F.,procedure_certificat_vie_adultes,
+Quelles sont les conditions d'accès pour obtenir ce certificat de vie - adultes ?,Tous les documents requis doivent être fournis.,procedure_certificat_vie_adultes,
+Qui peut demander un certificat de vie - adultes ?,Toute personne souhaitant prouver son existence ou sa vie peut demander ce certificat.,procedure_certificat_vie_adultes,
+Quelle est l'importance du certificat de vie - adultes ?,Il est souvent requis pour des formalités administratives comme l'ouverture de comptes bancaires ou des demandes de prestations sociales.,procedure_certificat_vie_adultes,
+Comment le certificat de vie - adultes est-il délivré ?,Il est délivré par les autorités compétentes après vérification des documents fournis.,procedure_certificat_vie_adultes,
+Quelle est la durée de validité de ce certificat de vie - adultes ?,"Ce certificat n'a pas de durée de validité spécifiée, mais il est conseillé de le demander au moment où il est nécessaire pour une formalité.",procedure_certificat_vie_adultes,
+"En cas de changement de situation personnelle, que doit-on faire concernant le certificat de vie - adultes ?",Il n'est généralement pas nécessaire de mettre à jour ce certificat à moins qu'une nouvelle preuve d'existence soit requise pour des formalités administratives.,procedure_certificat_vie_adultes,
+Quelle est la procédure pour obtenir une déclaration de décès ou copie intégrale d’acte de décès ?,"La déclaration de décès ou la copie intégrale d’acte de décès établit la preuve juridique du décès d’une personne. 
+
+Pièces à fournir : 
+- Constat du décès délivré par un médecin. 
+- Acte de naissance des intéressés (demandeur et défunt). 
+
+Coût : Gratuit. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_declaration_deces,
+Qu'est-ce qu'une déclaration de décès ?,C'est un document officiel qui atteste du décès d'une personne et permet d'établir la preuve juridique de cet événement.,procedure_declaration_deces,
+Quelles pièces doivent être fournies pour obtenir une déclaration de décès ?,"- Constat du décès délivré par un médecin. 
+- Acte de naissance des intéressés (demandeur et défunt).",procedure_declaration_deces,
+Quel est le coût associé à la déclaration de décès ?,La déclaration de décès est gratuite.,procedure_declaration_deces,
+Quelles sont les conditions d'accès pour obtenir cette déclaration de décès ?,Tous les documents requis doivent être fournis.,procedure_declaration_deces,
+Qui peut demander une déclaration de décès ?,"Toute personne ayant un lien avec le défunt, généralement un proche ou un membre de la famille.",procedure_declaration_deces,
+Quelle est l'importance de la déclaration de décès ?,"Elle est essentielle pour les démarches administratives post-décès, comme les assurances, la succession ou la fermeture de comptes bancaires.",procedure_declaration_deces,
+Comment la déclaration de décès est-elle délivrée ?,Elle est délivrée par les autorités compétentes après vérification des documents fournis.,procedure_declaration_deces,
+Quelle est la durée de validité de la déclaration de décès ?,"Ce document n'a pas de durée de validité spécifiée, mais il est requis lors des démarches liées au décès.",procedure_declaration_deces,
+"En cas de non-déclaration d'un décès, quelles peuvent être les conséquences ?","Cela peut entraîner des complications administratives pour les proches, notamment des difficultés dans la gestion de la succession ou des problèmes liés à l'assurance-vie.",procedure_declaration_deces,
+Quelle est la procédure pour obtenir une autorisation d'inhumer à domicile ?,"L'autorisation d'inhumer à domicile permet d'autoriser l'inhumation d'un défunt à son domicile. 
+
+Pièces à fournir : 
+- Demande manuscrite timbrée à 300 F. 
+- Copie légalisée de la CNIB du demandeur. 
+- Copie légalisée de la CNIB du défunt. 
+- Copie du permis urbain d’habiter. 
+- Constat de décès délivré par un agent de santé. 
+
+Coût : Les frais varient entre 50 000 et 200 000 F pour l’inhumation à domicile, selon la catégorie de la commune. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_inhumation_domicile,
+Qu'est-ce qu'une autorisation d'inhumer à domicile ?,"C'est un document officiel qui permet d'autoriser l'inhumation d'un défunt à son domicile, respectant les réglementations en vigueur.",procedure_inhumation_domicile,
+Quelles pièces doivent être fournies pour obtenir une autorisation d'inhumer à domicile ?,"- Demande manuscrite timbrée à 300 F. 
+- Copie légalisée de la CNIB du demandeur. 
+- Copie légalisée de la CNIB du défunt. 
+- Copie du permis urbain d’habiter. 
+- Constat de décès délivré par un agent de santé.",procedure_inhumation_domicile,
+Quel est le coût associé à l'autorisation d'inhumer à domicile ?,"Les frais varient entre 50 000 et 200 000 F pour l’inhumation à domicile, selon la catégorie de la commune.",procedure_inhumation_domicile,
+Quelles sont les conditions d'accès pour obtenir cette autorisation d'inhumer à domicile ?,Tous les documents requis doivent être fournis.,procedure_inhumation_domicile,
+Qui peut demander une autorisation d'inhumer à domicile ?,"Toute personne ayant un lien avec le défunt, généralement un proche ou un membre de la famille.",procedure_inhumation_domicile,
+Quelle est l'importance de l'autorisation d'inhumer à domicile ?,Elle est essentielle pour s'assurer que l'inhumation est conforme aux lois et règlements en matière de santé publique et de respect des rites funéraires.,procedure_inhumation_domicile,
+Comment l'autorisation d'inhumer à domicile est-elle délivrée ?,Elle est délivrée par les autorités compétentes après vérification des documents fournis.,procedure_inhumation_domicile,
+Quel est le délai de traitement pour obtenir une autorisation d'inhumer à domicile ?,Le délai peut varier selon la commune et la rapidité de la soumission des documents requis.,procedure_inhumation_domicile,
+Quelles peuvent être les conséquences d'une inhumation sans autorisation ?,Une inhumation sans autorisation peut entraîner des poursuites judiciaires et des complications administratives pour les proches.,procedure_inhumation_domicile,
+Quelle est la procédure pour obtenir un certificat de non inscription ?,"Le certificat de non inscription fournit la preuve du non enregistrement de la naissance, du mariage et du décès dans les registres de l’état. 
+
+Pièces à fournir : 
+- CNIB ou extrait d’acte de naissance des parents. 
+- Attestation de naissance de l’enfant non enregistré ou tout autre document que l’intéressé possède. 
+
+Coût : Gratuit. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_non_inscription,
+Qu'est-ce qu'un certificat de non inscription ?,"C'est un document qui prouve qu'une naissance, un mariage ou un décès n'ont pas été enregistrés dans les registres de l'état.",procedure_certificat_non_inscription,
+Quelles pièces doivent être fournies pour obtenir un certificat de non inscription ?,"- CNIB ou extrait d’acte de naissance des parents. 
+- Attestation de naissance de l’enfant non enregistré ou tout autre document que l’intéressé possède.",procedure_certificat_non_inscription,
+Quel est le coût associé au certificat de non inscription ?,Le certificat est gratuit.,procedure_certificat_non_inscription,
+Quelles sont les conditions d'accès pour obtenir ce certificat de non inscription ?,Tous les documents requis doivent être fournis.,procedure_certificat_non_inscription,
+Qui peut demander un certificat de non inscription ?,Toute personne concernée par le non enregistrement ou ses représentants légaux.,procedure_certificat_non_inscription,
+Quelle est l'importance d'un certificat de non inscription ?,"Il est crucial pour prouver qu'un événement légal (naissance, mariage, décès) n'est pas enregistré, ce qui peut être nécessaire pour diverses démarches administratives.",procedure_certificat_non_inscription,
+Comment le certificat de non inscription est-il délivré ?,Il est délivré par les autorités compétentes après vérification des documents fournis.,procedure_certificat_non_inscription,
+Quel est le délai de traitement pour obtenir un certificat de non inscription ?,"Le délai peut varier, mais il est généralement rapide si tous les documents sont fournis.",procedure_certificat_non_inscription,
+Quelles conséquences peuvent découler de l'absence d'un certificat de non inscription ?,L'absence de ce certificat peut compliquer les démarches administratives liées à la reconnaissance légale d'une personne ou d'un événement.,procedure_certificat_non_inscription,
+Quelle est la procédure pour obtenir un certificat de vie et de procuration ?,"Le certificat de vie et de procuration autorise une personne à effectuer des actes en son nom. 
+
+Pièces à fournir : 
+- CNIB du mandant et du mandataire. 
+- Procuration légalisée par une autorité administrative. 
+
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_certificat_vie_procuration,
+Qu'est-ce qu'un certificat de vie et de procuration ?,C'est un document qui atteste de la vie d'une personne et lui permet de désigner une autre personne pour agir en son nom.,procedure_certificat_vie_procuration,
+Quelles pièces doivent être fournies pour obtenir un certificat de vie et de procuration ?,"- CNIB du mandant et du mandataire. 
+- Procuration légalisée par une autorité administrative.",procedure_certificat_vie_procuration,
+Quel est le coût associé au certificat de vie et de procuration ?,Le coût est de 300 F.,procedure_certificat_vie_procuration,
+Quelles sont les conditions d'accès pour obtenir ce certificat de vie et de procuration ?,Tous les documents requis doivent être fournis.,procedure_certificat_vie_procuration,
+Qui peut demander un certificat de vie et de procuration ?,Le mandant (la personne qui donne la procuration) doit demander le certificat.,procedure_certificat_vie_procuration,
+Quelle est l'importance d'un certificat de vie et de procuration ?,"Il permet à une personne d'agir au nom d'une autre, facilitant ainsi les démarches administratives ou juridiques.",procedure_certificat_vie_procuration,
+Comment le certificat de vie et de procuration est-il délivré ?,Il est délivré par les autorités compétentes après vérification des documents fournis.,procedure_certificat_vie_procuration,
+Quel est le délai de traitement pour obtenir un certificat de vie et de procuration ?,"Le délai peut varier, mais il est généralement rapide si tous les documents sont fournis.",procedure_certificat_vie_procuration,
+Quelles conséquences peuvent découler de l'absence d'un certificat de vie et de procuration ?,"Sans ce certificat, le mandataire ne pourra pas effectuer les actes pour lesquels il a été désigné, ce qui peut causer des désagréments dans des situations juridiques ou administratives.",procedure_certificat_vie_procuration,
+Quelle est la procédure pour obtenir une légalisation ou certification de document ?,"La légalisation ou certification de document établit la légalité ou authentifie un document. 
+
+Pièces à fournir : 
+- Original du document et sa photocopie. 
+
+Coût : 300 F. 
+Conditions d'accès : Tous les documents requis doivent être fournis.",procedure_legalisation_document,
+Qu'est-ce qu'une légalisation ou certification de document ?,"C'est un processus qui atteste de l'authenticité d'un document, le rendant légalement valide.",procedure_legalisation_document,
+Quelles pièces doivent être fournies pour la légalisation ou certification de document ?,- Original du document et sa photocopie.,procedure_legalisation_document,
+Quel est le coût associé à la légalisation ou certification de document ?,Le coût est de 300 F.,procedure_legalisation_document,
+Quelles sont les conditions d'accès pour obtenir une légalisation ou certification de document ?,Tous les documents requis doivent être fournis.,procedure_legalisation_document,
+Qui peut demander la légalisation ou certification de document ?,Toute personne possédant le document à légaliser ou certifier peut en faire la demande.,procedure_legalisation_document,
+Pourquoi est-il important de légaliser ou certifier un document ?,La légalisation ou certification renforce la crédibilité et l'acceptation du document dans des contextes juridiques ou administratifs.,procedure_legalisation_document,
+Comment se déroule le processus de légalisation ou certification de document ?,"Le demandeur présente le document original et sa photocopie aux autorités compétentes, qui procèdent à la vérification et à la légalisation.",procedure_legalisation_document,
+Quel est le délai de traitement pour obtenir une légalisation ou certification de document ?,"Le délai peut varier, mais il est généralement rapide si tous les documents sont fournis.",procedure_legalisation_document,
+Quelles conséquences peuvent découler de l'absence de légalisation ou certification d'un document ?,"Un document non légalisé ou non certifié peut ne pas être accepté dans les procédures administratives ou juridiques, entraînant des complications pour le demandeur.",procedure_legalisation_document,
+Quelle est la procédure pour obtenir une autorisation d’ouverture de débit de boissons ?,"L'autorisation d'ouverture de débit de boissons permet à une personne de s’installer sur le domaine public pour une activité de vente de boissons. 
+
+Pièces à fournir : 
+- Demande manuscrite timbrée à 300 F, précisant le lieu, le type d’installation et le type de boissons à vendre. 
+- Plan indicatif du lieu d’installation. 
+- Copie légalisée de la CNIB ou du passeport du requérant. 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Certificat de visite et de contre-visite médicale du personnel servant. 
+
+Coût : Enquête policière + 300 F. 
+Conditions d'accès : L’établissement ne doit pas être dans une zone d’habitation, situé à plus de 400 mètres des centres d’enseignement, et l'autorisation est donnée en tenant compte de la catégorie de l’établissement.",procedure_ouverture_debit_boissons,
+Qu'est-ce qu'une autorisation d’ouverture de débit de boissons ?,"C'est un document qui permet à une personne de vendre des boissons sur le domaine public, sous certaines conditions.",procedure_ouverture_debit_boissons,
+Quelles pièces doivent être fournies pour obtenir une autorisation d’ouverture de débit de boissons ?,"- Demande manuscrite timbrée à 300 F. 
+- Plan indicatif du lieu d’installation. 
+- Copie légalisée de la CNIB ou du passeport. 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Certificat de visite et de contre-visite médicale.",procedure_ouverture_debit_boissons,
+Quel est le coût associé à l'obtention d'une autorisation d’ouverture de débit de boissons ?,Le coût comprend une enquête policière et 300 F.,procedure_ouverture_debit_boissons,
+Quelles sont les conditions d'accès pour obtenir une autorisation d’ouverture de débit de boissons ?,L’établissement ne doit pas être dans une zone d’habitation et doit être situé à plus de 400 mètres des centres d’enseignement. L'autorisation dépend également de la catégorie de l’établissement.,procedure_ouverture_debit_boissons,
+Pourquoi est-il nécessaire d'obtenir une autorisation d’ouverture de débit de boissons ?,"Pour réglementer la vente de boissons, assurer la sécurité publique et respecter les normes de santé et d'urbanisme.",procedure_ouverture_debit_boissons,
+Quel type d'enquête est requis lors de la demande d'une autorisation d’ouverture de débit de boissons ?,Une enquête policière est effectuée pour vérifier la conformité de la demande et les antécédents du requérant.,procedure_ouverture_debit_boissons,
+Que se passe-t-il si l'établissement est situé à moins de 400 mètres d'un établissement scolaire ?,L'autorisation sera refusée si l'établissement ne respecte pas la distance minimale exigée.,procedure_ouverture_debit_boissons,
+Quels types de boissons peuvent être vendus avec une autorisation d’ouverture de débit de boissons ?,"Cela dépend de la catégorie de l’établissement : 
+- Catégorie 1 : boissons non alcoolisées. 
+- Catégorie 2 : boissons alcoolisées. 
+- Catégorie 3 : spiritueux.",procedure_ouverture_debit_boissons,
+Quels documents peuvent retarder le traitement de la demande d'autorisation d’ouverture de débit de boissons ?,Tout document manquant ou inexact peut entraîner des retards dans le traitement de la demande.,procedure_ouverture_debit_boissons,
+Quelle est la procédure pour faire une demande d’occupation des salles de classe ?,"La demande d'occupation des salles de classe permet d'être autorisé à utiliser une salle de classe en dehors des heures de cours. 
+
+Pièces à fournir : 
+- Demande timbrée. 
+- Copie légalisée de la CNIB du demandeur responsable. 
+
+Coût : 300 F. 
+Conditions d'accès : La demande doit être faite pour des activités spécifiques en dehors des heures de classe.",procedure_occupation_salles_classe,
+Qu'est-ce qu'une demande d’occupation des salles de classe ?,C'est une demande pour obtenir l'autorisation d'utiliser une salle de classe en dehors des heures normales de cours pour des activités éducatives.,procedure_occupation_salles_classe,
+Quelles pièces doivent être fournies pour faire une demande d’occupation des salles de classe ?,"- Demande timbrée. 
+- Copie légalisée de la CNIB du demandeur responsable.",procedure_occupation_salles_classe,
+Quel est le coût associé à une demande d’occupation des salles de classe ?,Le coût est de 300 F.,procedure_occupation_salles_classe,
+Quelles sont les conditions d'accès pour faire une demande d’occupation des salles de classe ?,La demande doit être faite pour des activités spécifiques en dehors des heures de classe.,procedure_occupation_salles_classe,
+Pourquoi est-il nécessaire de faire une demande d’occupation des salles de classe ?,Pour garantir que les ressources des établissements scolaires sont utilisées de manière appropriée et sécurisée pour des activités éducatives en dehors des heures normales de cours.,procedure_occupation_salles_classe,
+Quelle est la durée de validité d'une demande d’occupation des salles de classe une fois acceptée ?,"La durée de validité peut varier selon l'établissement, mais il est généralement conseillé de vérifier auprès de l'administration pour connaître les conditions spécifiques.",procedure_occupation_salles_classe,
+Que se passe-t-il si les documents requis ne sont pas fournis pour la demande d’occupation des salles ?,La demande risque d'être rejetée ou retardée jusqu'à ce que tous les documents nécessaires soient fournis.,procedure_occupation_salles_classe,
+Quelles activités peuvent être réalisées dans les salles de classe pendant l'occupation ?,"Les activités doivent être éducatives, telles que des cours du soir ou des cours d’appui. Les activités récréatives ou commerciales peuvent être interdites.",procedure_occupation_salles_classe,
+Comment se fait l'attribution des salles de classe pour les demandes acceptées ?,"L'attribution se fait généralement par l'administration de l'établissement, en tenant compte de la disponibilité et de la nature de l'activité demandée.",procedure_occupation_salles_classe,
+Quelle est la procédure pour faire une demande de prise en charge psychologique ?,"La demande de prise en charge psychologique permet d'obtenir un soutien psychologique pour les personnes dans le besoin. 
+
+Pièces à fournir : 
+- Demande timbrée. 
+
+Coût : 300 F. 
+Conditions d'accès : La prise en charge est accordée jusqu’à guérison supposée du malade.",procedure_prise_en_charge_psychologique,
+Qu'est-ce qu'une demande de prise en charge psychologique ?,"C'est une demande pour obtenir un soutien psychologique pour des personnes qui en ont besoin, notamment en cas de troubles mentaux ou de stress important.",procedure_prise_en_charge_psychologique,
+Quelles pièces doivent être fournies pour faire une demande de prise en charge psychologique ?,- Demande timbrée.,procedure_prise_en_charge_psychologique,
+Quel est le coût associé à une demande de prise en charge psychologique ?,Le coût est de 300 F.,procedure_prise_en_charge_psychologique,
+Quelles sont les conditions d'accès pour faire une demande de prise en charge psychologique ?,La prise en charge est accordée jusqu’à guérison supposée du malade.,procedure_prise_en_charge_psychologique,
+Pourquoi est-il nécessaire de faire une demande de prise en charge psychologique ?,Pour accéder à un soutien professionnel en santé mentale et améliorer le bien-être psychologique de la personne concernée.,procedure_prise_en_charge_psychologique,
+Quels types de soutien peuvent être offerts lors de la prise en charge psychologique ?,"Des consultations individuelles, des thérapies de groupe, ou des interventions en cas de crise peuvent être proposés selon les besoins de la personne.",procedure_prise_en_charge_psychologique,
+Quelle est la durée de la prise en charge psychologique une fois la demande acceptée ?,"La durée dépend de la gravité des troubles et des besoins individuels, mais elle se poursuit généralement jusqu'à la guérison supposée.",procedure_prise_en_charge_psychologique,
+Que se passe-t-il si la demande de prise en charge psychologique est rejetée ?,"Un refus peut être justifié par un manque de pièces justificatives ou d'évaluation des besoins, et la personne peut être conseillée de re-soumettre sa demande avec des informations supplémentaires.",procedure_prise_en_charge_psychologique,
+Comment se déroule la prise en charge psychologique après l'acceptation de la demande ?,Un professionnel de la santé mentale prendra contact pour planifier les séances de consultation et évaluer les besoins spécifiques de la personne.,procedure_prise_en_charge_psychologique,
+Quelle est la procédure pour obtenir un certificat de résidence ?,"Le certificat de résidence atteste du lieu de résidence d’une personne auprès des autorités compétentes. 
+
+Pièces à fournir : 
+- Document d’identité (CNIB ou passeport). 
+- Quittance de la taxe de résidence ou certificat de non-imposition. 
+
+Coût : 300 F à Ouagadougou ; variable selon les autres communes. 
+Conditions d'accès : La demande doit être faite par la personne concernée.",procedure_certificat_residence,
+Qu'est-ce qu'un certificat de résidence ?,"C'est un document officiel qui atteste du lieu de résidence d'une personne, souvent requis pour des démarches administratives.",procedure_certificat_residence,
+Quelles pièces doivent être fournies pour obtenir un certificat de résidence ?,"- Document d’identité (CNIB ou passeport). 
+- Quittance de la taxe de résidence ou certificat de non-imposition.",procedure_certificat_residence,
+Quel est le coût associé à un certificat de résidence ?,"Le coût est de 300 F à Ouagadougou, variable selon les autres communes.",procedure_certificat_residence,
+Qui peut faire une demande de certificat de résidence ?,La demande doit être faite par la personne concernée.,procedure_certificat_residence,
+Pourquoi est-il nécessaire d'obtenir un certificat de résidence ?,"Pour attester de son lieu de résidence auprès des autorités, souvent nécessaire pour des démarches administratives ou pour prouver son statut légal dans une commune.",procedure_certificat_residence,
+Combien de temps faut-il pour obtenir un certificat de résidence ?,"Le délai peut varier selon les autorités locales, mais il est généralement traité rapidement si tous les documents sont fournis correctement.",procedure_certificat_residence,
+Que faire si la demande de certificat de résidence est refusée ?,Un refus peut être dû à des documents manquants ou incorrects. Il est conseillé de vérifier les raisons du refus et de soumettre à nouveau la demande avec les informations requises.,procedure_certificat_residence,
+Comment le certificat de résidence peut-il être utilisé ?,"Ce document est souvent requis pour des démarches comme l'inscription sur les listes électorales, l'ouverture de comptes bancaires, ou pour des demandes de logements sociaux.",procedure_certificat_residence,
+Quelles sont les conséquences de ne pas avoir de certificat de résidence ?,"Ne pas avoir ce certificat peut compliquer l'accès à certains services publics ou à des démarches administratives, voire entraîner des problèmes de régularisation de statut.",procedure_certificat_residence,
+Quelle est la procédure pour obtenir un dossier de demande de terrain à usage autre que d’habitation ?,"Cette procédure permet d'obtenir l'autorisation d'exploiter un espace public pour des activités commerciales, industrielles, artisanales, scolaires, de santé, d'agriculture, etc. 
+
+Pièces à fournir : 
+- Demande imprimée en quatre exemplaires (1er timbré à 1 000 F). 
+- Deux photocopies légalisées de la CNIB ou du passeport. 
+- Reçus de la taxe de résidence des trois dernières années (si applicable). 
+- Acte de cession amiable du droit foncier. 
+- Autorisation préalable pour les activités soumises à autorisation. 
+- Extrait du plan cadastral en quatre exemplaires. 
+- Croquis d’implantation en quatre exemplaires. 
+- Devis descriptif et estimatif des investissements en quatre exemplaires. 
+- Plan des infrastructures en quatre exemplaires. 
+
+Coût : 1 000 F. 
+Conditions d'accès : Le demandeur doit s’acquitter des obligations liées à sa demande.",procedure_demande_terrain_autre_usage,
+Quelles activités peuvent être autorisées avec cette procédure ?,"Les activités commerciales, industrielles, artisanales, scolaires, de santé, d'agriculture, etc.",procedure_demande_terrain_autre_usage,
+Quels sont les coûts associés à cette demande de terrain ?,Le coût est de 1 000 F.,procedure_demande_terrain_autre_usage,
+Quelles pièces doivent être fournies pour compléter le dossier ?,"- Demande imprimée en quatre exemplaires (1er timbré à 1 000 F). 
+- Deux photocopies légalisées de la CNIB ou du passeport. 
+- Reçus de la taxe de résidence des trois dernières années (si applicable). 
+- Acte de cession amiable du droit foncier. 
+- Autorisation préalable pour les activités soumises à autorisation. 
+- Extrait du plan cadastral en quatre exemplaires. 
+- Croquis d’implantation en quatre exemplaires. 
+- Devis descriptif et estimatif des investissements en quatre exemplaires. 
+- Plan des infrastructures en quatre exemplaires.",procedure_demande_terrain_autre_usage,
+Comment faire une demande de terrain à usage autre que d’habitation ?,La demande doit être faite en retirant le formulaire au Guichet Unique du Foncier et en fournissant toutes les pièces requises en quatre exemplaires.,procedure_demande_terrain_autre_usage,
+Quelle est la durée de traitement de la demande ?,"La durée peut varier, mais il est recommandé de se renseigner directement auprès du Guichet Unique du Foncier pour des délais précis.",procedure_demande_terrain_autre_usage,
+Que faire si la demande est refusée ?,"En cas de refus, il est conseillé de vérifier les raisons du rejet et de soumettre à nouveau la demande en apportant les corrections nécessaires.",procedure_demande_terrain_autre_usage,
+Quelles sont les obligations du demandeur pour cette procédure ?,"Le demandeur doit s’acquitter des obligations liées à sa demande, y compris le paiement des frais et la fourniture de tous les documents requis.",procedure_demande_terrain_autre_usage,
+Où retirer le formulaire de demande ?,Le formulaire de demande peut être retiré au Guichet Unique du Foncier.,procedure_demande_terrain_autre_usage,
+Quels sont les risques associés à l'occupation d'un terrain sans autorisation ?,"L'occupation sans autorisation peut entraîner des sanctions administratives, des expulsions, et des difficultés juridiques liées à l'occupation illégale de terrains publics.",procedure_demande_terrain_autre_usage,
+Quelle est la procédure pour obtenir un arrêté municipal portant autorisation provisoire d'occupation du domaine public ?,"Cette procédure permet d'obtenir l'autorisation d'occuper temporairement le domaine public pour une activité donnée. 
+
+Pièces à fournir : 
+- Demande adressée au maire, précisant le lieu, le type d’installation et l’activité exercée. 
+- Copie légalisée de la CNIB ou du passeport. 
+- Certificat de résidence. 
+- Plan d’indication de la mairie au lieu souhaité. 
+
+Coût : Timbre de 300 F pour la demande + Paiement d’une taxe à raison de 3 600 F/m² + Timbre communal à 1 000 F. 
+Conditions d'accès : Le demandeur doit s’acquitter des obligations liées à sa demande.",procedure_occupation_provisoire_domaine_pubblique,
+Quel type d'activités peut être autorisé avec cet arrêté ?,"Toutes activités temporaires qui nécessitent l'occupation du domaine public, comme des foires, des marchés ou des événements temporaires.",procedure_occupation_provisoire_domaine_pubblique,
+Quelles sont les pièces à fournir pour compléter la demande ?,"- Demande adressée au maire. 
+- Copie légalisée de la CNIB ou du passeport. 
+- Certificat de résidence. 
+- Plan d’indication de la mairie au lieu souhaité.",procedure_occupation_provisoire_domaine_pubblique,
+Quels sont les coûts associés à cette demande ?,"Le coût comprend un timbre de 300 F pour la demande, une taxe de 3 600 F/m² pour l'occupation, et un timbre communal de 1 000 F.",procedure_occupation_provisoire_domaine_pubblique,
+Comment faire une demande d'occupation du domaine public ?,"La demande doit être adressée au maire en fournissant tous les documents requis, en précisant le lieu, le type d’installation et l’activité exercée.",procedure_occupation_provisoire_domaine_pubblique,
+Quelle est la durée de validité de cette autorisation ?,"La durée de validité de l'autorisation est généralement précisée dans l'arrêté, mais elle est souvent temporaire et liée à la nature de l'activité.",procedure_occupation_provisoire_domaine_pubblique,
+Que faire si la demande est refusée ?,"En cas de refus, le demandeur peut demander des clarifications sur les raisons du refus et envisager de soumettre une nouvelle demande avec les modifications nécessaires.",procedure_occupation_provisoire_domaine_pubblique,
+Quelles sont les obligations du demandeur pour cette procédure ?,"Le demandeur doit s’acquitter des obligations liées à sa demande, y compris le paiement des frais et la fourniture de tous les documents requis.",procedure_occupation_provisoire_domaine_pubblique,
+Où adresser la demande d'autorisation provisoire d'occupation du domaine public ?,La demande doit être adressée au maire de la commune où se situe le domaine public à occuper.,procedure_occupation_provisoire_domaine_pubblique,
+Quels sont les risques associés à l'occupation du domaine public sans autorisation ?,"L'occupation sans autorisation peut entraîner des sanctions administratives, y compris des amendes, des expulsions, et des poursuites judiciaires.",procedure_occupation_provisoire_domaine_pubblique,
+Quelle est la procédure pour obtenir un terrain destiné au culte ?,"Cette procédure permet d'obtenir l'autorisation de construire un lieu de culte sur un domaine public. 
+
+Pièces à fournir : 
+- Demande imprimée en quatre exemplaires timbrée à 1 000 F (timbre fiscal), à retirer au guichet unique du foncier. 
+- Récépissé de reconnaissance, ou statuts, ou autres documents pertinents. 
+- Extrait du plan cadastral orienté au Nord en quatre exemplaires. 
+- Croquis d’implantation en quatre exemplaires. 
+- Devis descriptif et estimatif des investissements à réaliser sur le terrain en quatre exemplaires. 
+- Plan des fosses septiques en quatre exemplaires. 
+- Plan des infrastructures à réaliser sur le terrain en quatre exemplaires. 
+
+Coût : 1 000 F. 
+Conditions d'accès : Le délai de délivrance dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande.",procedure_terrain_culte,
+Quelles pièces doivent être fournies pour cette demande ?,"- Demande imprimée en quatre exemplaires timbrée à 1 000 F. 
+- Récépissé de reconnaissance ou statuts. 
+- Extrait du plan cadastral orienté au Nord. 
+- Croquis d’implantation. 
+- Devis descriptif et estimatif des investissements. 
+- Plan des fosses septiques. 
+- Plan des infrastructures.",procedure_terrain_culte,
+Quel est le coût associé à la demande de terrain pour un lieu de culte ?,Le coût est de 1 000 F pour le timbre fiscal de la demande.,procedure_terrain_culte,
+Quel est le délai de délivrance pour cette autorisation ?,Le délai de délivrance dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande.,procedure_terrain_culte,
+Que faire si la demande est refusée ?,"En cas de refus, le demandeur peut demander des explications sur les raisons du refus et envisager de soumettre une nouvelle demande avec les modifications nécessaires.",procedure_terrain_culte,
+Où retirer le formulaire de demande de terrain destiné au culte ?,Le formulaire de demande doit être retiré au guichet unique du foncier.,procedure_terrain_culte,
+Quelles sont les obligations du demandeur pour cette procédure ?,"Le demandeur doit s’acquitter des obligations liées à sa demande, y compris le paiement des frais et la fourniture de tous les documents requis.",procedure_terrain_culte,
+Quels types de lieux de culte peuvent être demandés ?,"Cette procédure s'applique à tous les types de lieux de culte, y compris églises, mosquées, temples, et autres lieux de rassemblement religieux.",procedure_terrain_culte,
+Quelle est l'importance de l'extrait du plan cadastral pour cette demande ?,L'extrait du plan cadastral est essentiel pour délimiter clairement le terrain demandé et s'assurer qu'il est approprié pour la construction d'un lieu de culte.,procedure_terrain_culte,
+Comment se passe l'inspection du site après la demande ?,"Une inspection peut être requise pour vérifier la conformité du terrain avec les règlements en vigueur, et le demandeur devra être disponible pour faciliter cette inspection.",procedure_terrain_culte,
+Quelle est la procédure pour obtenir une autorisation d'occupation d'un espace vert ?,"Cette procédure permet de participer à l’embellissement et à l’amélioration des espaces. 
+
+Pièces à fournir : 
+- Demande manuscrite timbrée à 1 000 F, adressée au maire. 
+- Copie légalisée de la CNIB, ou du passeport, ou du récépissé de l’association (si applicable). 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Extrait du plan cadastral orienté au Nord, visé par les services techniques ou un géomètre agréé, en quatre exemplaires. 
+- Croquis d’implantation, plan d’aménagement, plan de construction, plan descriptif, plan estimatif et plan des fosses septiques, chacun en quatre exemplaires. 
+
+Coût : 1 000 F. 
+Conditions d'accès : Le délai de délivrance dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande.",procedure_occupation_espace_vert,
+Quelles pièces doivent être fournies pour cette demande ?,"- Demande manuscrite timbrée à 1 000 F. 
+- Copie légalisée de la CNIB, ou du passeport, ou du récépissé de l’association. 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Extrait du plan cadastral orienté au Nord, visé par un géomètre agréé. 
+- Croquis d’implantation et différents plans, chacun en quatre exemplaires.",procedure_occupation_espace_vert,
+Quel est le coût associé à la demande d'occupation d'un espace vert ?,Le coût est de 1 000 F pour le timbre communal de la demande.,procedure_occupation_espace_vert,
+Quel est le délai de délivrance pour cette autorisation ?,Le délai de délivrance dépend de la diligence du demandeur à s’acquitter des obligations liées à sa demande.,procedure_occupation_espace_vert,
+Que faire si la demande est refusée ?,"En cas de refus, le demandeur peut demander des explications sur les raisons du refus et envisager de soumettre une nouvelle demande en tenant compte des recommandations fournies.",procedure_occupation_espace_vert,
+Où adresser la demande d'occupation d'un espace vert ?,La demande doit être adressée au maire de la commune.,procedure_occupation_espace_vert,
+Quels types d'espaces peuvent être occupés ?,"La procédure s'applique à tout type d'espace vert public destiné à l'embellissement et à l'amélioration, comme des parcs, jardins, ou espaces communautaires.",procedure_occupation_espace_vert,
+Quelles sont les obligations du demandeur pour cette procédure ?,"Le demandeur doit s’acquitter des obligations liées à sa demande, y compris le paiement des frais et la fourniture de tous les documents requis.",procedure_occupation_espace_vert,
+Quelle est l'importance de l'extrait du plan cadastral pour cette demande ?,L'extrait du plan cadastral est essentiel pour délimiter clairement l'espace demandé et s'assurer qu'il est approprié pour l'occupation envisagée.,procedure_occupation_espace_vert,
+Comment se passe l'inspection du site après la demande ?,"Une inspection peut être requise pour vérifier la conformité de l'espace avec les règlements en vigueur, et le demandeur devra être disponible pour faciliter cette inspection.",procedure_occupation_espace_vert,
+Quelle est la procédure pour obtenir un agrément de parking ?,"Cette procédure permet d'obtenir l’autorisation d’ouvrir un parking. 
+
+Pièces à fournir : 
+- Demande manuscrite timbrée à 300 F. 
+- Copie légalisée de la CNIB ou du passeport. 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Plan indicatif du lieu. 
+
+Coût : Enquête policière, timbres communaux (300 F, 1 000 F, 5 000 F). 
+Conditions d'accès : Délai de délivrance dépend de la capacité du requérant à s’acquitter des frais et de la durée de l’enquête policière.",procedure_agrement_parking,
+Quelles pièces doivent être fournies pour la demande d'agrément de parking ?,"- Demande manuscrite timbrée à 300 F. 
+- Copie légalisée de la CNIB ou du passeport du requérant. 
+- Certificat de résidence. 
+- Casier judiciaire. 
+- Plan indicatif du lieu souhaité.",procedure_agrement_parking,
+Quel est le coût total associé à la demande d'agrément de parking ?,"Le coût total inclut une enquête policière et plusieurs timbres communaux : 300 F, 1 000 F et 5 000 F.",procedure_agrement_parking,
+Quel est le délai de délivrance pour cette autorisation ?,Le délai de délivrance dépend de la capacité du requérant à s’acquitter des différents frais et de la durée de l’enquête policière.,procedure_agrement_parking,
+Que faire si la demande d'agrément de parking est refusée ?,"En cas de refus, le demandeur peut demander des explications et envisager de soumettre une nouvelle demande, en tenant compte des recommandations fournies.",procedure_agrement_parking,
+Où adresser la demande d'agrément de parking ?,La demande doit être adressée aux autorités compétentes de la commune.,procedure_agrement_parking,
+Quels types de parkings peuvent être ouverts avec cet agrément ?,"L'agrément permet d'ouvrir des parkings pour des véhicules, qu'ils soient privés ou publics, en fonction de la réglementation locale.",procedure_agrement_parking,
+Quelles sont les obligations du demandeur pour cette procédure ?,Le demandeur doit s’acquitter des obligations financières liées à la demande et fournir tous les documents requis.,procedure_agrement_parking,
+Comment se déroule l'enquête policière pour cette procédure ?,"L'enquête policière est effectuée pour vérifier la moralité et la sécurité du demandeur, ainsi que la conformité du projet de parking avec les règlements en vigueur.",procedure_agrement_parking,
+Quelle est l'importance du plan indicatif pour la demande d'agrément de parking ?,Le plan indicatif est crucial pour localiser l'emplacement proposé du parking et s'assurer qu'il respecte les normes et les règlements d'urbanisme de la commune.,procedure_agrement_parking,
+Quelle est la procédure pour obtenir une autorisation de manifester sur la voie publique ?,"Cette procédure permet d'obtenir l'autorisation d'organiser une manifestation publique. 
+
+Pièces à fournir : 
+- Demande manuscrite à 300 F. 
+- Copie légalisée de la CNIB ou du passeport du demandeur. 
+
+Coût : 2 timbres communaux de 300 F et 1 timbre communal de 5 000 F. 
+Conditions d'accès : Délai de délivrance de 3 jours, validité de la demande selon le temps prévu pour la manifestation (max 24 heures).",procedure_autorisation_manifestation,
+Quelles pièces doivent être fournies pour demander l'autorisation de manifester ?,"- Demande manuscrite à 300 F. 
+- Copie légalisée de la CNIB ou du passeport du demandeur.",procedure_autorisation_manifestation,
+Quel est le coût total associé à la demande d'autorisation de manifester ?,Le coût total inclut 2 timbres communaux de 300 F et 1 timbre communal de 5 000 F.,procedure_autorisation_manifestation,
+Quel est le délai de délivrance pour cette autorisation ?,Le délai de délivrance est de 3 jours.,procedure_autorisation_manifestation,
+Quelle est la durée de validité de l'autorisation de manifester ?,"La validité de l'autorisation est limitée au temps prévu pour la manifestation, ne pouvant pas excéder 24 heures.",procedure_autorisation_manifestation,
+Où adresser la demande d'autorisation de manifester ?,La demande doit être adressée aux autorités compétentes de la commune.,procedure_autorisation_manifestation,
+Quels types de manifestations peuvent être autorisés avec cet agrément ?,"L'agrément peut être accordé pour des manifestations publiques telles que des marches, des rassemblements, des manifestations culturelles ou politiques, en fonction des règles locales.",procedure_autorisation_manifestation,
+Quelles sont les obligations du demandeur pour cette procédure ?,Le demandeur doit s'acquitter des obligations financières liées à la demande et fournir tous les documents requis.,procedure_autorisation_manifestation,
+Que se passe-t-il si la demande d'autorisation de manifester est refusée ?,"En cas de refus, le demandeur peut demander des explications et envisager de soumettre une nouvelle demande, en tenant compte des recommandations fournies.",procedure_autorisation_manifestation,
+Comment la sécurité de la manifestation est-elle garantie ?,"Des mesures de sécurité peuvent être requises par les autorités, et le demandeur peut être amené à collaborer avec les forces de l'ordre pour assurer le bon déroulement de l'événement.",procedure_autorisation_manifestation,
+Quelle est la procédure pour obtenir une autorisation d’installation de panneaux publicitaires ?,"Cette procédure permet d'obtenir l'autorisation de poser un panneau publicitaire dans un espace public. 
+
+Pièces à fournir : 
+- Demande adressée au maire. 
+- Copie légalisée de la CNIB ou du passeport du demandeur, ou récépissé de l’association (si applicable). 
+- Plan de masse des lieux. 
+- Schéma du ou des panneaux, précisant leur dimension et les enseignes à y mettre. 
+
+Coût : Timbre communal de 300 F et 1 000 F. 
+Conditions d'accès : Le délai de délivrance dépend du temps mis par l’Agence du développement économique urbain pour l’instruction du dossier. Validité dépend du paiement annuel de la taxe sur la publicité.",procedure_panneaux_pub,
+Quelles pièces doivent être fournies pour demander l'autorisation d'installer des panneaux publicitaires ?,"- Demande adressée au maire. 
+- Copie légalisée de la CNIB ou du passeport du demandeur, ou récépissé de l’association (si applicable). 
+- Plan de masse des lieux. 
+- Schéma du ou des panneaux, précisant leur dimension et les enseignes à y mettre.",procedure_panneaux_pub,
+Quel est le coût total associé à la demande d'autorisation d'installation de panneaux publicitaires ?,Le coût total inclut un timbre communal de 300 F et un autre timbre communal à 1 000 F.,procedure_panneaux_pub,
+Quel est le délai de délivrance pour cette autorisation ?,Le délai de délivrance dépend du temps mis par l’Agence du développement économique urbain pour l’instruction du dossier.,procedure_panneaux_pub,
+Quelle est la durée de validité de l'autorisation d'installation de panneaux publicitaires ?,La durée dépend du paiement annuel de la taxe sur la publicité.,procedure_panneaux_pub,
+Où adresser la demande d'autorisation d'installer des panneaux publicitaires ?,La demande doit être adressée au maire de la commune.,procedure_panneaux_pub,
+Quelles sont les obligations financières liées à cette procédure ?,Le demandeur doit s'acquitter des frais liés aux timbres communaux et à la taxe sur la publicité annuelle.,procedure_panneaux_pub,
+Quels types de panneaux publicitaires peuvent être autorisés ?,"L’autorisation peut être accordée pour des panneaux publicitaires de différents formats, sous réserve de respecter les normes et règlements en vigueur concernant l'affichage publicitaire.",procedure_panneaux_pub,
+Quelles considérations environnementales doivent être prises en compte lors de l'installation de panneaux ?,Les installations doivent respecter les normes d'esthétique urbaine et ne pas obstruer la vue ou nuire à l'environnement local.,procedure_panneaux_pub,
+Que faire si la demande d'autorisation d'installation de panneaux publicitaires est refusée ?,"En cas de refus, le demandeur peut demander des explications et éventuellement ajuster sa demande pour se conformer aux exigences des autorités.",procedure_panneaux_pub,
+Qui étaient les premiers avocats au Burkina Faso ?,"Les premiers avocats étaient des Français, comme Henri VIMAL.",histoire_barreau,
+Quelle était la dénomination du Burkina Faso pendant l'époque des premiers avocats ?,Le Burkina Faso était connu sous le nom de Haute Volta.,histoire_barreau,
+Quelle est l'importance des archives de l’ex-Cour Suprême ?,Elles contiennent des décisions judiciaires où figuraient les avocats de l'époque coloniale.,histoire_barreau,
+Quand les avocats ont-ils commencé à exercer au Burkina Faso ?,"Ils ont commencé à exercer pendant l'époque coloniale, mais la date précise n'est pas mentionnée.",histoire_barreau,
+Quel rôle ont joué les avocats français dans la justice burkinabè ?,Ils ont été parmi les premiers à établir la profession d'avocat et à représenter des clients dans les décisions judiciaires.,histoire_barreau,
+Quel est le lien entre le barreau burkinabè et la colonisation ?,"La profession d'avocat a été introduite pendant la période coloniale, influençant le système judiciaire local.",histoire_barreau,
+Comment la profession d'avocat a-t-elle évolué depuis l'époque coloniale ?,"Elle a évolué pour s'adapter aux changements politiques et sociaux, tout en jouant un rôle essentiel dans la défense des droits et l'accès à la justice.",histoire_barreau,
+Quelles sont les conséquences de l'absence d'avocats pendant l'époque coloniale ?,L'absence d'avocats aurait limité l'accès à la justice pour les populations locales et réduit la représentation légale.,histoire_barreau,
+Qui est Henri VIMAL et quel rôle a-t-il joué dans l'histoire du barreau ?,"Henri VIMAL était un avocat français et l'un des premiers à s'établir au Burkina Faso, contribuant à la profession d'avocat dans la région.",histoire_barreau,
+Quels défis la profession d'avocat a-t-elle dû surmonter après l'indépendance ?,Elle a dû s'adapter à un nouveau cadre juridique et politique tout en continuant à défendre les droits des citoyens et à promouvoir la justice.,histoire_barreau,
+Quelles sont les valeurs fondamentales que les avocats doivent défendre ?,"Les avocats doivent défendre des valeurs telles que l'équité, la justice, et les droits humains.",histoire_barreau,
+Comment le barreau burkinabè contribue-t-il à la formation des avocats ?,Il organise des formations pour les étudiants en droit et pour les avocats en exercice afin de maintenir un haut niveau de compétence.,histoire_barreau,
+Quel impact le barreau a-t-il sur la société burkinabè ?,Le barreau joue un rôle crucial dans la protection des droits des citoyens et la promotion de l'état de droit.,histoire_barreau,
+Comment le barreau burkinabè interagit-il avec d'autres barreaux de la région ?,Il collabore avec les barreaux d'autres pays de l'UEMOA pour harmoniser les pratiques juridiques et partager des connaissances.,histoire_barreau,
+Quel rôle les avocats jouent-ils dans le renforcement de la démocratie au Burkina Faso ?,"Les avocats sont essentiels pour garantir un accès équitable à la justice et défendre les droits des citoyens, contribuant ainsi à la démocratie.",histoire_barreau,
+Quels sont les défis actuels auxquels le barreau burkinabè fait face ?,"Le barreau doit faire face à des défis tels que la corruption, l'accès limité à la justice et les nouvelles formes de criminalité.",histoire_barreau,
+Qui est considéré comme le premier avocat burkinabè ?,Frédéric Titinga PACERE est considéré comme le premier avocat burkinabè.,histoire_barreau,
+Quand Frédéric Titinga PACERE a-t-il prêté serment d’avocat-stagiaire ?,Il a prêté serment d’avocat-stagiaire le 8 novembre 1973.,histoire_barreau,
+Qui a accueilli le premier avocat-stagiaire voltaïque ?,Henri VIMAL a accueilli Frédéric Titinga PACERE dans son cabinet.,histoire_barreau,
+Quels autres avocats ont prêté serment avec Frédéric Titinga PACERE ?,Bernardin DABIRE (1943-2011) a également prêté serment en même temps que lui.,histoire_barreau,
+Où Frédéric Titinga PACERE a-t-il effectué son stage ?,Il a effectué son stage en Haute Volta et au Sénégal.,histoire_barreau,
+Quand Frédéric Titinga PACERE et Bernardin DABIRE sont-ils devenus avocats titulaires ?,Ils ont prêté serment d’avocats titulaires le 26 décembre 1975.,histoire_barreau,
+Quelle est l'importance de Frédéric Titinga PACERE dans l'histoire du barreau burkinabè ?,Il est le premier avocat burkinabè et a ouvert la voie à d'autres avocats du pays.,histoire_barreau,
+Quel a été l'impact de l'arrivée de Frédéric Titinga PACERE sur la profession d'avocat au Burkina Faso ?,"Il a contribué à établir la profession d'avocat au Burkina Faso, permettant à d'autres de suivre ses traces.",histoire_barreau,
+Quel rôle Henri VIMAL a-t-il joué dans le développement de la profession d'avocat ?,"Il a été un mentor pour le premier avocat burkinabè, ouvrant ainsi la voie pour la formation de futurs avocats.",histoire_barreau,
+Quand le Barreau du Burkina Faso a-t-il été créé ?,Le Barreau du Burkina Faso a été créé le 3 août 1990.,histoire_barreau,
+Quel document a officialisé la création du Barreau ?,La création a été officialisée par le Kiti n°AN VII-0417/FP/MIJ.,histoire_barreau,
+Quelle réglementation a permis la création du Barreau ?,La création a été prise en application de la Zatu n°AN VII-005/FP/PRES.,histoire_barreau,
+Quel a été l'impact de la création du Barreau sur la profession d’avocat ?,"La création du Barreau a constitué une consécration officielle de la profession d'avocat, qui avait traversé des périodes difficiles.",histoire_barreau,
+Comment la profession d’avocat a-t-elle évolué avant 1990 ?,"Avant 1990, la profession d’avocat a connu des difficultés, notamment sous le régime du Conseil National de la Révolution (CNR), où elle a risqué de disparaître.",histoire_barreau,
+Quels changements ont eu lieu dans les effectifs des avocats avant la création du Barreau ?,Les effectifs des avocats ont progressivement augmenté à partir de 1982 avec l'arrivée de nouveaux avocats.,histoire_barreau,
+Quel rôle a joué le Barreau dans la défense des personnes ?,"Pendant près d'une décennie, les avocats ont occupé le terrain de la défense des personnes avec bravoure avant la création officielle du Barreau.",histoire_barreau,
+Pourquoi la profession d’avocat a-t-elle risqué sa survie ?,"La profession a risqué sa survie en raison de la répression sous le régime du Conseil National de la Révolution (CNR), qui a entravé son développement.",histoire_barreau,
+Quel message peut-on tirer de la création du Barreau pour les avocats actuels ?,"La création du Barreau rappelle l'importance d'une institution pour la protection et la régulation de la profession d'avocat, essentielle à la justice et à la défense.",histoire_barreau,
+Quand ont eu lieu les premières élections ordinales ?,Le 13 octobre 1990.,histoire_barreau,
+Quel était l'objectif des premières élections ordinales ?,Désigner le Bâtonnier et les membres du Conseil de l’Ordre.,histoire_barreau,
+Combien de Bâtonniers ont dirigé l'Ordre depuis 1990 ?,Onze Bâtonniers.,histoire_barreau,
+Qui était le premier Bâtonnier élu en 1990 ?,Frédéric Titinga PACERE.,histoire_barreau,
+Qui est l'actuel Bâtonnier du Burkina Faso ?,"Siaka NIAMBA, élu pour trois ans à partir du 1er octobre 2021.",histoire_barreau,
+Quel est le rôle de la CARPA au sein de l'Ordre ?,Gérer les fonds des avocats et assurer leur sécurité financière.,histoire_barreau,
+Quel est le nombre total d'avocats dans l'Ordre ?,"204 avocats titulaires, 2 avocats honoraires et 36 avocats stagiaires.",histoire_barreau,
+Quelle formation est dispensée au CFPA-BF ?,Formation initiale pour obtenir le Certificat d’Aptitude à la Profession d’Avocat (CAPA).,histoire_barreau,
+Quelles sont les contributions de l'État au CFPA-BF ?,Création du centre et co-pilotage avec l'Ordre pour la formation des avocats.,histoire_barreau,
+Quel impact ont eu les élections ordinales sur l'Ordre des avocats ?,Renforcement de la structure et de la gouvernance de l'Ordre.,histoire_barreau,
+Quel était le contexte politique lors de la création de l'Ordre ?,La profession d’avocat a risqué sa survie sous le régime politique du Conseil National de la Révolution.,histoire_barreau,
+Comment les avocats ont-ils été impliqués dans la formation continue ?,Participation au CFPA-BF pour des formations continues et spécialisées.,histoire_barreau,
+Quelle image symbolique pourrait être associée à cette période ?,La résilience et la renaissance de la profession d'avocat.,histoire_barreau,
+Quels défis les Bâtonniers ont-ils dû surmonter depuis 1990 ?,Adaptation aux évolutions politiques et renforcement de la profession face aux défis législatifs.,histoire_barreau,
+Quels sont les principes fondamentaux de la procédure pénale ?,"La procédure pénale est équitable, contradictoire et préserve l’équilibre entre les parties.",procedure_penale,
+Quel droit a toute personne accusée d’une infraction pénale ?,Elle a le droit d’être jugée dans un délai raisonnable par un tribunal indépendant et impartial.,procedure_penale,
+Quel droit a une personne qui n’a pas d’avocat ?,Elle doit être informée de son droit d’en avoir un.,procedure_penale,
+Quel est le statut de toute personne accusée d'une infraction pénale ?,Elle est présumée innocente jusqu’à ce que sa culpabilité soit légalement établie.,procedure_penale,
+Quels droits a une personne accusée concernant sa défense ?,Elle a le droit de se faire examiner par un médecin de son choix et de contacter un proche.,procedure_penale,
+Comment doit être informée une personne accusée de la nature de l'accusation ?,"Elle doit être informée rapidement, dans une langue qu’elle comprend et de façon détaillée.",procedure_penale,
+Peut-on forcer une personne à témoigner contre elle-même ?,"Non, nul ne peut être forcé de témoigner contre lui-même ou de s’avouer coupable.",procedure_penale,
+Que se passe-t-il si une personne ne comprend pas la langue de la procédure ?,Elle a le droit d’être assistée gratuitement d’un interprète.,procedure_penale,
+Qui peut décider d'une arrestation ou d'une détention ?,Nul ne peut être arrêté ou détenu que sur décision et sous le contrôle de l’autorité judiciaire.,procedure_penale,
+Peut-on poursuivre quelqu’un pour une infraction déjà jugée ?,"Non, nul ne peut être poursuivi ou puni pour une infraction pour laquelle il a déjà été acquitté.",procedure_penale,
+Quelle est la durée maximale de détention provisoire ?,Elle ne peut excéder une durée raisonnable en fonction de la gravité des faits et de la complexité des investigations.,procedure_penale,
+Quels droits sont garantis aux victimes au cours de la procédure pénale ?,L’autorité judiciaire veille à l’information et à la garantie des droits des victimes.,procedure_penale,
+Quelle est la principale responsabilité du ministre en charge de la justice ?,"Selon l'article 210-1 de la LOI N°040-2019/AN, il conduit la politique pénale déterminée par le gouvernement.",procedure_penale,
+Que doit faire le ministre de la justice chaque année ?,L'article 210-1 stipule qu'il doit présenter un rapport d’exécution de la politique pénale pour l’année écoulée au gouvernement.,procedure_penale,
+Comment le ministre veille-t-il à la cohérence de la politique pénale ?,"D'après l'article 210-1, il adresse des orientations générales aux magistrats du ministère public.",procedure_penale,
+Que peut faire le ministre s'il a connaissance d'infractions à la loi pénale ?,"Selon l'article 210-1, il peut dénoncer ces infractions au procureur général.",procedure_penale,
+Le ministre peut-il donner des instructions aux magistrats du ministère public ?,L'article 210-1 précise qu'il ne peut pas adresser d’instructions aux magistrats du ministère public.,procedure_penale,
+Quelles affaires peut-il suivre spécifiquement ?,"D'après l'article 210-1, il peut être informé par le procureur général du déroulement de certaines affaires particulières.",procedure_penale,
+Qu'est-ce qui peut éteindre l'action publique selon l'article 220-1 ?,"L'action publique s'éteint par la mort de la personne poursuivie, la prescription, l'amnistie, l'abrogation de la loi pénale et la chose jugée. (LOI N°040-2019/AN)",procedure_penale,
+Que se passe-t-il si des poursuites révèlent la fausseté d'un jugement ?,"Selon l'article 220-1, l'action publique peut être reprise si des poursuites ayant entraîné une condamnation révèlent la fausseté du jugement.",procedure_penale,
+Comment la prescription est-elle affectée par un jugement définitif ?,L'article 220-1 précise que la prescription est suspendue depuis le jour où le jugement était devenu définitif jusqu'à la condamnation définitive pour faux.,procedure_penale,
+Quelles sont les conditions d'extinction de l'action publique par transaction ?,L'article 220-1 mentionne que l'action publique peut s'éteindre par transaction lorsque la loi le prévoit expressément ou en cas de retrait de plainte.,procedure_penale,
+Quelle est la durée de prescription de l'action publique pour un crime ?,"Selon l'article 220-2, l'action publique se prescrit par dix années révolues à compter du jour où le crime a été commis, sauf acte d'instruction ou de poursuite.",procedure_penale,
+Que se passe-t-il si un acte d'instruction ou de poursuite est effectué ?,L'article 220-2 stipule que la prescription ne s'éteint qu'après dix années révolues à compter du dernier acte d'instruction ou de poursuite.,procedure_penale,
+Quelle est la durée de prescription pour un délit ?,"Selon l'article 220-3, la prescription de l'action publique pour un délit est de trois années révolues, sauf dispositions particulières.",procedure_penale,
+Quelle est la durée de prescription pour une contravention ?,"L'article 220-4 indique que la prescription de l'action publique pour une contravention est d’une année révolue, sauf dispositions particulières.",procedure_penale,
+Quelle est la règle générale concernant la procédure d'enquête et d'instruction ?,"Selon l'article 240-1, la procédure au cours de l'enquête et de l'instruction est secrète, sauf disposition légale contraire.",action_publique,
+Qui est tenu au secret professionnel lors de l'enquête ?,"Toute personne qui concourt à la procédure est tenue au secret professionnel, comme précisé dans l'article 240-1.",action_publique,
+Que peut faire le ministère public pour éviter la propagation d'informations inexactes ?,L'article 240-1 permet au ministère public de rendre publics des éléments objectifs tirés de la procédure pour éviter la propagation d'informations inexactes.,action_publique,
+Quels types d'éléments peuvent être rendus publics par le ministère public ?,"Selon l'article 240-1, seuls des éléments objectifs de la procédure peuvent être rendus publics, sans appréciation sur les charges retenues.",action_publique,
+Quels sont les risques pour ceux qui révèlent des secrets dans le cadre de la procédure ?,"Les personnes tenues au secret professionnel s'exposent à des peines prévues par le code pénal pour révélations de secrets, comme indiqué dans l'article 240-1.",action_publique,
+Qui dirige la police judiciaire selon l'article 241-1 ?,La police judiciaire est exercée sous la direction du procureur du Faso.,police_judiciaire,
+Qui surveille la police judiciaire ?,"La police judiciaire est sous la surveillance du procureur général, selon l'article 241-2.",police_judiciaire,
+Quelle est la mission principale de la police judiciaire ?,"Elle constate les infractions, rassemble les preuves et recherche les auteurs tant qu'une information n'est pas ouverte (article 241-3).",police_judiciaire,
+Qui peut exercer les fonctions d'officier de police judiciaire ?,"Les procureurs, gendarmes, commissaires de police, et d'autres fonctionnaires peuvent devenir officiers de police judiciaire (article 241-5).",police_judiciaire,
+Quels pouvoirs ont les officiers de police judiciaire ?,"Ils reçoivent des plaintes, effectuent des enquêtes préliminaires, et agissent en cas de crimes flagrants (article 241-6).",police_judiciaire,
+Quelle est la portée territoriale des officiers de police judiciaire ?,Ils peuvent opérer sur tout le territoire du Faso pour les crimes flagrants et avec commission rogatoire (article 241-7).,police_judiciaire,
+Que doivent faire les officiers de police judiciaire après leurs opérations ?,Ils doivent informer le procureur du Faso des infractions et lui transmettre les procès-verbaux (article 241-8).,police_judiciaire,
+Qui sont les agents de police judiciaire ?,Ce sont des sous-officiers de police et de gendarmerie qui n'ont pas la qualité d'officiers de police judiciaire (article 241-9).,police_judiciaire,
+Quelle est la mission des agents de police judiciaire ?,"Ils doivent seconder les officiers et constater les infractions, tout en rendant compte de leurs observations (article 241-10).",police_judiciaire,
+Les agents de police judiciaire peuvent-ils établir des procès-verbaux ?,"Oui, ils peuvent dresser des procès-verbaux des infractions constatées, mais ne peuvent pas décider des mesures de garde à vue (article 241-10).",police_judiciaire,
+Quelle est la responsabilité des agents de police judiciaire ?,Ils doivent rendre compte de tous crimes ou délits dont ils ont connaissance à leurs supérieurs (article 241-10).,police_judiciaire,
+Quels types de fonctionnaires peuvent devenir officiers de police judiciaire ?,"Les fonctionnaires de police, de gendarmerie, et d'autres spécifiquement habilités par la loi (article 241-5).",police_judiciaire,
+Quelles sont les conditions d'habilitation pour les officiers de police judiciaire ?,Ils doivent être affectés à un emploi comportant cette qualité et habilités par le procureur général (article 241-5).,police_judiciaire,
