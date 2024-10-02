@@ -1,27 +1,27 @@
-from dotenv import load_dotenv
+from flask import Flask
+from flask_mail import Mail
 import os
 
-load_dotenv()
+
+           
+           
 
 class Config:
-    DATABASE_HOST = os.environ.get('DATABASE_HOST')
-    DATABASE_NAME = os.environ.get('DATABASE_NAME')
-    DATABASE_USER = os.environ.get('DATABASE_USER')
-    DATABASE_PASSWORD = os.environ.get('DATABASE_PASSWORD')
-    DATABASE_PORT = os.environ.get('DATABASE_PORT')
-
-    SQLALCHEMY_DATABASE_URI = f"postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}"
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    DATABASE_HOST = os.environ.get('DATABASE_HOST', 'localhost')
+    DATABASE_NAME = os.environ.get('DATABASE_NAME', 'projet_chatbot')
+    DATABASE_USER = os.environ.get('DATABASE_USER', 'issaka')
+    DATABASE_PASSWORD = os.environ.get('DATABASE_PASSWORD', 'issaka')
+    DATABASE_PORT = os.environ.get('DATABASE_PORT', '5432')  
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
-    MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
-    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
+    MAIL_USERNAME = 'lacapacitee@gmail.com'  
+    MAIL_PASSWORD = 'lurq zvok poia wxps'  
     MAIL_DEFAULT_SENDER = ('VEENGE-MAAN-CHATBOT-JURIDIQUE', 'lacapacitee@gmail.com')
     MAIL_MAX_EMAILS = None
     MAIL_ASCII_ATTACHMENTS = False
+    
 
 
 

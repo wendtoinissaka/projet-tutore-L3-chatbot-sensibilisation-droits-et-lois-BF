@@ -17,10 +17,11 @@ init_routes(app, socketio)
 
 # Démarrer l'écoute des notifications dans le bon contexte
 if __name__ == '__main__':
-    create_tables()  # Crée les tables de la base de données
+    create_tables(app)  # Crée les tables de la base de données
     # insert_data_from_csv('QUESTIONS_CHATBOT_JURIDIQUE.csv')
-    insert_data_from_csv('./resultat_combined.csv')
+    # insert_data_from_csv('./resultat_combined.csv')
     start_notification_listener(app)  # Démarre le listener en passant l'application
+    print("Notification listener démarré")
     socketio.run(app, debug=True)  # Démarre l'application Flask
 
 
