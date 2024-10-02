@@ -47,10 +47,12 @@ django-rq==2.5.1
 django-storages==1.12.3
 django-user-agents==0.4.0
 djangorestframework==3.13.1
+dnspython==2.6.1
 drf-dynamic-fields==0.3.0
 drf-flex-fields==0.9.5
 drf-generators==0.3.0
 etelemetry==0.3.1
+eventlet==0.37.0
 exceptiongroup==1.2.2
 expiringdict==1.2.2
 filelock==3.16.1
