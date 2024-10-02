@@ -1,14 +1,10 @@
 import json
 import psycopg2
 
+from database import connect_db
+
 # Connexion à la base de données
-conn = psycopg2.connect(
-    dbname='projet_chatbot',
-    user='issaka',
-    password='issaka',
-    host='localhost',
-    port='5432'
-)
+conn = connect_db()
 
 cursor = conn.cursor()
 
