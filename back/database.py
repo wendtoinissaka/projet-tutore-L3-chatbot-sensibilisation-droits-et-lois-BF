@@ -2,7 +2,7 @@ from urllib.parse import urlparse
 import pandas as pd
 import psycopg2
 from config import Config
-# database.py
+import numpy as np
 from models.models import db
 
 def connect_db():
@@ -141,6 +141,43 @@ def get_all_subscribers():
     return [abonne[0] for abonne in abonnes]  # Retourne uniquement les e-mails
 
 
+def insert_data_from_csv(file_path):
+    # Lire le fichier CSV
+    data = pd.read_csv(file_path)
+    
+    # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
+    data['Question'].replace(np.nan, '', inplace=True)
+    
+    conn = connect_db()
+    cursor = conn.cursor()
+
+    # Insérer les données dans la table FAQ
+    for index, row in data.iterrows():
+        # Ignorer les lignes avec une question vide
+        if row['Question'] == '':
+            print(f"Ligne {index} ignorée : question manquante.")
+            continue
+        
+        # Vérifier si la question existe déjà
+        cursor.execute('SELECT 1 FROM faq WHERE question = %s', (row['Question'],))
+        exists = cursor.fetchone()
+
+        if exists:
+            print(f"La question '{row['Question']}' existe déjà. Ignorée.")
+        else:
+            cursor.execute(
+                '''
+                INSERT INTO faq (categorie, tag, sous_categorie, question, reponse, article_reference) 
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ''',
+                (row['Categorie'], row['Tag'], row['Sous categorie'], row['Question'], row['Réponse'], row['Article_reference'])
+            )
+    
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+
 
 # def insert_data_from_csv(file_path):
 #     # Lire le fichier CSV
@@ -182,41 +219,4 @@ def get_all_subscribers():
 #     conn.close()
 
 
-import pandas as pd
-import numpy as np
 
-def insert_data_from_csv(file_path):
-    # Lire le fichier CSV
-    data = pd.read_csv(file_path)
-    
-    # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
-    data['Question'].replace(np.nan, '', inplace=True)
-    
-    conn = connect_db()
-    cursor = conn.cursor()
-
-    # Insérer les données dans la table FAQ
-    for index, row in data.iterrows():
-        # Ignorer les lignes avec une question vide
-        if row['Question'] == '':
-            print(f"Ligne {index} ignorée : question manquante.")
-            continue
-        
-        # Vérifier si la question existe déjà
-        cursor.execute('SELECT 1 FROM faq WHERE question = %s', (row['Question'],))
-        exists = cursor.fetchone()
-
-        if exists:
-            print(f"La question '{row['Question']}' existe déjà. Ignorée.")
-        else:
-            cursor.execute(
-                '''
-                INSERT INTO faq (categorie, tag, sous_categorie, question, reponse, article_reference) 
-                VALUES (%s, %s, %s, %s, %s, %s)
-                ''',
-                (row['Categorie'], row['Tag'], row['Sous categorie'], row['Question'], row['Réponse'], row['Article_reference'])
-            )
-    
-    conn.commit()
-    cursor.close()
-    conn.close()
