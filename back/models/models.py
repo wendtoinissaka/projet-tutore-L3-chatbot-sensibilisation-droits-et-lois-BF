@@ -32,13 +32,30 @@ class FAQ(db.Model):
     categorie = db.Column(db.Text, nullable=False)
     tag = db.Column(db.Text)
     sous_categorie = db.Column(db.Text)
-    question = db.Column(db.Text, nullable=False)
+    question = db.Column(db.Text, nullable=False, unique=True)  # Rendre la question unique
     reponse = db.Column(db.Text, nullable=False)
     article_reference = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
 
     def __repr__(self):
         return f'<FAQ {self.question[:20]}>'  # Affiche les 20 premiers caractères de la question
+
+
+
+# class FAQ(db.Model):
+#     __tablename__ = 'faq'
+
+#     id = db.Column(db.Integer, primary_key=True)
+#     categorie = db.Column(db.Text, nullable=False)
+#     tag = db.Column(db.Text)
+#     sous_categorie = db.Column(db.Text)
+#     question = db.Column(db.Text, nullable=False)
+#     reponse = db.Column(db.Text, nullable=False)
+#     article_reference = db.Column(db.Text)
+#     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
+
+#     def __repr__(self):
+#         return f'<FAQ {self.question[:20]}>'  # Affiche les 20 premiers caractères de la question
 
 class Abonnee(db.Model):
     __tablename__ = 'abonnee'
