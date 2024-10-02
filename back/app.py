@@ -20,7 +20,7 @@ init_routes(app, socketio)
 if __name__ == '__main__':
     create_tables(app)  # Crée les tables de la base de données
     # insert_data_from_csv('QUESTIONS_CHATBOT_JURIDIQUE.csv')
-    insert_data_from_csv('./resultat_combined.csv')
+    insert_data_from_csv('resultat_combined.csv')
     start_notification_listener(app)  # Démarre le listener en passant l'application
     port = int(os.environ.get("PORT", 5000))
     # socketio.run(app, host='0.0.0.0', port=port)
