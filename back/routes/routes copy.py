@@ -1,18 +1,14 @@
 from ast import main
-import random
-import re
 import threading
-import uuid
-from flask import Blueprint, request, jsonify, session
+from flask import Blueprint, request, jsonify
 from flask_mail import Mail, Message
 from flask_socketio import emit
 import psycopg2
 import spacy
-from sqlalchemy import func
 from database import add_notification, connect_db, get_all_subscribers, log_chat
 from flask_mail import Message
 from flask_mail import Mail
-from models.models import Avocat, Procedure, UserContext, db, Abonnee  # Assurez-vous d'importer le modèle Abonnee
+from models.models import db, Abonnee  # Assurez-vous d'importer le modèle Abonnee
 
 # from routes.email_sender import send_email_to_subscribers
 from templates.email_templates import get_email_content
@@ -42,9 +38,7 @@ def init_routes(app, socketio):
 
 
 # Charger le modèle NLP
-# nlp = spacy.load("modele_chatbot_juridique02")
-# nlp = spacy.load("modele_chatbot_juridique03")
-nlp = spacy.load("modele_chatbot_juridique4")
+nlp = spacy.load("modele_chatbot_juridique02")
 
 # Fonction pour calculer la similarité de texte entre deux questions
 def calculer_similarite(question1, question2):
@@ -52,200 +46,72 @@ def calculer_similarite(question1, question2):
     doc2 = nlp(question2)
     return doc1.similarity(doc2)
 
-# Fonction pour rechercher un avocat spécifique
-def search_lawyer(specialisation, ville):
-    # Exemple de requête dans la base de données pour chercher un avocat par spécialisation et ville
-    avocat = Avocat.query.filter_by(specialisation=specialisation, ville=ville).first()
-    return avocat
+# @main_routes.route('/question', methods=['POST'])
+# def traiter_question():
+#     # Récupérer la question de l'utilisateur
+#     data = request.get_json()
+#     question = data.get('question')
 
-# Fonction pour obtenir un avocat aléatoire
-def get_random_avocat():
-    # Exemple de sélection d'un avocat au hasard dans la base de données
-    avocat = Avocat.query.order_by(func.random()).first()
-    return avocat
+#     if not question:
+#         return jsonify({"message": "Aucune question fournie."}), 400
 
-def traiter_contact_avocat(question):
-    # Spécialisations juridiques possibles et villes supportées
-    specialisations_possibles = ['droit du travail', 'travail', 'droit pénal', 'droit civil', 'propriété intellectuelle', 'droit commercial']
-    villes_possibles = ['Ouagadougou', 'ouaga', 'Bobo-Dioulasso', 'Ouahigouya', 'Koudougou']
+#     # Utiliser le modèle spaCy pour prédire l'intention de la question
+#     doc = nlp(question)
+#     predicted_tag = max(doc.cats, key=doc.cats.get)  # Prendre l'intention avec la plus haute probabilité
 
-    specialisation = None
-    ville = None
+#     # Connexion à la base de données PostgreSQL
+#     conn = connect_db()
+#     cursor = conn.cursor()
 
-    # Vérification de la spécialisation dans la question
-    for specialisation_possible in specialisations_possibles:
-        if specialisation_possible in question.lower():
-            specialisation = specialisation_possible
-            break
+#     # Récupérer toutes les questions et réponses associées au tag prédit
+#     query = "SELECT question, reponse FROM faq WHERE tag = %s"
+#     cursor.execute(query, (predicted_tag,))
+#     resultats = cursor.fetchall()
 
-    # Vérification de la ville dans la question
-    for ville_possible in villes_possibles:
-        if ville_possible.lower() in question.lower():
-            ville = ville_possible
-            break
+#     if not resultats:
+#         # Si aucune question n'est trouvée avec ce tag, retourner un message d'erreur
+#         response = jsonify({"message": "Aucune question trouvée pour cette catégorie."})
+#     else:
+#         # Calculer la similarité entre la question utilisateur et celles dans la base de données
+#         meilleure_similarite = 0
+#         meilleure_question = None
+#         meilleure_reponse = None
 
-    # Debugging output
-    print(f"Question analysée : {question}")
-    print(f"Spécialisation détectée : {specialisation}")
-    print(f"Ville détectée : {ville}")
+#         for row in resultats:
+#             question_existante = row[0]  # Question stockée dans la base de données
+#             reponse_existante = row[1]  # Réponse associée à la question dans la base de données
+#             similarite = calculer_similarite(question, question_existante)
 
-    # Si la spécialisation est présente, mais pas la ville
-    if specialisation and not ville:
-        avocat = Avocat.query.filter_by(specialisation=specialisation).first()
-        if avocat:
-            response_message = f"Voici un avocat spécialisé en {specialisation} : {avocat.nom_prenom}. Vous pouvez le contacter au {avocat.telephone}."
-        else:
-            avocat = get_random_avocat()  # Sélectionner un avocat au hasard
-            response_message = f"Je vous recommande {avocat.nom_prenom}, un avocat disponible. Vous pouvez le contacter au {avocat.telephone}."
+#             # Si la similarité est meilleure, on met à jour la meilleure réponse
+#             if similarite > meilleure_similarite:
+#                 meilleure_similarite = similarite
+#                 meilleure_question = question_existante
+#                 meilleure_reponse = reponse_existante
 
-    # Si la ville est présente, mais pas la spécialisation
-    elif ville and not specialisation:
-        avocat = Avocat.query.filter(Avocat.adresse.ilike(f'%{ville}%')).first()  # Utiliser ilike pour ignorer la casse
-        if avocat:
-            response_message = f"Voici un avocat à {ville} : {avocat.nom_prenom}. Vous pouvez le contacter au {avocat.telephone}."
-        else:
-            avocat = get_random_avocat()  # Sélectionner un avocat au hasard
-            response_message = f"Je vous recommande {avocat.nom_prenom}, un avocat disponible. Vous pouvez le contacter au {avocat.telephone}."
+#         # Définir un seuil de similarité (ajustable selon les besoins)
+#         seuil_similarite = 0.6
 
-    # Si les deux informations sont présentes
-    elif specialisation and ville:
-        avocat = Avocat.query.filter_by(specialisation=specialisation).filter(Avocat.adresse.ilike(f'%{ville}%')).first()
-        if avocat:
-            response_message = f"L'avocat spécialisé en {specialisation} à {ville} est {avocat.nom_prenom}. Vous pouvez le contacter au {avocat.telephone}."
-        else:
-            avocat = get_random_avocat()  # Sélectionner un avocat au hasard
-            response_message = f"Je vous recommande {avocat.nom_prenom}, un avocat disponible. Vous pouvez le contacter au {avocat.telephone}."
+#         # Si la similarité est inférieure au seuil, proposer des questions similaires
+#         if meilleure_similarite < seuil_similarite:
+#             # Renvoyer un message d'incertitude et proposer des questions similaires
+#             questions_similaires = [row[0] for row in resultats[:3]]  # Limiter à 5 questions similaires
+#             suggestions_formatees = "\n".join(questions_similaires)  # Formater les suggestions en texte
+#             # response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions similaires :\n{suggestions_formatees}"
+#             response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions qui pourrait vous intéressez :\n{suggestions_formatees}"
+#             response = jsonify({"message": response_message})
+#         else:
+#             # Retourner la meilleure réponse trouvée si la similarité est suffisante
+#             response_message = f"Voici la réponse à votre question : {meilleure_reponse}"
+#             response = jsonify({"message": response_message})
 
-    # Si aucune information n'est mentionnée
-    else:
-        avocat = get_random_avocat()
-        if avocat:
-            response_message = f"Je vous recommande {avocat.nom_prenom}, un avocat disponible. Vous pouvez le contacter au {avocat.telephone}."
-        else:
-            response_message = "Aucun avocat n'est disponible pour le moment."
+#     # Loguer la conversation dans la base de données
+#     log_chat(question, response.get_data(as_text=True))
 
-    return response_message
+#     # Fermer la connexion à la base de données
+#     cursor.close()
+#     conn.close()
 
-
-# # Fonction pour traiter une question sur les procédures
-# def traiter_procedure(question):
-#     # Récupérer toutes les procédures depuis la base de données
-#     procedures = Procedure.query.all()
-    
-#     if not procedures:
-#         return "Aucune procédure trouvée."
-
-#     meilleure_similarite = 0
-#     meilleure_procedure = None
-
-#     # Chercher la procédure avec le titre le plus similaire à la question
-#     for procedure in procedures:
-#         similarite = calculer_similarite(question, procedure.titre)
-#         if similarite > meilleure_similarite:
-#             meilleure_similarite = similarite
-#             meilleure_procedure = procedure
-
-#     # Définir un seuil pour considérer que la question est suffisamment similaire
-#     seuil_similarite = 0.6  # Ajuste le seuil en fonction de tes résultats
-#     if meilleure_similarite < seuil_similarite:
-#         return "Je n'ai pas trouvé de procédure correspondant suffisamment à votre question."
-
-#     # Retourner les détails de la procédure trouvée
-#     response_message = (
-#         f"Type : {meilleure_procedure.type}\n"
-#         f"Titre : {meilleure_procedure.titre}\n"
-#         f"Description : {meilleure_procedure.description_texte}\n"
-#         f"Pièces à fournir : {meilleure_procedure.description_pieces_a_fournir}\n"
-#         f"Coût : {meilleure_procedure.description_cout}\n"
-#         f"Conditions d'accès : {meilleure_procedure.description_conditions_acces}\n"
-#         f"Source : {meilleure_procedure.source}"
-#     )
-#     return response_message
-
-def nettoyer_texte(texte):
-    # Convertir en minuscules et supprimer les caractères spéciaux
-    texte = texte.lower()
-    texte = re.sub(r'[^a-zA-Z0-9\s]', '', texte)
-    return texte
-
-# def traiter_procedure(question):
-#     # Nettoyer la question
-#     question = nettoyer_texte(question)
-
-#     # Récupérer toutes les procédures depuis la base de données
-#     procedures = Procedure.query.all()
-    
-#     if not procedures:
-#         return "Aucune procédure trouvée."
-
-#     meilleure_similarite = 0
-#     meilleure_procedure = None
-
-#     for procedure in procedures:
-#         titre_nettoye = nettoyer_texte(procedure.titre)  # Nettoyer le titre
-#         description_nettoyee = nettoyer_texte(procedure.description_texte)  # Nettoyer la description
-
-#         # Calculer la similarité avec le titre et la description
-#         similarite_titre = calculer_similarite(question, titre_nettoye)
-#         similarite_description = calculer_similarite(question, description_nettoyee)
-
-#         # Prendre le maximum des similarités
-#         similarite = max(similarite_titre, similarite_description)
-#         print(f"Similarité avec '{procedure.titre}': {similarite}")  # Afficher la similarité
-#         if similarite > meilleure_similarite:
-#             meilleure_similarite = similarite
-#             meilleure_procedure = procedure
-
-#     seuil_similarite = 0.5  # Ajuste le seuil si nécessaire
-#     if meilleure_similarite < seuil_similarite:
-#         return "Je n'ai pas trouvé de procédure correspondant suffisamment à votre question."
-
-#     response_message = (
-#         f"Type : {meilleure_procedure.type}\n"
-#         f"Titre : {meilleure_procedure.titre}\n"
-#         f"Description : {meilleure_procedure.description_texte}\n"
-#         f"Pièces à fournir : {meilleure_procedure.description_pieces_a_fournir}\n"
-#         f"Coût : {meilleure_procedure.description_cout}\n"
-#         f"Conditions d'accès : {meilleure_procedure.description_conditions_acces}\n"
-#         f"Source : {meilleure_procedure.source}"
-#     )
-#     return response_message
-
-
-import difflib  # Pour comparer la similarité des chaînes
-
-def traiter_procedure(question):
-    # Nettoyer la question
-    question = nettoyer_texte(question)
-
-    # Récupérer toutes les procédures depuis la base de données
-    procedures = Procedure.query.all()
-
-    if not procedures:
-        return "Je n'ai trouvé aucune procédure correspondant à votre demande."
-
-    # Trouver la procédure la plus similaire à la question
-    titres_procedures = [procedure.titre for procedure in procedures]
-    meilleur_titre = difflib.get_close_matches(question, titres_procedures, n=1)
-
-    if not meilleur_titre:
-        return "Je n'ai trouvé aucune procédure correspondant à votre demande."
-
-    # Récupérer la procédure correspondante
-    procedure_choisie = next(procedure for procedure in procedures if procedure.titre == meilleur_titre[0])
-
-    # Générer une réponse structurée
-    response_message = (
-        f"**Question :** {procedure_choisie.titre}\n"
-        f"**Réponse :** Voici comment procéder :\n"
-        f"1. **Description** : {procedure_choisie.description_texte}\n"
-        f"2. **Pièces à fournir** : {procedure_choisie.description_pieces_a_fournir or 'Aucune pièce requise.'}\n"
-        f"3. **Coût** : {procedure_choisie.description_cout or 'Non spécifié'}\n"
-        f"4. **Conditions d'accès** : {procedure_choisie.description_conditions_acces or 'Non spécifiées'}.\n\n"
-        f"Pour plus de détails, consultez la source officielle : [Lien vers la source]({procedure_choisie.source})"
-    )
-
-    return response_message
+#     return response
 
 
 @main_routes.route('/question', methods=['POST'])
@@ -253,7 +119,6 @@ def traiter_question():
     # Récupérer la question de l'utilisateur
     data = request.get_json()
     question = data.get('question')
-    user_id = data.get('user_id')  # Assurons -nous  que l'ID de l'utilisateur est fourni
 
     if not question:
         return jsonify({"message": "Aucune question fournie."}), 400
@@ -261,27 +126,6 @@ def traiter_question():
     # Utiliser le modèle spaCy pour prédire l'intention de la question
     doc = nlp(question)
     predicted_tag = max(doc.cats, key=doc.cats.get)
-    
-    # Gérer le tag "contact_avocat"
-    if predicted_tag == "contact_avocat":
-        response_message = traiter_contact_avocat(question)  # Appel de la fonction qui traite ce tag
-        return jsonify({"message": response_message}), 200
-
-    # Si le tag prédit est "procedure", on traite la procédure
-    elif predicted_tag == "procedure":
-        response_message = traiter_procedure(question)
-        return jsonify({"message": response_message}), 200
-                            
-    elif predicted_tag == "greeting":
-        return jsonify({"message": "Bonjour ! Je suis ravi de vous voir. Comment puis-je vous aider aujourd'hui?"})
-    elif predicted_tag == "introduce_self":
-        return jsonify({"message": "Je suis votre assistant virtuel dédié à vous fournir des informations juridiques. N'hésitez pas à poser vos questions."})
-    elif predicted_tag == "goodbye":
-        return jsonify({"message": "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions ou besoins d'informations."})
-    elif predicted_tag == "thank_you":
-        return jsonify({"message": "Je vous en prie ! C'est un plaisir de vous aider. Si vous avez d'autres questions, je suis là."})
-    elif predicted_tag == "chatbot_info":
-        return jsonify({"message": "Je suis un chatbot conçu pour répondre à vos questions juridiques concernant vos droits et les lois au Burkina Faso. Posez-moi vos questions!"})
 
     # Connexion à la base de données PostgreSQL
     conn = connect_db()
@@ -324,12 +168,12 @@ def traiter_question():
         if meilleure_similarite < seuil_similarite:
             questions_similaires = [row[1] for row in resultats[:3]]
             suggestions_formatees = "\n".join(questions_similaires)
-            response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions qui pourraient vous intéresser :\n\n{suggestions_formatees}"
+            response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions qui pourraient vous intéresser :\n{suggestions_formatees}"
             response = jsonify({"message": response_message})
         else:                                                                                                               
             response_message = f"{meilleure_reponse}"
             if article_reference:  # Ajouter l'article de référence si disponible
-                response_message += f"\n\nPour plus de détails, consultez l'article : {article_reference}"
+                response_message += f"\nPour plus de détails, consultez l'article : {article_reference}"
             response = jsonify({"message": response_message})
 
     # Loguer la conversation dans la base de données
@@ -340,7 +184,6 @@ def traiter_question():
     conn.close()
 
     return response
-
 
 
 @main_routes.route("/laws", methods=["GET"])
@@ -419,7 +262,7 @@ def get_law():
 #     ]
 
 #     # Marquer les notifications comme lues
-#     for notification in notifications:        
+#     for notification in notifications:
 #         cur.execute("UPDATE notifications SET is_read = TRUE WHERE id = %s;", (notification["id"],))
 
 #     conn.commit()

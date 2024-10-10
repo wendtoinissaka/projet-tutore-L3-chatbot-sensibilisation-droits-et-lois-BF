@@ -1,3 +1,267 @@
+from flask import Flask, request, jsonify
+import spacy
+import psycopg2
+import redis
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+from database import insert_data_from_csv
+
+# Charger spaCy
+nlp = spacy.load('fr_core_news_md')
+
+# Configurer Flask
+app = Flask(__name__)
+
+# Configurer Redis pour le caching
+# cache = redis.Redis(host='localhost', port=6379, db=0)
+
+# # Configurer PostgreSQL
+# def get_db_connection():
+#     conn = psycopg2.connect("dbname=burkina_db user=postgres password=postgres")
+#     return conn
+
+# Fonction pour se connecter à PostgreSQL
+def get_db_connection():
+    conn = psycopg2.connect("dbname=burkina_db user=postgres password=postgres")
+    return conn
+
+# Fonction pour récupérer les FAQs depuis PostgreSQL
+def get_faqs():
+#     cached_faqs = cache.get('faqs')
+#     if cached_faqs:
+#         return cached_faqs  # Retourner les FAQs depuis le cache si disponible
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT id, question, answer FROM faq")
+    faqs = cur.fetchall()
+    cur.close()
+    conn.close()
+
+    # cache.set('faqs', faqs, ex=600)  # Cacher pour 10 minutes
+    return faqs
+
+# Fonction pour matcher la question utilisateur avec les FAQs via spaCy
+def get_most_similar_question(user_question, faqs):
+    user_doc = nlp(user_question)
+    most_similar = None
+    highest_similarity = 0.0
+
+    for faq in faqs:
+        faq_doc = nlp(faq[1])  # faq[1] = question de la FAQ
+        similarity = user_doc.similarity(faq_doc)
+        if similarity > highest_similarity:
+            most_similar = faq
+            highest_similarity = similarity
+
+    # Retourner la question similaire si la similarité est au-dessus d'un seuil
+    return most_similar if highest_similarity > 0.75 else None
+
+# Extraire les mots-clés de la question utilisateur via spaCy
+def extract_keywords(question):
+    doc = nlp(question)
+    keywords = []
+    for token in doc:
+        if token.pos_ in ['NOUN', 'VERB', 'PROPN']:  # Noms, Verbes, Noms propres
+            keywords.append(token.lemma_)  # Utiliser le lemme pour éviter les variations de forme
+    return keywords
+
+# Fonction de recherche TF-IDF
+def compute_tfidf(corpus):
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(corpus)
+    return X, vectorizer
+
+# Route Flask pour matcher une question avec les FAQs
+@app.route('/match', methods=['POST'])
+def match_question():
+    user_question = request.json['question']
+    faqs = get_faqs()
+    similar_question = get_most_similar_question(user_question, faqs)
+    
+    if similar_question:
+        return jsonify({
+            'question': similar_question[1],  # Question trouvée dans la FAQ
+            'answer': similar_question[2]     # Réponse correspondante
+        })
+    else:
+        return jsonify({'message': 'Aucune question correspondante trouvée.'}), 404
+
+# Route Flask pour rechercher dans les lois avec PostgreSQL (recherche plein-texte)
+@app.route('/search', methods=['POST'])
+def search_laws():
+    user_question = request.json['question']
+    page = request.args.get('page', 1, type=int)
+    per_page = 10  # Limiter à 10 résultats par page
+
+    # Extraire les mots-clés depuis la question de l'utilisateur
+    keywords = extract_keywords(user_question)
+    if not keywords:
+        return jsonify({'message': 'Aucun mot-clé pertinent trouvé pour la recherche.'}), 400
+
+    ts_query = ' & '.join(keywords)
+
+    # Exécuter la requête SQL pour la recherche plein-texte avec pagination
+    offset = (page - 1) * per_page
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT title, content FROM laws WHERE ts_content @@ to_tsquery('french', %s) LIMIT %s OFFSET %s", 
+                (ts_query, per_page, offset))
+    laws = cur.fetchall()
+    cur.close()
+    conn.close()
+
+    if laws:
+        return jsonify([{'title': law[0], 'content': law[1]} for law in laws])
+    else:
+        return jsonify({'message': 'Aucun document juridique pertinent trouvé.'}), 404
+
+# Lancer l'application Flask
+if __name__ == '__main__':
+    insert_data_from_csv('resultat_combined.csv')
+    app.run(debug=True)
+
+
+
+# from flask import Flask, request, jsonify
+# import numpy as np
+# import pandas as pd
+# import spacy
+# import psycopg2
+
+# # Charger le modèle de spaCy pour le français
+# nlp = spacy.load('fr_core_news_md')
+
+# # Configurer Flask
+# app = Flask(__name__)
+
+# # Fonction pour se connecter à PostgreSQL
+# def get_db_connection():
+#     conn = psycopg2.connect("dbname=burkina_db user=postgres password=postgres")
+#     return conn
+
+# def insert_data_from_csv(file_path):
+#     # Lire le fichier CSV
+#     data = pd.read_csv(file_path)
+    
+#     # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
+#     data['Question'].replace(np.nan, '', inplace=True)
+    
+#     conn = get_db_connection()
+#     cursor = conn.cursor()
+
+#     # Insérer les données dans la table FAQ
+#     for index, row in data.iterrows():
+#         # Ignorer les lignes avec une question vide
+#         if row['Question'] == '':
+#             print(f"Ligne {index} ignorée : question manquante.")
+#             continue
+        
+#         # Vérifier si la question existe déjà
+#         cursor.execute('SELECT 1 FROM faq WHERE question = %s', (row['Question'],))
+#         exists = cursor.fetchone()
+
+#         if exists:
+#             print(f"La question '{row['Question']}' existe déjà. Ignorée.")
+#         else:
+#             cursor.execute(
+#                 '''
+#                 INSERT INTO faq (question, answer) 
+#                 VALUES (%s, %s)
+#                 ''',
+#                 (row['Question'], row['Réponse'])
+#             )
+    
+#     conn.commit()
+#     cursor.close()
+#     conn.close()
+
+
+
+
+# # Fonction pour récupérer les FAQs depuis PostgreSQL
+# def get_faqs():
+#     conn = get_db_connection()
+#     cur = conn.cursor()
+#     cur.execute("SELECT id, question, answer FROM faq")
+#     faqs = cur.fetchall()
+#     cur.close()
+#     conn.close()
+#     return faqs
+
+# # Fonction pour matcher la question utilisateur avec les FAQs
+# def get_most_similar_question(user_question, faqs):
+#     user_doc = nlp(user_question)
+#     most_similar = None
+#     highest_similarity = 0.0
+
+#     for faq in faqs:
+#         faq_doc = nlp(faq[1])  # faq[1] contient la question de la FAQ
+#         similarity = user_doc.similarity(faq_doc)
+#         if similarity > highest_similarity:
+#             most_similar = faq
+#             highest_similarity = similarity
+
+#     # Retourne la question la plus similaire si la similarité est au-dessus d'un seuil (ex: 0.75)
+#     return most_similar if highest_similarity > 0.80 else None
+
+# # Fonction pour extraire des mots-clés à partir de la question utilisateur
+# def extract_keywords(question):
+#     doc = nlp(question)
+#     keywords = []
+#     for token in doc:
+#         if token.pos_ in ['NOUN', 'VERB', 'PROPN']:  # Substantifs, Verbes, Noms propres
+#             keywords.append(token.lemma_)  # Utiliser le lemme pour éviter les formes fléchies
+#     return keywords
+
+# # Route Flask pour répondre aux questions avec les FAQs
+# @app.route('/match', methods=['POST'])
+# def match_question():
+#     user_question = request.json['question']
+#     faqs = get_faqs()
+#     similar_question = get_most_similar_question(user_question, faqs)
+    
+#     if similar_question:
+#         return jsonify({
+#             'question': similar_question[1],  # La question de la FAQ
+#             'answer': similar_question[2]     # La réponse associée
+#         })
+#     else:
+#         return jsonify({'message': 'Aucune question correspondante trouvée.'}), 404
+
+# # Route Flask pour rechercher dans les documents juridiques (recherche plein-texte)
+# @app.route('/search', methods=['POST'])
+# def search_laws():
+#     user_question = request.json['question']
+    
+#     # Extraire des mots-clés depuis la question de l'utilisateur
+#     keywords = extract_keywords(user_question)
+#     if not keywords:
+#         return jsonify({'message': 'Aucun mot-clé pertinent trouvé pour la recherche.'}), 400
+    
+#     # Construire la requête to_tsquery avec les mots-clés
+#     ts_query = ' & '.join(keywords)  # Combiner les mots-clés avec 'ET'
+    
+#     # Exécuter la requête SQL pour la recherche plein-texte
+#     conn = get_db_connection()
+#     cur = conn.cursor()
+#     cur.execute("SELECT title, content FROM laws WHERE ts_content @@ to_tsquery('french', %s)", (ts_query,))
+#     laws = cur.fetchall()
+#     cur.close()
+#     conn.close()
+    
+#     if laws:
+#         return jsonify([{'title': law[0], 'content': law[1]} for law in laws])
+#     else:
+#         return jsonify({'message': 'Aucun document juridique pertinent trouvé.'}), 404
+
+# # Lancer l'application Flask
+# if __name__ == '__main__':
+#     insert_data_from_csv('resultat_combined.csv')
+#     app.run(debug=True)
+
+
+
 # from flask import Flask
 # from database import create_tables
 # from routes import bp as routes_bp

@@ -1,17 +1,28 @@
 import os
-from flask import Flask
+from dotenv import load_dotenv
+from flask import Flask, session
 from flask_mail import Mail
 from flask_socketio import SocketIO
+from flask_session import Session  # Importer Flask-Session
+from admin import create_admin
 from config import Config
-from database import create_tables, insert_data_from_csv
+from database import create_tables, insert_avocats_from_csv, insert_data_from_csv, insert_precedure_data_from_csv
 from routes.routes import init_routes
 from routes.notification_listener import start_notification_listener
+load_dotenv()
 
 app = Flask(__name__)
 app.config.from_object(Config)
+# # Configurer Flask-Session
+app.config['SESSION_TYPE'] = 'filesystem'  # Utiliser le système de fichiers pour stocker les sessions
+Session(app)  # Initialiser la session
 
 mail = Mail(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
+
+# Initialiser l'interface d'administration
+create_admin(app)
+
 
 # Initialiser les routes
 init_routes(app, socketio)
@@ -19,14 +30,50 @@ init_routes(app, socketio)
 # Démarrer l'écoute des notifications dans le bon contexte
 if __name__ == '__main__':
     create_tables(app)  # Crée les tables de la base de données
-    # insert_data_from_csv('QUESTIONS_CHATBOT_JURIDIQUE.csv')
-    insert_data_from_csv('resultat_combined.csv')
+    # insert_data_from_csv('resultat_combined.csv')
+    # insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
+    # insert_avocats_from_csv("contacts_avocats.csv")
     start_notification_listener(app)  # Démarre le listener en passant l'application
+    # print(f"SECRET_KEY is set to: {app.config['SECRET_KEY']}")
+    # send_test_notification()
+    print(f"Secret Key in app: {app.config.get('SECRET_KEY')}")
     port = int(os.environ.get("PORT", 5000))
-    # socketio.run(app, host='0.0.0.0', port=port)
-    print("Notification listener démarré")
-    # socketio.run(app, debug=True)  # Démarre l'application Flask
-    socketio.run(app, host='0.0.0.0', port=port)
+    socketio.run(app, host='0.0.0.0', port=port,debug=True)
+
+
+
+# import os
+# from flask import Flask
+# from flask_mail import Mail
+# from flask_socketio import SocketIO
+# from config import Config
+# from database import create_tables, insert_avocats_from_csv, insert_data_from_csv
+# from routes.routes import init_routes
+# from routes.notification_listener import start_notification_listener
+
+# app = Flask(__name__)
+# app.config.from_object(Config)
+
+# mail = Mail(app)
+# socketio = SocketIO(app, cors_allowed_origins="*")
+
+# # Initialiser les routes
+# init_routes(app, socketio)
+
+# # Démarrer l'écoute des notifications dans le bon contexte
+# if __name__ == '__main__':
+#     create_tables(app)  # Crée les tables de la base de données
+#     # insert_data_from_csv('QUESTIONS_CHATBOT_JURIDIQUE.csv')
+#     insert_data_from_csv('resultat_combined.csv')
+#     insert_avocats_from_csv("contacts_avocats.csv")
+#     # insert_data_from_csv('procedures_juridiques_administratives.json')  # Charger les données
+#     start_notification_listener(app)  # Démarre le listener en passant l'application
+#     port = int(os.environ.get("PORT", 5000))
+#     # socketio.run(app, host='0.0.0.0', port=port)
+#     print("Notification listener démarré")
+#     # socketio.run(app, debug=True)  # Démarre l'application Flask
+#     socketio.run(app, host='0.0.0.0', port=port)
+
 
 
 

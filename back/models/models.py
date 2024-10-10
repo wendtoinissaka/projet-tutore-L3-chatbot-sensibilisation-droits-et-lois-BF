@@ -69,7 +69,48 @@ class Abonnee(db.Model):
         return f'<Abonnee {self.email}>'  # Affiche l'email de l'abonné
 
 
+# Modèle pour les procédures juridiques
+class Procedure(db.Model):
+    __tablename__ = 'procedures'  # Nom de la table dans la base de données
 
+    id = db.Column(db.Integer, primary_key=True)  # Identifiant unique
+    type = db.Column(db.String(50))  # Type de la procédure
+    titre = db.Column(db.String(255), nullable=False)  # Titre de la procédure
+    description_texte = db.Column(db.Text)  # Description textuelle
+    description_pieces_a_fournir = db.Column(db.Text)  # Pièces à fournir
+    description_cout = db.Column(db.Text)  # Coût associé
+    description_conditions_acces = db.Column(db.Text)  # Conditions d'accès
+    source = db.Column(db.String(255))  # Source de la procédure
+    created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
+
+
+    def __repr__(self):
+        return f'<Procedure {self.titre}>'
+
+
+
+class Avocat(db.Model):
+    __tablename__ = 'avocats'
+
+    id = db.Column(db.Integer, primary_key=True)
+    nom_prenom = db.Column(db.String(100), nullable=False)
+    specialisation = db.Column(db.String(100), nullable=False)
+    telephone = db.Column(db.String(15), nullable=False)
+    email = db.Column(db.String(100), nullable=False)
+    adresse = db.Column(db.String(255), nullable=False)
+    ville = db.Column(db.String(100), nullable=False)
+    def __repr__(self):
+        return f'<Avocat {self.nom_prenom}>'
+
+
+class UserContext(db.Model):
+    __tablename__ = 'user_context'
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.String(50), nullable=False)  # identifiant unique pour chaque utilisateur
+    step = db.Column(db.String(50), nullable=False)     # état actuel de la conversation ("waiting_specialisation", "waiting_quartier", etc.)
+    specialisation = db.Column(db.String(100), nullable=True)  # stocker la spécialisation une fois fournie
+    ville = db.Column(db.String(100), nullable=True)        # stocker le quartier une fois fourni
 
 
 

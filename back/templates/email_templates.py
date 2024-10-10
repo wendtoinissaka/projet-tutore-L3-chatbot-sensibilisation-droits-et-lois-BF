@@ -57,7 +57,7 @@ def get_email_content(notification_message):
             <h1>VEENGE-MAAN-CHATBOT</h1>
             <h2>Nouvelle évolution législative</h2>
             <p>Bonjour,</p>
-            <p class="highlight">Nous souhaitons vous informer d'une nouvelle évolution législative importante concernant vos droits :<br/> <strong>{notification_message}</strong></p>
+            <p class="highlight">Nous vous informons d'une nouvelle évolution législative importante concernant vos droits :<br/> <strong>{notification_message}</strong></p>
             <p>Merci de votre attention !</p>
             <div class="footer">VEENGE-MAAN VOTRE CHATBOT JURIDIQUE.</div>
             <div class="footer">Ceci est un e-mail automatique, veuillez ne pas répondre.</div>
