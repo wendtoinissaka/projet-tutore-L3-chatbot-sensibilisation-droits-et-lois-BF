@@ -15,10 +15,6 @@ class NotificationView(ModelView):
     # Tri par défaut sur 'created_at' par ordre croissant
     column_default_sort = ('created_at', False)
 
-def create_admin(app):
-    # Créer une instance de l'interface d'administration
-    admin = Admin(app, name='VEENGE MAAN CHATBOT', template_mode='bootstrap3')
-
 
 def create_admin(app):
     # Créer une instance de l'interface d'administration
