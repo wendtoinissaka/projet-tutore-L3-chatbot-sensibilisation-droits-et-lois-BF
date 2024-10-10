@@ -62,12 +62,15 @@ Flask==3.0.3
 Flask-Admin==1.6.1
 Flask-Cors==5.0.0
 Flask-Dance==7.1.0
+Flask-JWT==0.3.2
+Flask-JWT-Extended==4.6.0
 Flask-Login==0.6.3
 Flask-Mail==0.10.0
 Flask-Migrate==4.0.7
 Flask-Session==0.8.0
 Flask-SocketIO==5.3.7
 Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
 fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl#sha256=f6a4fa799b1daf2a635fe55a7de6b344379dc542d54d4c490113f0bc94bed4b8
 fr-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0-py3-none-any.whl#sha256=37e9f1f6a278a5138fabdabcc92cc559da917f9b24c76f0adf6758720d7eab10
 google-api-core==2.20.0
@@ -144,6 +147,7 @@ pydantic==2.9.1
 pydantic_core==2.23.3
 pydot==3.0.1
 Pygments==2.18.0
+PyJWT==1.4.2
 PyMuPDF==1.24.10
 PyMuPDFb==1.24.10
 pyparsing==3.1.4

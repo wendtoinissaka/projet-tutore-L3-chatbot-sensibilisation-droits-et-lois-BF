@@ -1,6 +1,8 @@
 # app/models/models.py
 from flask_sqlalchemy import SQLAlchemy
 
+from flask_login import UserMixin  # Import UserMixin for user management
+
 db = SQLAlchemy()
 
 class ChatHistory(db.Model):
@@ -113,6 +115,26 @@ class UserContext(db.Model):
     ville = db.Column(db.String(100), nullable=True)        # stocker le quartier une fois fourni
 
 
+
+
+
+
+class User(db.Model, UserMixin):  # Inherit from UserMixin
+    __tablename__ = 'user'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(150), unique=True, nullable=False)
+    password = db.Column(db.String(256), nullable=False)  # Updated length
+
+    def __repr__(self):
+        return f'<User {self.username}>'
+
+
+
+# # Modèle d'utilisateur
+# class User(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     username = db.Column(db.String(150), nullable=False, unique=True)
+#     password = db.Column(db.String(150), nullable=False)
 
 
 

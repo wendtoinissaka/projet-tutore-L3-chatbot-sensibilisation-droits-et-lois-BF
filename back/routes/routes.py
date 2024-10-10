@@ -1,8 +1,10 @@
 from ast import main
+import os
 import random
 import re
 import threading
 import uuid
+from dotenv import load_dotenv
 from flask import Blueprint, request, jsonify, session
 from flask_mail import Mail, Message
 from flask_socketio import emit
@@ -18,6 +20,8 @@ from models.models import Avocat, Procedure, UserContext, db, Abonnee  # Assurez
 from templates.email_templates import get_email_content
 # main_routes = Blueprint('main_routes', __name__)
 # mail = Mail()
+
+load_dotenv()  # Charge les variables d'environnement depuis .env
 
 main_routes = Blueprint('main_routes', __name__)
 
@@ -602,3 +606,18 @@ def send_notification():
 #         return "Emails envoyés à tous les utilisateurs", 200
 #     except Exception as e:
 #         return str(e), 500
+
+
+
+
+
+
+
+
+@main_routes.route('/', methods=['GET'])
+def home():
+    api_url = os.getenv("API_URL")  # Récupère l'URL de l'API
+    return jsonify({
+        "status": "L'application fonctionne correctement.",
+        "api_link": api_url  # Utilise la variable d'environnement
+    }), 200

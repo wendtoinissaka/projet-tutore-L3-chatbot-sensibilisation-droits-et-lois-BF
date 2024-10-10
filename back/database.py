@@ -24,13 +24,21 @@ def connect_db():
         return None
 
 
-
 def create_tables(app):
-    db.init_app(app)
+    db.init_app(app)  # Initialiser db avec l'application Flask
 
     with app.app_context():
         db.create_all()  # Crée toutes les tables définies dans les modèles
         create_trigger()  # Crée le trigger après la création des tables
+
+
+# def create_tables(app):
+#     db.init_app(app)
+
+#     with app.app_context():
+#         db.create_all()  # Crée toutes les tables définies dans les modèles
+#         create_trigger()  # Crée le trigger après la création des tables
+
 
 def create_trigger():
     """Crée un trigger dans la base de données pour notifier lors de l'insertion d'une nouvelle notification, seulement s'il n'existe pas."""
