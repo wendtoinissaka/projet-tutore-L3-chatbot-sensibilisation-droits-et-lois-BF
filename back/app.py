@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from flask import Flask, session
 from flask_mail import Mail
 from flask_socketio import SocketIO
-from flask_session import Session  # Importer Flask-Session
+# from flask_session import Session  # Importer Flask-Session
 from admin import create_admin
 from config import Config
 from database import create_tables, insert_avocats_from_csv, insert_data_from_csv, insert_precedure_data_from_csv
@@ -14,8 +14,8 @@ load_dotenv()
 app = Flask(__name__)
 app.config.from_object(Config)
 # # Configurer Flask-Session
-app.config['SESSION_TYPE'] = 'filesystem'  # Utiliser le système de fichiers pour stocker les sessions
-Session(app)  # Initialiser la session
+# app.config['SESSION_TYPE'] = 'filesystem'  # Utiliser le système de fichiers pour stocker les sessions
+# Session(app)  # Initialiser la session
 
 mail = Mail(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
@@ -30,12 +30,10 @@ init_routes(app, socketio)
 # Démarrer l'écoute des notifications dans le bon contexte
 if __name__ == '__main__':
     create_tables(app)  # Crée les tables de la base de données
-    # insert_data_from_csv('resultat_combined.csv')
-    # insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
-    # insert_avocats_from_csv("contacts_avocats.csv")
+    insert_data_from_csv('resultat_combined.csv')
+    insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
+    insert_avocats_from_csv("contacts_avocats.csv")
     start_notification_listener(app)  # Démarre le listener en passant l'application
-    # print(f"SECRET_KEY is set to: {app.config['SECRET_KEY']}")
-    # send_test_notification()
     print(f"Secret Key in app: {app.config.get('SECRET_KEY')}")
     port = int(os.environ.get("PORT", 5000))
     socketio.run(app, host='0.0.0.0', port=port,debug=True)
