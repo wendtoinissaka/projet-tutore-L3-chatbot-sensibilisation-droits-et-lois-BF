@@ -45,7 +45,6 @@ def init_routes(app, socketio):
 # nlp = spacy.load("modele_chatbot_juridique02")
 # nlp = spacy.load("modele_chatbot_juridique03")
 nlp = spacy.load("modele_chatbot_juridique4")
-
 # Fonction pour calculer la similarité de texte entre deux questions
 def calculer_similarite(question1, question2):
     doc1 = nlp(question1)

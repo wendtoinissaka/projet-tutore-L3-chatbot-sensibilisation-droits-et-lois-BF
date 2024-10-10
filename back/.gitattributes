@@ -1,6 +1,6 @@
 *.model filter=lfs
 # back/modele_chatbot_juridique03/textcat/model filter=lfs diff=lfs merge=lfs -text
-back/modele_chatbot_juridique4/textcat/model filter=lfs diff=lfs merge=lfs -text
+# back/modele_chatbot_juridique4/textcat/model filter=lfs diff=lfs merge=lfs -text
 
 back/modele_chatbot_juridique03/textcat/model filter=lfs diff=lfs merge=lfs -text
 back/modele_chatbot_juridique02/textcat/model filter=lfs diff=lfs merge=lfs -text
