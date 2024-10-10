@@ -16,6 +16,7 @@ boto==2.49.0
 boto3==1.35.25
 botocore==1.35.25
 boxing==0.1.4
+cachelib==0.13.0
 cachetools==5.5.0
 catalogue==2.0.10
 certifi==2024.8.30
@@ -58,11 +59,13 @@ expiringdict==1.2.2
 filelock==3.16.1
 fitz==0.0.1.dev2
 Flask==3.0.3
+Flask-Admin==1.6.1
 Flask-Cors==5.0.0
 Flask-Dance==7.1.0
 Flask-Login==0.6.3
 Flask-Mail==0.10.0
 Flask-Migrate==4.0.7
+Flask-Session==0.8.0
 Flask-SocketIO==5.3.7
 Flask-SQLAlchemy==3.1.1
 fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl#sha256=f6a4fa799b1daf2a635fe55a7de6b344379dc542d54d4c490113f0bc94bed4b8
@@ -112,6 +115,7 @@ marisa-trie==1.2.0
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
+msgspec==0.18.6
 murmurhash==1.0.10
 networkx==3.3
 nibabel==5.2.1
@@ -165,6 +169,7 @@ rq==1.10.1
 rsa==4.9
 rules==2.2
 s3transfer==0.10.2
+scikit-learn==1.5.2
 scipy==1.14.1
 semver==3.0.2
 sentry-sdk==2.14.0
@@ -182,6 +187,7 @@ SQLAlchemy==2.0.34
 sqlparse==0.5.1
 srsly==2.4.8
 thinc==8.2.5
+threadpoolctl==3.5.0
 tqdm==4.66.5
 traits==6.3.2
 typer==0.12.5
@@ -199,5 +205,6 @@ webencodings==0.5.1
 Werkzeug==3.0.4
 wrapt==1.16.0
 wsproto==1.2.0
+WTForms==3.1.2
 xmljson==0.2.1
 zipp==3.20.2
