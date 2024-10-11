@@ -1,9 +1,25 @@
 # app/models/models.py
+import uuid
 from flask_sqlalchemy import SQLAlchemy
 
 from flask_login import UserMixin  # Import UserMixin for user management
 
 db = SQLAlchemy()
+
+
+
+class User(db.Model, UserMixin):
+    __tablename__ = 'users'
+
+    id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    password = db.Column(db.String(128), nullable=False)
+    salt = db.Column(db.String(36), nullable=False)
+
+    def __repr__(self):
+        return f'<User {self.email}>'
+
+
 
 class ChatHistory(db.Model):
     __tablename__ = 'chat_history'
@@ -119,7 +135,7 @@ class UserContext(db.Model):
 
 
 
-class User(db.Model, UserMixin):  # Inherit from UserMixin
+class UserAdmin(db.Model, UserMixin):  # Inherit from UserMixin
     __tablename__ = 'user'
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(150), unique=True, nullable=False)

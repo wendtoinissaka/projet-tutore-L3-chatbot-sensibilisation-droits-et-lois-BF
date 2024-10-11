@@ -5,7 +5,7 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from werkzeug.security import generate_password_hash, check_password_hash
 from database import db
-from models.models import FAQ, Abonnee, ChatHistory, Notification, Procedure, User
+from models.models import FAQ, Abonnee, ChatHistory, Notification, Procedure, User, UserAdmin
 
 # Initialisation de Flask-Login
 login_manager = LoginManager()
@@ -13,7 +13,7 @@ login_manager = LoginManager()
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    return UserAdmin.query.get(int(user_id))
 
 # Vue d'administration sécurisée
 class SecureModelView(ModelView):
@@ -29,6 +29,7 @@ class ProcedureView(SecureModelView):
 class ChatHistoryView(SecureModelView):
     column_default_sort = ('created_at', True)  # Tri par défaut sur 'created_at' par ordre décroissant
 
+
 class NotificationView(SecureModelView):
     column_default_sort = ('created_at', False)  # Tri par défaut sur 'created_at' par ordre croissant
 
@@ -42,7 +43,7 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        user = User.query.filter_by(username=username).first()
+        user = UserAdmin.query.filter_by(username=username).first()
         if user and check_password_hash(user.password, password):
             login_user(user)
             return redirect(url_for('admin.index'))  # Redirige vers la page d'administration
@@ -70,14 +71,15 @@ def create_admin(app):
     admin.add_view(NotificationView(Notification, db.session))
     admin.add_view(SecureModelView(FAQ, db.session))
     admin.add_view(SecureModelView(Abonnee, db.session))
+    admin.add_view(ModelView(User, db.session))
 
     # Enregistrer le Blueprint
     app.register_blueprint(admin_blueprint)
 
 def create_admin_user(app):
     with app.app_context():
-        if not User.query.filter_by(username='admin').first():  # Vérifie si l'utilisateur existe déjà
-            admin = User(username='admin', password=generate_password_hash('admin_password'))  # Hachage du mot de passe
+        if not UserAdmin.query.filter_by(username='admin').first():  # Vérifie si l'utilisateur existe déjà
+            admin = UserAdmin(username='admin', password=generate_password_hash('admin_password'))  # Hachage du mot de passe
             db.session.add(admin)
             db.session.commit()
             print("Administrateur créé avec succès.")

@@ -93,16 +93,42 @@ def create_trigger():
 
 
 
+
+# def log_chat(question, response="Aucune entité trouvée."):
+#     conn = connect_db()
+#     cursor = conn.cursor()
+#     cursor.execute(
+#         'INSERT INTO chat_history (question, response) VALUES (%s, %s)',
+#         (question, response)  # Ici, response est déjà une chaîne
+#     )
+#     conn.commit()
+#     cursor.close()
+#     conn.close()
+
+
+
 def log_chat(question, response="Aucune entité trouvée."):
+    # Si la réponse est une chaîne JSON, analyse-la
+    if isinstance(response, str):
+        try:
+            response_data = json.loads(response)  # Analyse la chaîne JSON
+            response_message = response_data.get("message", "Aucune entité trouvée.")  # Obtiens le message
+        except json.JSONDecodeError:
+            response_message = response  # En cas d'erreur, utilise la réponse originale
+    else:
+        response_message = response  # Si ce n'est pas une chaîne, utilise la réponse originale
+
     conn = connect_db()
     cursor = conn.cursor()
     cursor.execute(
         'INSERT INTO chat_history (question, response) VALUES (%s, %s)',
-        (question, response.message)
+        (question, response_message)  # Insère le message extrait
     )
     conn.commit()
     cursor.close()
     conn.close()
+
+
 
 def add_notification(message):
     conn = connect_db()

@@ -1,4 +1,5 @@
 from ast import main
+import hashlib
 import os
 import random
 import re
@@ -9,12 +10,15 @@ from flask import Blueprint, request, jsonify, session
 from flask_mail import Mail, Message
 from flask_socketio import emit
 import psycopg2
-import spacy
+import spacy                                                                                                                                                                                                                                                                                                                                                                                                                    
 from sqlalchemy import func
 from database import add_notification, connect_db, get_all_subscribers, log_chat
 from flask_mail import Message
 from flask_mail import Mail
-from models.models import Avocat, Procedure, UserContext, db, Abonnee  # Assurez-vous d'importer le modèle Abonnee
+from models.models import Avocat, Notification, Procedure, User, UserContext, db, Abonnee  
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 # from routes.email_sender import send_email_to_subscribers
 from templates.email_templates import get_email_content
@@ -49,11 +53,19 @@ def init_routes(app, socketio):
 # nlp = spacy.load("modele_chatbot_juridique02")
 # nlp = spacy.load("modele_chatbot_juridique03")
 nlp = spacy.load("modele_chatbot_juridique4")
-# Fonction pour calculer la similarité de texte entre deux questions
+# # Fonction pour calculer la similarité de texte entre deux questions
+# def calculer_similarite(question1, question2):
+#     doc1 = nlp(question1)
+#     doc2 = nlp(question2)
+#     return doc1.similarity(doc2)
+
+# Fonction pour calculer la similarité avec TF-IDF et cosine similarity
 def calculer_similarite(question1, question2):
-    doc1 = nlp(question1)
-    doc2 = nlp(question2)
-    return doc1.similarity(doc2)
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform([question1, question2])
+    similarite = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])
+    return similarite[0][0]
+
 
 # Fonction pour rechercher un avocat spécifique
 def search_lawyer(specialisation, ville):
@@ -327,7 +339,8 @@ def traiter_question():
         if meilleure_similarite < seuil_similarite:
             questions_similaires = [row[1] for row in resultats[:3]]
             suggestions_formatees = "\n".join(questions_similaires)
-            response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions qui pourraient vous intéresser :\n\n{suggestions_formatees}"
+            # response_message = f"Je ne connais pas la réponse exacte à votre question. Voici des questions qui pourraient vous intéresser :\n\n{suggestions_formatees}"
+            response_message = "Je n'ai pas trouvé de réponse précise. Est-ce que l'une de ces questions est similaire à la vôtre ? Oui/Non :\n\n{suggestions_formatees}"
             response = jsonify({"message": response_message})
         else:                                                                                                               
             response_message = f"{meilleure_reponse}"
@@ -337,6 +350,7 @@ def traiter_question():
 
     # Loguer la conversation dans la base de données
     log_chat(question, response.get_data(as_text=True))
+    
 
     # Fermer la connexion à la base de données
     cursor.close()
@@ -456,25 +470,35 @@ def notification_signup():
         print(f"Erreur lors de l'inscription : {e}")
         return jsonify({"error": "Erreur lors de l'inscription"}), 500
 
+
 def abonne_exists(email):
     return db.session.query(Abonnee).filter_by(email=email).first() is not None
 
 
 
 
-# Route pour les notifications
-@main_routes.route('/notifications', methods=['POST'])
-def send_notification():
-    data = request.json
-    message = data.get('message')
+# # Route pour les notifications
+# @main_routes.route('/notifications', methods=['POST'])
+# def send_notification():
+#     data = request.json
+#     message = data.get('message')
 
-    if message:
-        # Émettre une notification via WebSocket
-        emit('new_notification', {'message': message}, broadcast=True)
-        return jsonify({"status": "Notification envoyée"}), 200
-    else:
-        return jsonify({"error": "Aucun message fourni"}), 400
+#     if message:
+#         # Émettre une notification via WebSocket
+#         emit('new_notification', {'message': message}, broadcast=True)
+#         return jsonify({"status": "Notification envoyée"}), 200
+#     else:
+#         return jsonify({"error": "Aucun message fourni"}), 400
 
+@main_routes.route('/notifications', methods=['GET'])
+def get_notifications():
+    notifications = Notification.query.order_by(Notification.created_at.desc()).limit(3).all()
+    return jsonify([{
+        'id': n.id,
+        'message': n.message,
+        'created_at': n.created_at.isoformat(),  # Formatage de la date au format ISO
+        'is_read': n.is_read
+    } for n in notifications])
 
 
 
@@ -621,3 +645,52 @@ def home():
         "status": "L'application fonctionne correctement.",
         "api_link": api_url  # Utilise la variable d'environnement
     }), 200
+
+
+
+@main_routes.route('/api/signup', methods=['POST'])
+def signup():
+    data = request.get_json()
+    email = data.get('email')
+    password = data.get('password')
+
+    # Vérifiez si l'utilisateur existe déjà
+    existing_user = User.query.filter_by(email=email).first()
+    if existing_user:
+        return jsonify({'type': 'error', 'resultCode': 'UserAlreadyExists'}), 409
+
+    # Générer un sel et un mot de passe haché
+    salt = os.urandom(16).hex()  # Générer un sel aléatoire
+    hashed_password = hashlib.sha256((password + salt).encode()).hexdigest()
+
+    # Créer un nouvel utilisateur
+    new_user = User(email=email, password=hashed_password, salt=salt)
+    try:
+        db.session.add(new_user)
+        db.session.commit()
+        return jsonify({'type': 'success', 'resultCode': 'UserCreated'}), 201
+    except Exception as e:
+        db.session.rollback()
+        print(f"Erreur lors de l'inscription : {e}")
+        return jsonify({"error": "Erreur lors de l'inscription"}), 500
+
+
+@main_routes.route('/api/login', methods=['POST'])
+def login():
+    data = request.get_json()
+    email = data.get('email')
+    password = data.get('password')
+
+    if not email or not password:
+        return jsonify({'type': 'error', 'resultCode': 'InvalidInput'}), 400
+
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return jsonify({'type': 'error', 'resultCode': 'InvalidCredentials'}), 401
+
+    hashed_password = hashlib.sha256((password + user.salt).encode()).hexdigest()
+    if hashed_password != user.password:
+        return jsonify({'type': 'error', 'resultCode': 'InvalidCredentials'}), 401
+
+    # Authentification réussie
+    return jsonify({'type': 'success', 'resultCode': 'UserLoggedIn'}), 200

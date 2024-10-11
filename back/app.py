@@ -37,7 +37,7 @@ if __name__ == '__main__':
     insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
     insert_avocats_from_csv("contacts_avocats.csv")
     start_notification_listener(app)  # Démarre le listener en passant l'application
-    print(f"Secret Key in app: {app.config.get('SECRET_KEY')}")
+    # print(f"Secret Key in app: {app.config.get('SECRET_KEY')}")
     
     # Passer l'application à create_admin_user
     create_admin_user(app)
