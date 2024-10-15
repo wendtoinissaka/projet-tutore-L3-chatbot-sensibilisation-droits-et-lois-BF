@@ -414,7 +414,7 @@ def home():
     api_url = os.getenv("API_URL")  # Récupère l'URL de l'API
     return jsonify({
         "status": "L'application fonctionne correctement.",
-        "api_link": api_url  # Utilise la variable d'environnement
+        # "api_link": api_url  # Utilise la variable d'environnement
     }), 200
 
 

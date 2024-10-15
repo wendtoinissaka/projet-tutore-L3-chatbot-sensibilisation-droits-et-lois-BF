@@ -31,15 +31,11 @@ create_admin(app)
 # Initialiser les routes
 init_routes(app, socketio)
 
-# Démarrer l'écoute des notifications dans le bon contexte
 
 if __name__ == '__main__':
-        # Insérer les données automatiquement
-    # load_and_insert_articles_civil('test_code_civil_apres_traitement2.json')
     create_tables(app)  # Crée les tables de la base de données
     # Insérez les données après la création des tables
-    # insert_data_from_csv('resultat_combined.csv')
-    insert_data_from_csv('faq_chatbot.csv')
+    # insert_data_from_csv('faq_chatbot.csv')
     # insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
     # insert_avocats_from_csv("contacts_avocats.csv")
     # load_and_insert_articles_civil('stockage_nettoyage_donnees/test_code_civil_apres_traitement1.json', app)
@@ -48,7 +44,6 @@ if __name__ == '__main__':
     # load_and_insert_articles_travail('stockage_nettoyage_donnees/test_code_du_travail_apres_traitement.json', app.app_context())
 
     start_notification_listener(app)  # Démarre le listener en passant l'application
-    # Passer l'application à create_admin_user
     create_admin_user(app)
     
     port = int(os.environ.get("PORT", 5000))

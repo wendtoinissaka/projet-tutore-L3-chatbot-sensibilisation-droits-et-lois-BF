@@ -1,0 +1,18 @@
+SECRET_KEY=499a810e46f33b911d39aeb13336b9feb45bdb23b4c19a630a6d7c47d3e63918
+DATABASE_URL=
+GOOGLE_CLIENT_ID=1075280834315-0s1sjgmmn0sbge045qsn3c47e1figfj2.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+#LOCAL
+DATABASE_HOST=localhost
+DATABASE_NAME=projet_chatbot
+DATABASE_USER=issaka
+DATABASE_PASSWORD=issaka
+DATABASE_PORT=5432
+SECRET_KEY=499a810e46f33b911d39aeb13336b9feb45bdb23b4c19a630a6d7c47d3e63918
+
+MAIL_USERNAME=lacapacitee@gmail.com
+MAIL_PASSWORD='lurq zvok poia wxps'
+# SQLALCHEMY_DATABASE_URI=postgresql://projet_chatbot_user:F23UBdCbEmJTTXJfaV6cYnEWqkVryvYo@dpg-cru6fcggph6c73adk550-a.oregon-postgres.render.com/projet_chatbot
+
+API_URL=https://projet-tutore-l3-chatbot-sensibilisation.onrender.com/
