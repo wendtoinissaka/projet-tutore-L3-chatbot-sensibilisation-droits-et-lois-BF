@@ -1,4 +1,3 @@
-# app/models/models.py
 import uuid
 from flask_sqlalchemy import SQLAlchemy
 
@@ -20,7 +19,6 @@ class User(db.Model, UserMixin):
         return f'<User {self.email}>'
 
 
-
 class ChatHistory(db.Model):
     __tablename__ = 'chat_history'
 
@@ -31,6 +29,7 @@ class ChatHistory(db.Model):
 
     def __repr__(self):
         return f'<ChatHistory {self.question[:20]}>'  # Affiche les 20 premiers caractères de la question
+
 
 class Notification(db.Model):
     __tablename__ = 'notifications'
@@ -43,13 +42,13 @@ class Notification(db.Model):
     def __repr__(self):
         return f'<Notification {self.message[:20]}>'  # Affiche les 20 premiers caractères du message
 
+
 class FAQ(db.Model):
     __tablename__ = 'faq'
 
     id = db.Column(db.Integer, primary_key=True)
     categorie = db.Column(db.Text, nullable=False)
     tag = db.Column(db.Text)
-    sous_categorie = db.Column(db.Text)
     question = db.Column(db.Text, nullable=False, unique=True)  # Rendre la question unique
     reponse = db.Column(db.Text, nullable=False)
     article_reference = db.Column(db.Text)
@@ -58,22 +57,6 @@ class FAQ(db.Model):
     def __repr__(self):
         return f'<FAQ {self.question[:20]}>'  # Affiche les 20 premiers caractères de la question
 
-
-
-# class FAQ(db.Model):
-#     __tablename__ = 'faq'
-
-#     id = db.Column(db.Integer, primary_key=True)
-#     categorie = db.Column(db.Text, nullable=False)
-#     tag = db.Column(db.Text)
-#     sous_categorie = db.Column(db.Text)
-#     question = db.Column(db.Text, nullable=False)
-#     reponse = db.Column(db.Text, nullable=False)
-#     article_reference = db.Column(db.Text)
-#     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
-
-#     def __repr__(self):
-#         return f'<FAQ {self.question[:20]}>'  # Affiche les 20 premiers caractères de la question
 
 class Abonnee(db.Model):
     __tablename__ = 'abonnee'
@@ -92,7 +75,7 @@ class Procedure(db.Model):
     __tablename__ = 'procedures'  # Nom de la table dans la base de données
 
     id = db.Column(db.Integer, primary_key=True)  # Identifiant unique
-    type = db.Column(db.String(50))  # Type de la procédure
+    # type = db.Column(db.String(50))  # Type de la procédure
     titre = db.Column(db.String(255), nullable=False)  # Titre de la procédure
     description_texte = db.Column(db.Text)  # Description textuelle
     description_pieces_a_fournir = db.Column(db.Text)  # Pièces à fournir
@@ -104,7 +87,6 @@ class Procedure(db.Model):
 
     def __repr__(self):
         return f'<Procedure {self.titre}>'
-
 
 
 class Avocat(db.Model):
@@ -131,10 +113,6 @@ class UserContext(db.Model):
     ville = db.Column(db.String(100), nullable=True)        # stocker le quartier une fois fourni
 
 
-
-
-
-
 class UserAdmin(db.Model, UserMixin):  # Inherit from UserMixin
     __tablename__ = 'user'
     id = db.Column(db.Integer, primary_key=True)
@@ -145,38 +123,45 @@ class UserAdmin(db.Model, UserMixin):  # Inherit from UserMixin
         return f'<User {self.username}>'
 
 
+class CodeCivil1(db.Model):
+    __tablename__ = 'code_civil1'
 
-# # Modèle d'utilisateur
-# class User(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     username = db.Column(db.String(150), nullable=False, unique=True)
-#     password = db.Column(db.String(150), nullable=False)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)  # L'identifiant auto-incrémenté
+    article_num = db.Column(db.Integer, unique=True, nullable=False)  # Le numéro de l'article
+    texte = db.Column(db.Text, nullable=False)  # Le texte de l'article
+
+    def __repr__(self):
+        return f'<CodeCivil1 {self.article_num}>'
 
 
+class CodeFamille1(db.Model):
+    __tablename__ = 'code_famille1'
 
-# # app/models/models.py
-# from flask_sqlalchemy import SQLAlchemy
+    id = db.Column(db.Integer, primary_key=True)
+    article_num = db.Column(db.Integer, unique=True, nullable=False)
+    texte = db.Column(db.Text, nullable=False)
 
-# db = SQLAlchemy()
+    def __repr__(self):
+        return f'<CodeFamille1 {self.article_num}>'
 
-# # class Article(db.Model):
-# #     __tablename__ = 'articles'
 
-# #     id = db.Column(db.Integer, primary_key=True)
-# #     title = db.Column(db.String(100), nullable=False)
-# #     content = db.Column(db.Text, nullable=False)
-# #     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
+class CodePenal1(db.Model):
+    __tablename__ = 'code_penale1'
 
-# #     def __repr__(self):
-# #         return f'<Article {self.title}>'
+    id = db.Column(db.Integer, primary_key=True)
+    article_num = db.Column(db.Integer, unique=True, nullable=False)
+    texte = db.Column(db.Text, nullable=False)
 
-# class Notification(db.Model):
-#     __tablename__ = 'notifications'
+    def __repr__(self):
+        return f'<CodePenal1 {self.article_num}>'
+    
 
-#     id = db.Column(db.Integer, primary_key=True)
-#     message = db.Column(db.Text, nullable=False)
-#     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
-#     is_read = db.Column(db.Boolean, default=False)
+class CodeTravail1(db.Model):
+    __tablename__ = 'code_travail1'
 
-#     def __repr__(self):
-#         return f'<Notification {self.message[:20]}>'  # Affiche les 20 premiers caractères du message
+    id = db.Column(db.Integer, primary_key=True)
+    article_num = db.Column(db.Integer, unique=True, nullable=False)
+    texte = db.Column(db.Text, nullable=False)
+
+    def __repr__(self):
+        return f'<CodeTravail1 {self.article_num}>'

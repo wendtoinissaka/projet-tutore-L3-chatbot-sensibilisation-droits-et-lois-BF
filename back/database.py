@@ -94,17 +94,6 @@ def create_trigger():
 
 
 
-# def log_chat(question, response="Aucune entité trouvée."):
-#     conn = connect_db()
-#     cursor = conn.cursor()
-#     cursor.execute(
-#         'INSERT INTO chat_history (question, response) VALUES (%s, %s)',
-#         (question, response)  # Ici, response est déjà une chaîne
-#     )
-#     conn.commit()
-#     cursor.close()
-#     conn.close()
-
 
 
 def log_chat(question, response="Aucune entité trouvée."):
@@ -121,7 +110,7 @@ def log_chat(question, response="Aucune entité trouvée."):
     conn = connect_db()
     cursor = conn.cursor()
     cursor.execute(
-        'INSERT INTO chat_history (question, response) VALUES (%s, %s)',
+        'INSERT INTO chat_history (question, response, created_at) VALUES (%s, %s, NOW())',
         (question, response_message)  # Insère le message extrait
     )
     conn.commit()
@@ -156,6 +145,7 @@ def insert_data_from_csv(file_path):
     
     # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
     data['Question'].replace(np.nan, '', inplace=True)
+    data['Article_reference'].replace(np.nan, '', inplace=True)
     
     conn = connect_db()
     cursor = conn.cursor()
@@ -176,10 +166,10 @@ def insert_data_from_csv(file_path):
         else:
             cursor.execute(
                 '''
-                INSERT INTO faq (categorie, tag, sous_categorie, question, reponse, article_reference) 
-                VALUES (%s, %s, %s, %s, %s, %s)
+                INSERT INTO faq (categorie, tag, question, reponse, article_reference, created_at) 
+                VALUES (%s, %s, %s, %s, %s, NOW())
                 ''',
-                (row['Categorie'], row['Tag'], row['Sous categorie'], row['Question'], row['Réponse'], row['Article_reference'])
+                (row['Categorie'], row['Tag'], row['Question'], row['Réponse'], row['Article_reference'])
             )
     
     conn.commit()
