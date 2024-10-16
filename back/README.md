@@ -8,11 +8,12 @@
 1. [Prérequis](#prérequis)
 2. [Installation](#installation)
 3. [Lancer l'application](#lancer-lapplication)
-4. [Tester les API](#tester-les-api)
-5. [Fonctionnalités](#fonctionnalités)
-6. [Contributions](#contributions)
-7. [Captures d'écran](#captures-décran)
-8. [Licence](#licence)
+4. [Structure du projet](#structure-du-projet)
+5. [Tester les API](#tester-les-api)
+6. [Fonctionnalités](#fonctionnalités)
+7. [Contributions](#contributions)
+8. [Captures d'écran](#captures-décran)
+9. [Interaction entre le Front-end et le Back-end](#interaction-entre-le-front-end-et-le-back-end)
 
 ## Prérequis
 
@@ -41,6 +42,47 @@ Pour installer ce projet, assurez-vous d'avoir **Python** et **pip** installés 
    ```bash
    pip install -r requirements.txt
    ```
+
+## Structure du Projet
+
+Voici un aperçu de la structure des dossiers et fichiers principaux de ce projet, ainsi qu'une brève explication de leur rôle.
+
+### Dossiers
+
+- **colab/** : Ce dossier contient les fichiers utilisés sur colab pour l'entrainement et l'évaluation du modèle Spacy.
+
+- **flask_session/** : Ce dossier contient les fichiers de session utilisés par Flask pour gérer les utilisateurs et leurs connexions de manière temporaire.
+  
+- **imgs/** : Stocke les images utilisées dans la documentation ou dans l'application.
+
+- **models/** : Contient les définitions des modèles de données (ChatHistory, Notification, Abonnee, ..., pour la base de données). Les classes ici représentent les structures utilisées pour les interactions avec la base de données.
+
+- **routes/** : Contient toutes les routes (endpoints) de l'API Flask. Chaque fichier de ce dossier gère un groupe spécifique de routes.
+
+- **services/** : Contient le modele NLP/Spacy que l'on a entrainé sur colab et sauvegarder.
+
+- **stockage_nettoyage_donnees/** : Contient les scripts utilisés pour le web scraping, l'extraction des pdf,le nettoyage des données. Les données extraites sont enregistrées dans des fichiers csv et json.
+
+- **templates/** : Ce dossier contient le fichier HTML utilisé pour générer le login de l'administrateur, et le template pour les messages  de notifications qui seront envoyés aux abonnées.
+
+### Fichiers
+
+- **app.py** : Le point d'entrée de l'application Flask. Ce fichier initialise l'application et configure les routes, les extensions et les services nécessaires.
+
+- **admin.py** : Contient probablement la logique liée aux utilisateurs administrateurs (par exemple, la création, la gestion des droits d'accès, etc.).
+
+- **chatbot_entrainement.py** : Ce fichier la version .py du notebook utilisé sur colab pour l'entrainement.
+
+- **code_du_travail.json** : Un fichier JSON qui contient les informations juridiques sur le Code du Travail, utilisées par le chatbot pour répondre aux questions liées à cette thématique.
+
+- **contacts_avocats.csv** : Un fichier CSV qui contient une liste d'avocats ou de contacts juridiques que le chatbot peut suggérer aux utilisateurs.
+
+- **config.py** : Fichier de configuration de l'application. Contient des variables d'environnement comme les configurations de base de données, clés d'API, etc.
+
+- **.env** : Contient des informations sensibles comme les identifiants de la base de données, des API, etc.
+
+- **requirements.txt** : Contient la liste des dépendances Python nécessaires pour faire fonctionner le projet. Utilisé pour installer les packages avec pip.
+
 
 ## Lancer l'application
 
@@ -124,6 +166,27 @@ Vous pouvez modifier ces identifiants dans la fonction `create_admin_user` dans 
 ![Capture d'écran 4](imgs/image1.png)
 
 
-## Licence
+## Interaction entre le Front-end et le Back-end
 
-Ce projet est sous licence **libre**, permettant à quiconque de l'utiliser et de le modifier.
+Le front-end communique avec le back-end via des appels API pour poser des questions juridiques et recevoir des réponses.
+
+
+Le front-end envoie une requête POST à l'endpoint `/question` pour obtenir une réponse du chatbot :
+```javascript
+fetch('http://localhost:5000/question', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    question: "Comment demander la succession par testament ?",
+    user_id: "12345",
+  }),
+})
+.then(response => response.json())
+.then(data => console.log(data.message));
+```
+
+![Capture d'écran 4](imgs/image_front.png)
+
+
