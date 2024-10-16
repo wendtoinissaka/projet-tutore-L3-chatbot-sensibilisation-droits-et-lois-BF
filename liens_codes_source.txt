@@ -1,0 +1,8 @@
+Les codes sources du projet son disponible sur github sous libre accès :
+➢ Backend (Flask)
+https://github.com/wendtoinissaka/chatbot-juridique-Burkina-
+Faso.git
+
+➢ Front-end(Next.js)
+https://github.com/wendtoinissaka/projet-tutore-L3-chatbot-
+sensibilisation-droits-et-lois-BF.git
