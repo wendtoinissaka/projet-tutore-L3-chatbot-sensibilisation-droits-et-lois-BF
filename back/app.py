@@ -13,8 +13,6 @@ from stockage_nettoyage_donnees.insertion_article_civil import load_and_insert_a
 from stockage_nettoyage_donnees.insertion_article_code_famille import load_and_insert_articles_famille
 from stockage_nettoyage_donnees.insertion_article_code_penale import load_and_insert_articles_penale
 from stockage_nettoyage_donnees.insertion_article_code_travail import load_and_insert_articles_travail
-# from stockage_nettoyage_donnees.insertion_article_code_famille import load_and_insert_articles_famille
-# from stockage_nettoyage_donnees.insertion_article_code_famille import load_and_insert_articles_famille
 
 load_dotenv()
 
@@ -35,13 +33,13 @@ init_routes(app, socketio)
 if __name__ == '__main__':
     create_tables(app)  # Crée les tables de la base de données
     # Insérez les données après la création des tables
-    # insert_data_from_csv('faq_chatbot.csv')
-    # insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
-    # insert_avocats_from_csv("contacts_avocats.csv")
-    # load_and_insert_articles_civil('stockage_nettoyage_donnees/test_code_civil_apres_traitement1.json', app)
-    # load_and_insert_articles_famille('stockage_nettoyage_donnees/articles_code_personnes_et_famille1.json', app.app_context())
-    # load_and_insert_articles_penale('stockage_nettoyage_donnees/articles_code_penale.json', app.app_context())
-    # load_and_insert_articles_travail('stockage_nettoyage_donnees/test_code_du_travail_apres_traitement.json', app.app_context())
+    insert_data_from_csv('faq_chatbot.csv')
+    insert_precedure_data_from_csv('procedures_juridiques_administratives.csv')
+    insert_avocats_from_csv("contacts_avocats.csv")
+    load_and_insert_articles_civil('stockage_nettoyage_donnees/test_code_civil_apres_traitement1.json', app)
+    load_and_insert_articles_famille('stockage_nettoyage_donnees/articles_code_personnes_et_famille1.json', app.app_context())
+    load_and_insert_articles_penale('stockage_nettoyage_donnees/articles_code_penale.json', app.app_context())
+    load_and_insert_articles_travail('stockage_nettoyage_donnees/test_code_du_travail_apres_traitement.json', app.app_context())
 
     start_notification_listener(app)  # Démarre le listener en passant l'application
     create_admin_user(app)

@@ -139,13 +139,52 @@ def get_all_subscribers():
     return [abonne[0] for abonne in abonnes]  # Retourne uniquement les e-mails
 
 
+# def insert_data_from_csv(file_path):
+#     # Lire le fichier CSV
+#     data = pd.read_csv(file_path)
+    
+#     # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
+#     data['Question'].replace(np.nan, '', inplace=True)
+#     data['Article_reference'].replace(np.nan, '', inplace=True)
+    
+#     conn = connect_db()
+#     cursor = conn.cursor()
+
+#     # Insérer les données dans la table FAQ
+#     for index, row in data.iterrows():
+#         # Ignorer les lignes avec une question vide
+#         if row['Question'] == '':
+#             print(f"Ligne {index} ignorée : question manquante.")
+#             continue
+        
+#         # Vérifier si la question existe déjà
+#         cursor.execute('SELECT 1 FROM faq WHERE question = %s', (row['Question'],))
+#         exists = cursor.fetchone()
+
+#         if exists:
+#             print(f"La question '{row['Question']}' existe déjà. Ignorée.")
+#         else:
+#             cursor.execute(
+#                 '''
+#                 INSERT INTO faq (categorie, tag, question, reponse, article_reference, created_at) 
+#                 VALUES (%s, %s, %s, %s, %s, NOW())
+#                 ''',
+#                 (row['Categorie'], row['Tag'], row['Question'], row['Réponse'], row['Article_reference'])
+#             )
+    
+#     conn.commit()
+#     cursor.close()
+#     conn.close()
+
+
 def insert_data_from_csv(file_path):
     # Lire le fichier CSV
     data = pd.read_csv(file_path)
     
-    # Remplacer les NaN dans la colonne 'Question' par une chaîne vide
-    data['Question'].replace(np.nan, '', inplace=True)
-    data['Article_reference'].replace(np.nan, '', inplace=True)
+    # Remplacer les NaN dans les colonnes 'Question' et 'Article_reference' par une chaîne vide
+    data = data.copy()  # To avoid the chained assignment warning
+    data['Question'] = data['Question'].replace(np.nan, '')
+    data['Article_reference'] = data['Article_reference'].replace(np.nan, '')
     
     conn = connect_db()
     cursor = conn.cursor()
@@ -175,6 +214,7 @@ def insert_data_from_csv(file_path):
     conn.commit()
     cursor.close()
     conn.close()
+
 
 # def insert_data_from_json(filename):
 #     conn = connect_db()

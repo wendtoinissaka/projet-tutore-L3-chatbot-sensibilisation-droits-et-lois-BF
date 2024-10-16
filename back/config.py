@@ -10,7 +10,8 @@ class Config:
     DATABASE_USER = os.environ.get('DATABASE_USER')
     DATABASE_PASSWORD = os.environ.get('DATABASE_PASSWORD')
     DATABASE_PORT = os.environ.get('DATABASE_PORT')
-    SQLALCHEMY_DATABASE_URI = f"postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}"
+    # SQLALCHEMY_DATABASE_URI = f"postgresql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}"
+    SQLALCHEMY_DATABASE_URI = "postgresql://projet_chatbot_user:F23UBdCbEmJTTXJfaV6cYnEWqkVryvYo@dpg-cru6fcggph6c73adk550-a.oregon-postgres.render.com/projet_chatbot"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     MAIL_SERVER = 'smtp.gmail.com'
